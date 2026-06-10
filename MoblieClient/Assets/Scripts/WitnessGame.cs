@@ -168,10 +168,6 @@ public class WitnessGame : MonoBehaviour
     // ──────────────────────────────────────
     void OnWitnessClicked(int index)
     {
-        // ! 버튼 숨기기
-        witnessBtn1.gameObject.SetActive(false);
-        witnessBtn2.gameObject.SetActive(false);
-        witnessBtn3.gameObject.SetActive(false);
         if (witnessCleared[index]) return;
 
         currentWitness = index;
@@ -204,22 +200,29 @@ public class WitnessGame : MonoBehaviour
     {
         var lines = new List<DialogueManager.DialogueLine>();
 
+        Sprite guest1 = Resources.Load<Sprite>("Witnesses/Guest1_1");
+        Sprite guest2 = Resources.Load<Sprite>("Witnesses/Guest2_1");
+        Sprite guest3 = Resources.Load<Sprite>("Witnesses/Guest3_1");
+
         if (index == 0) // 은행 직원
         {
             lines.Add(new DialogueManager.DialogueLine
             {
                 speakerName = "은행 직원",
-                text = "그날 저는 은행에서 평소처럼 근무하고 있었어요."
+                text = "그날 저는 은행에서 평소처럼 근무하고 있었어요.",
+                characterSprite = guest1
             });
             lines.Add(new DialogueManager.DialogueLine
             {
                 speakerName = "은행 직원",
-                text = "<color=yellow><b>비서가 서류가방을 가슴에 꽉 안고</b></color>\n화장실 복도에서 장시간 서성이는 것을\n제 눈으로 직접 봤어요!"
+                text = "<color=yellow><b>비서가 서류가방을 가슴에 꽉 안고</b></color>\n화장실 복도에서 장시간 서성이는 것을\n제 눈으로 직접 봤어요!",
+                characterSprite = guest1
             });
             lines.Add(new DialogueManager.DialogueLine
             {
                 speakerName = "은행 직원",
-                text = "분명히 뭔가 이상했어요.\n평소엔 그런 행동을 하는 사람이 아니었거든요."
+                text = "분명히 뭔가 이상했어요.\n평소엔 그런 행동을 하는 사람이 아니었거든요.",
+                characterSprite = guest1
             });
         }
         else if (index == 1) // 은행 방문객
@@ -227,17 +230,20 @@ public class WitnessGame : MonoBehaviour
             lines.Add(new DialogueManager.DialogueLine
             {
                 speakerName = "은행 방문객",
-                text = "저는 그날 볼일이 있어서 은행에 들렀어요."
+                text = "저는 그날 볼일이 있어서 은행에 들렀어요.",
+                characterSprite = guest2
             });
             lines.Add(new DialogueManager.DialogueLine
             {
                 speakerName = "은행 방문객",
-                text = "<color=yellow><b>수집가가 금고 쪽 복도에서\n두리번거리고 있었어요.</b></color>\n분명히 봤습니다."
+                text = "<color=yellow><b>수집가가 금고 쪽 복도에서\n두리번거리고 있었어요.</b></color>\n분명히 봤습니다.",
+                characterSprite = guest2
             });
             lines.Add(new DialogueManager.DialogueLine
             {
                 speakerName = "은행 방문객",
-                text = "뭔가 찾는 것처럼 보였어요.\n수상한 느낌이 들었죠."
+                text = "뭔가 찾는 것처럼 보였어요.\n수상한 느낌이 들었죠.",
+                characterSprite = guest2
             });
         }
         else // 청소 동료
@@ -245,17 +251,20 @@ public class WitnessGame : MonoBehaviour
             lines.Add(new DialogueManager.DialogueLine
             {
                 speakerName = "청소 동료",
-                text = "저는 그날 함께 일하는 동료를 봤어요."
+                text = "저는 그날 함께 일하는 동료를 봤어요.",
+                characterSprite = guest3
             });
             lines.Add(new DialogueManager.DialogueLine
             {
                 speakerName = "청소 동료",
-                text = "<color=yellow><b>청소부가 청소 카트도 없이\n수상한 가방을 들고</b></color>\n은행 안을 돌아다니고 있었어요."
+                text = "<color=yellow><b>청소부가 청소 카트도 없이\n수상한 가방을 들고</b></color>\n은행 안을 돌아다니고 있었어요.",
+                characterSprite = guest3
             });
             lines.Add(new DialogueManager.DialogueLine
             {
                 speakerName = "청소 동료",
-                text = "청소 카트 없이 다니는 건\n처음 봤어요. 이상했죠."
+                text = "청소 카트 없이 다니는 건\n처음 봤어요. 이상했죠.",
+                characterSprite = guest3
             });
         }
 
@@ -267,11 +276,6 @@ public class WitnessGame : MonoBehaviour
     // ──────────────────────────────────────
     void OnClosePopup()
     {
-        // 완료 안 된 버튼만 다시 표시
-        if (!witnessCleared[0]) witnessBtn1.gameObject.SetActive(true);
-        if (!witnessCleared[1]) witnessBtn2.gameObject.SetActive(true);
-        if (!witnessCleared[2]) witnessBtn3.gameObject.SetActive(true);
-
         statementPopup.SetActive(false);
         currentWitness = -1;
     }
@@ -333,9 +337,7 @@ public class WitnessGame : MonoBehaviour
             case 1: witnessBtn2.gameObject.SetActive(false); break;
             case 2: witnessBtn3.gameObject.SetActive(false); break;
         }
-        if (!witnessCleared[0]) witnessBtn1.gameObject.SetActive(true);
-        if (!witnessCleared[1]) witnessBtn2.gameObject.SetActive(true);
-        if (!witnessCleared[2]) witnessBtn3.gameObject.SetActive(true);
+
         statementPopup.SetActive(false);
         currentWitness = -1;
 

@@ -13,10 +13,10 @@ public class PCLobbyUI : MonoBehaviour
 
     [Header("타이머 UI")]
     public TextMeshProUGUI timerText;
-    private float remainingTime = 15 * 60f; // 15분
+    private float remainingTime = 15 * 60f;
     private bool timerRunning = false;
 
-    [Header("용의자 버튼 (좌측 하단)")]
+    [Header("용의자 버튼")]
     public Button suspectButton;
 
     [Header("용의자특정씬 바로가기 버튼")]
@@ -38,20 +38,9 @@ public class PCLobbyUI : MonoBehaviour
     public TextMeshProUGUI pageText;
 
     // ──────────────────────────────────────
-    // 용의자 데이터
+    // 용의자 데이터 (스토리 기준)
     // ──────────────────────────────────────
-    private SuspectData[] suspects = new SuspectData[]
-    {
-        new SuspectData("김철수", 35, "전직 은행 직원", "3개월 전 해고됨."),
-        //이미지 불러오기 파일위치 Suspects/suspect_1  <-  Resources 폴더 확인 
-        //Resources.Load<Sprite>("Suspects/suspect_1")),
-        new SuspectData("이영희", 28, "프리랜서 해커",   "사건 당일 인근 카페 목격됨."),
-        //Resources.Load<Sprite>("Suspects/suspect_2")),
-        new SuspectData("박민준", 42, "대출 브로커",     "피해 은행에 채무 관계 있음."),
-        //Resources.Load<Sprite>("Suspects/suspect_3")),
-        new SuspectData("최수진", 31, "경비 용역 직원", "당일 비번이었으나 CCTV에 포착."),
-        //Resources.Load<Sprite>("Suspects/suspect_4")),
-    };
+    private SuspectData[] suspects;
 
     private int currentIndex = 0;
 
@@ -63,6 +52,39 @@ public class PCLobbyUI : MonoBehaviour
 
     void Start()
     {
+        // 용의자 데이터 초기화 (이미지 포함)
+        suspects = new SuspectData[]
+        {
+            new SuspectData(
+                "수집가",
+                45,
+                "보석 수집가",
+                "열린마음 은행 VIP 금고에 레드 다이아 반지를 보관 중.\n사건 당일 은행 주변에서 배회한 것이 CCTV에 포착됨.",
+                Resources.Load<Sprite>("Suspects/suspect_1")
+            ),
+            new SuspectData(
+                "경비원",
+                38,
+                "은행 경비원",
+                "사건 당일 정상 근무 중이었음.\n순찰 중 이상한 점을 목격했다고 진술함.",
+                Resources.Load<Sprite>("Suspects/suspect_2")
+            ),
+            new SuspectData(
+                "비서",
+                35,
+                "주얼리씨 비서",
+                "15년간 주얼리씨 밑에서 근무.\n사건 당일 화장실에만 있었다고 진술했으나\nCCTV에 금고 앞에서 포착됨.",
+                Resources.Load<Sprite>("Suspects/suspect_3")
+            ),
+            new SuspectData(
+                "청소부",
+                52,
+                "은행 청소부",
+                "사건 당일 지하에서 청소 작업 중이었다고 진술.\n목격자에 의해 수상한 가방을 들고 다닌 것이 목격됨.",
+                Resources.Load<Sprite>("Suspects/suspect_4")
+            ),
+        };
+
         // 네트워크 연결 카운트
         if (InstanceFinder.ServerManager != null)
         {
@@ -77,17 +99,14 @@ public class PCLobbyUI : MonoBehaviour
 
         UpdateConnectedText();
 
-        // 팝업 초기 숨김
         suspectPopup.SetActive(false);
 
-        // 버튼 이벤트
         suspectButton.onClick.AddListener(OpenSuspectPopup);
         closePopupButton.onClick.AddListener(CloseSuspectPopup);
         prevButton.onClick.AddListener(ShowPrev);
         nextButton.onClick.AddListener(ShowNext);
         goToSuspectSceneButton.onClick.AddListener(GoToSuspectScene);
 
-        // 타이머 시작
         timerRunning = true;
     }
 
@@ -117,8 +136,6 @@ public class PCLobbyUI : MonoBehaviour
         int minutes = Mathf.FloorToInt(remainingTime / 60f);
         int seconds = Mathf.FloorToInt(remainingTime % 60f);
         timerText.text = $"{minutes:00}:{seconds:00}";
-
-        // 3분 이하면 빨간색으로 경고
         timerText.color = remainingTime <= 180f ? Color.red : Color.white;
     }
 
@@ -175,12 +192,14 @@ public class PCLobbyUI : MonoBehaviour
         {
             suspectImage.sprite = s.Photo;
             suspectImage.gameObject.SetActive(true);
-            suspectImagePlaceholder.SetActive(false);
+            if (suspectImagePlaceholder != null)
+                suspectImagePlaceholder.SetActive(false);
         }
         else
         {
             suspectImage.gameObject.SetActive(false);
-            suspectImagePlaceholder.SetActive(true);
+            if (suspectImagePlaceholder != null)
+                suspectImagePlaceholder.SetActive(true);
         }
 
         prevButton.gameObject.SetActive(suspects.Length > 1);
