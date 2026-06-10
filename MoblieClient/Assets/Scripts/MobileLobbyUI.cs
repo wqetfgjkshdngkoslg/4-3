@@ -20,11 +20,7 @@ public class MobileLobbyUI : MonoBehaviour
     public Button closeButton;
     public TextMeshProUGUI sendStatusText;
 
-    [Header("임시 게임 버튼 (NFC 구현 전)")]
-    public Button forensicButton;
-    public Button cctvButton;
-    public Button witnessButton;
-    public Button cyberButton;
+
 
     void Start()
     {
@@ -44,19 +40,7 @@ public class MobileLobbyUI : MonoBehaviour
         sendButton.onClick.AddListener(OnSendClicked);
         closeButton.onClick.AddListener(CloseEvidencePopup);
 
-        // 임시 게임 버튼 이벤트
-        if (forensicButton != null)
-            forensicButton.onClick.AddListener(
-                () => SceneManager.LoadScene("ForensicScene"));
-        if (cctvButton != null)
-            cctvButton.onClick.AddListener(
-                () => SceneManager.LoadScene("CCTVScene"));
-        if (witnessButton != null)
-            witnessButton.onClick.AddListener(
-                () => SceneManager.LoadScene("WitnessScene"));
-        if (cyberButton != null)
-            cyberButton.onClick.AddListener(
-                () => SceneManager.LoadScene("CyberScene"));
+
     }
 
     // ──────────────────────────────────────
