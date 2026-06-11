@@ -5,29 +5,46 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class PCHostUI : MonoBehaviour
 {
+    [Header("타이틀")]
+    public TextMeshProUGUI titleText;
+
     [Header("시작 버튼")]
     public Button startButton;
 
     [Header("팝업 UI")]
     public GameObject dimBG;
     public GameObject popupPanel;
-    public Button minusButton;      // - 버튼
-    public Button plusButton;       // + 버튼
-    public TextMeshProUGUI countText; // 현재 인원 표시
-    public Button confirmButton;    // 선택 버튼
+    public Button minusButton;
+    public Button plusButton;
+    public TextMeshProUGUI countText;
+    public Button confirmButton;
 
-    private int maxPlayers = 2;     // 초기값 2명
+    private int maxPlayers = 2;
 
     void Start()
     {
+        // 타이틀 타이핑 효과
+        if (titleText != null)
+        {
+            string title = titleText.text;
+            titleText.text = "";
+            titleText.DOText(title, 1.5f).SetEase(Ease.Linear);
+        }
+
+        // 버튼 둥실둥실 애니메이션
+        startButton.transform
+            .DOLocalMoveY(startButton.transform.localPosition.y + 20f, 0.8f)
+            .SetEase(Ease.InOutSine)
+            .SetLoops(-1, LoopType.Yoyo);
+
         startButton.onClick.AddListener(OnStartClicked);
         minusButton.onClick.AddListener(OnMinusClicked);
         plusButton.onClick.AddListener(OnPlusClicked);
         confirmButton.onClick.AddListener(OnConfirmClicked);
-
         UpdateCountText();
     }
 
@@ -52,8 +69,6 @@ public class PCHostUI : MonoBehaviour
     void UpdateCountText()
     {
         countText.text = $"{maxPlayers}명";
-
-        // 2명이면 - 비활성화, 4명이면 + 비활성화
         minusButton.interactable = maxPlayers > 2;
         plusButton.interactable = maxPlayers < 4;
     }
@@ -64,32 +79,26 @@ public class PCHostUI : MonoBehaviour
         popupPanel.SetActive(false);
         startButton.interactable = false;
 
-        // Tugboat 설정
         var tugboat = InstanceFinder.NetworkManager.GetComponent<Tugboat>();
         tugboat.SetPort(7777);
         tugboat.SetMaximumClients(maxPlayers + 1);
         tugboat.SetTimeout(10, false);
 
-        // 서버/클라이언트 시작
         InstanceFinder.ServerManager.StartConnection();
         InstanceFinder.ClientManager.StartConnection();
-
         StartCoroutine(SpawnGameManagerAndMove());
     }
 
     IEnumerator SpawnGameManagerAndMove()
     {
         yield return new WaitUntil(() => InstanceFinder.ServerManager.Started);
-
         var prefab = Resources.Load<GameObject>("GameManager");
         if (prefab != null)
         {
             var obj = Instantiate(prefab);
             InstanceFinder.ServerManager.Spawn(obj);
         }
-
         yield return new WaitForSeconds(0.3f);
-
         SceneManager.LoadScene("WaitingScene");
     }
 }
