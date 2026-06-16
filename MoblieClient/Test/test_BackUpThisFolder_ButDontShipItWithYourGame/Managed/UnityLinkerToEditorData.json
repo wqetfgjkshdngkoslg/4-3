@@ -309,7 +309,12 @@
           },
           {
             "name": "Mesh",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/ClientMobile.unity",
+              "Assets/Scenes/JobSelectScene.unity",
+              "Assets/Scenes/Mobile_LobbyScene.unity",
+              "Assets/Scenes/WitnessScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1017,13 +1022,23 @@
         "dependencies": [
           {
             "name": "ParticleSystem",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/ClientMobile.unity",
+              "Assets/Scenes/JobSelectScene.unity",
+              "Assets/Scenes/Mobile_LobbyScene.unity",
+              "Assets/Scenes/WitnessScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "ParticleSystemRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/ClientMobile.unity",
+              "Assets/Scenes/JobSelectScene.unity",
+              "Assets/Scenes/Mobile_LobbyScene.unity",
+              "Assets/Scenes/WitnessScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           }

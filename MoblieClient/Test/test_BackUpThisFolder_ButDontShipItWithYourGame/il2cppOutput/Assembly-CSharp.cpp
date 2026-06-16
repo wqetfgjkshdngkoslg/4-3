@@ -162,6 +162,7 @@ struct TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7;
 struct TMP_PageInfoU5BU5D_tE3DAAA8E2E9147F97C424A9034F677A516E8DAF9;
 struct TMP_SubMeshUIU5BU5D_tC77B263183A59A75345C26152457207EAC3BBF29;
 struct TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC;
+struct TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3;
 struct UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F;
 struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA;
 struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
@@ -292,6 +293,7 @@ struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957;
 struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 struct TimeManager_tC7ABD26ED98438244671E717BA653CE562333891;
+struct TouchEffect_t75E39FD07E76C00135E660D3B8096D8D271260CC;
 struct TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A;
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 struct TransformPackingData_t35EE83B115166550A8D19B0170D380B853094CA7;
@@ -367,6 +369,7 @@ IL2CPP_EXTERN_C RuntimeClass* NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C2AA98AB61244_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
@@ -398,10 +401,10 @@ IL2CPP_EXTERN_C RuntimeClass* UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A96
 IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____1C678D286BBE74329CF6C1DD5BCBBAA62D1AF62469DE89BF6BB974D1A28E1677_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____0FDA1DBE4045C470487C3E9EFE16B2A78B860DF5CA0E35B2006B325B87F78AC0_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____40AEFF8EA39839DFB2ABCC0FEB3F864A4FAFBCC11DC0101ACA37F2A9DC476496_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____76AA97B977FF87D7629192E1F4D092F83D9339E208508680BBB3278EAD055B60_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A076142FD9ED89336CEF664BE5FF1DDB9482C962A2F8F6FFC860442D3FCCC03F_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____91EEEB111B85261A2FFC2186677AC53953122B2C7841B542B24DFB0192F5027F_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral009E8EEB57AE4F37CBC57DB5C7A88FCB38C14022;
 IL2CPP_EXTERN_C String_t* _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD;
 IL2CPP_EXTERN_C String_t* _stringLiteral0154FCFD5BC059AD6C9327BB8A310C9774015D21;
@@ -721,6 +724,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* NFCManager_HandleNFCTag_m937E3AB589FD5D67B4
 IL2CPP_EXTERN_C const RuntimeMethod* Object_FindFirstObjectByType_TisForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F_m47CBE2B9636FA59CBE31BE9BBCB4F49A46097579_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_FindFirstObjectByType_TisGameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_mF766559530B489C0F2CD36609162D1A663352C63_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Reader_ReadArrayAllocated_TisString_t_m65B2765CFEE12BD5C96391F4167E092363E1AA60_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Resources_Load_TisTexture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_mBEC87DD291ED9662B46356519E0723C0ABB12877_RuntimeMethod_var;
@@ -764,6 +768,7 @@ struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
 struct SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3;
 struct BooleanU5BU2CU5D_t0A96EF7DC71D7FB5C1757A719712D1DFB2D571B6;
 struct SpriteU5BU2CU5D_t4536581742A7723E4BA3103935F44397E1C4BD3A;
 struct StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF;
@@ -1473,7 +1478,7 @@ struct __StaticArrayInitTypeSizeU3D12_t1BDD2193C3F925556BCD5FF35C0AC52DDB0CAB8F
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D355_t2F790BD1A416772BAD42EF99807918F8F3867576 
+struct __StaticArrayInitTypeSizeU3D372_tAA4DE99136495F9C5B10D81893DE42742A04F41B 
 {
 	union
 	{
@@ -1483,12 +1488,12 @@ struct __StaticArrayInitTypeSizeU3D355_t2F790BD1A416772BAD42EF99807918F8F3867576
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D355_t2F790BD1A416772BAD42EF99807918F8F3867576__padding[355];
+		uint8_t __StaticArrayInitTypeSizeU3D372_tAA4DE99136495F9C5B10D81893DE42742A04F41B__padding[372];
 	};
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D652_tAB721CEA3D2B477FABC02A9F3F44000F5370F2ED 
+struct __StaticArrayInitTypeSizeU3D690_tD08E97496707DAC4DA23E68F1EFF80588F55B07C 
 {
 	union
 	{
@@ -1498,7 +1503,7 @@ struct __StaticArrayInitTypeSizeU3D652_tAB721CEA3D2B477FABC02A9F3F44000F5370F2ED
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D652_tAB721CEA3D2B477FABC02A9F3F44000F5370F2ED__padding[652];
+		uint8_t __StaticArrayInitTypeSizeU3D690_tD08E97496707DAC4DA23E68F1EFF80588F55B07C__padding[690];
 	};
 };
 #pragma pack(pop, tp)
@@ -2868,6 +2873,12 @@ struct ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59  : public MonoBeh
 	SplitReader_tCB67C8C9B808CADC1F3B824FF964DFD4A4F02F8C* ____splitReader;
 	NetworkTrafficStatistics_t7C65483926E324593A260F62B31DAEA3EE205EC0* ____networkTrafficStatistics;
 };
+struct TouchEffect_t75E39FD07E76C00135E660D3B8096D8D271260CC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___effectPrefab;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___targetCamera;
+	float ___distanceFromCamera;
+};
 struct Transport_t74F46BF901F855BF415E70B20226D81B82EADCB4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* ___U3CNetworkManagerU3Ek__BackingField;
@@ -3416,10 +3427,10 @@ struct List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A_StaticFields
 };
 struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D355_t2F790BD1A416772BAD42EF99807918F8F3867576 ___1C678D286BBE74329CF6C1DD5BCBBAA62D1AF62469DE89BF6BB974D1A28E1677;
+	__StaticArrayInitTypeSizeU3D372_tAA4DE99136495F9C5B10D81893DE42742A04F41B ___0FDA1DBE4045C470487C3E9EFE16B2A78B860DF5CA0E35B2006B325B87F78AC0;
 	__StaticArrayInitTypeSizeU3D12_t1BDD2193C3F925556BCD5FF35C0AC52DDB0CAB8F ___40AEFF8EA39839DFB2ABCC0FEB3F864A4FAFBCC11DC0101ACA37F2A9DC476496;
 	__StaticArrayInitTypeSizeU3D12_t1BDD2193C3F925556BCD5FF35C0AC52DDB0CAB8F ___76AA97B977FF87D7629192E1F4D092F83D9339E208508680BBB3278EAD055B60;
-	__StaticArrayInitTypeSizeU3D652_tAB721CEA3D2B477FABC02A9F3F44000F5370F2ED ___A076142FD9ED89336CEF664BE5FF1DDB9482C962A2F8F6FFC860442D3FCCC03F;
+	__StaticArrayInitTypeSizeU3D690_tD08E97496707DAC4DA23E68F1EFF80588F55B07C ___91EEEB111B85261A2FFC2186677AC53953122B2C7841B542B24DFB0192F5027F;
 };
 struct String_t_StaticFields
 {
@@ -3444,6 +3455,10 @@ struct IntPtr_t_StaticFields
 {
 	intptr_t ___Zero;
 };
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
 struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_StaticFields
 {
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___kZero;
@@ -3458,6 +3473,19 @@ struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 {
@@ -4014,6 +4042,38 @@ struct SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B  : public RuntimeA
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
+struct TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Touch_t03E51455ED508492B3F278903A0114FA0E87B417 m_Items[1];
+
+	inline Touch_t03E51455ED508492B3F278903A0114FA0E87B417 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Touch_t03E51455ED508492B3F278903A0114FA0E87B417* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Touch_t03E51455ED508492B3F278903A0114FA0E87B417 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Touch_t03E51455ED508492B3F278903A0114FA0E87B417 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Touch_t03E51455ED508492B3F278903A0114FA0E87B417* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Touch_t03E51455ED508492B3F278903A0114FA0E87B417 value)
+	{
+		m_Items[index] = value;
+	}
+};
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
 {
 	ALIGN_FIELD (8) uint8_t m_Items[1];
@@ -4124,6 +4184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mB7721D033ED3618FA66
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m7316301B8CF47FB538886B229B2749EC160B9D5C_gshared (Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* __this, int32_t ___0_key, RuntimeObject** ___1_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mF6E47E991B0A64C730507127FB96AF69E6CBE84E_gshared (Action_1_tA27AB252E46E34F0C10009EDA6F593E45D7DC3DD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* List_1_ToArray_mD7E4F8E7C11C3C67CB5739FCC0A6E86106A6291F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m249A6BA4F2F19C2D3CE217D4D31847DF0EF03EFE_gshared (RuntimeObject* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericWriter_1_SetWrite_mE6AB230C96F9D01D927A0B0158888B38D41988BA_gshared (Action_2_t02F825E5836331E5028F466633AC99D6659AB01E* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Writer_WriteArray_TisRuntimeObject_mE287B50858F7640EA63433D81E5126C1DB9AC8BC_gshared (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* __this, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___0_value, const RuntimeMethod* method) ;
@@ -4582,6 +4643,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NFCManager_IsAllowedForJob_m2E6F1C643711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager_LoadScene_mD1CB0B977AD7E96D88F53413283612CAA010F07A (NFCManager_t7D2DEDA3E49AB35BD0D53650871938FC4D7B9A0F* __this, String_t* ___0_sceneName, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_NFCTagDetected_mD3305BDB653CB1C52D8855C9ABD755AD3D51A456 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* Input_get_touches_m7CFDF6848F3EC3A8FE458436B2B8BD14B5C65CEF (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchEffect_SpawnEffect_m6902EEA028F59A2FE6588564E9D8668684686F42 (TouchEffect_t75E39FD07E76C00135E660D3B8096D8D271260CC* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_screenPos, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Camera_ScreenToWorldPoint_m5EA3148F070985EC72127AAC3448D8D6ABE6E7E5 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m249A6BA4F2F19C2D3CE217D4D31847DF0EF03EFE_gshared)(___0_original, ___1_position, ___2_rotation, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_LookAt_mA8567593181FD78BBDC2AF29AD99F93BDB2976B2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_StartWitnessDialogue_mEF50C5F5E7CBB3D392885CA28A261577573B6F08 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0__ctor_m24C04C349FD9D00D39C12F567F8FD845F8CB39BA (U3CU3Ec__DisplayClass38_0_tFB5B31F2DDE1ED0F26C258CF94849560D6658856* __this, const RuntimeMethod* method) ;
@@ -4652,7 +4725,7 @@ inline void List_1_AddWithResize_mD783561518F916982595A58C9A148BA3AA8F9B10 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74374
+// Method Definition Index: 74382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_Start_m9ECBA8E0F6F8020D3A125F0E160CBF6C3EFF2F54 (CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4673,23 +4746,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_Start_m9ECBA8E0F6F8020D3A125F0E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:136>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:136>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___guidePopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:137>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:137>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___evidencePopup;
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:138>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:138>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___clearTitleText;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:139>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:139>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___clearDescText;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:140>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:140>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4 = __this->___countdownText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -4700,7 +4773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_Start_m9ECBA8E0F6F8020D3A125F0E
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:141>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:141>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_6 = __this->___countdownText;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
@@ -4711,25 +4784,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_Start_m9ECBA8E0F6F8020D3A125F0E
 
 IL_004f:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:144>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:144>
 		CCTVGame_SetInteractable_mFE458E8A06FB05931F8C84932658B1DC4541243A(__this, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:147>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:147>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_8 = __this->___timeSlider;
 		NullCheck(L_8);
 		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_8, (0.0f), NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:148>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:148>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_9 = __this->___timeSlider;
 		NullCheck(L_9);
 		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_9, (4.0f), NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:149>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:149>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_10 = __this->___timeSlider;
 		NullCheck(L_10);
 		Slider_set_wholeNumbers_m8A76CC011B30B0281F47F8ED085DDE62EACA0EC5(L_10, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:150>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:150>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_11 = __this->___timeSlider;
 		NullCheck(L_11);
 		VirtualActionInvoker1< float >::Invoke(47, L_11, (0.0f));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:151>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:151>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_12 = __this->___timeSlider;
 		NullCheck(L_12);
 		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_13;
@@ -4738,7 +4811,7 @@ IL_004f:
 		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_14, __this, (intptr_t)((void*)CCTVGame_OnSliderChanged_mC777B8FD76A8578E530D6C371BFC03C6BD6D61F0_RuntimeMethod_var), NULL);
 		NullCheck(L_13);
 		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_13, L_14, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:154>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:154>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_15 = __this->___startButton;
 		NullCheck(L_15);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_16;
@@ -4747,7 +4820,7 @@ IL_004f:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_17, __this, (intptr_t)((void*)CCTVGame_OnStartClicked_m3F57BAAC4744AF82C1D2EDE2DEB370C3369836DE_RuntimeMethod_var), NULL);
 		NullCheck(L_16);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_16, L_17, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:155>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:155>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_18 = __this->___confirmButton;
 		NullCheck(L_18);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_19;
@@ -4756,7 +4829,7 @@ IL_004f:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_20, __this, (intptr_t)((void*)CCTVGame_OnConfirmClicked_m93333A7E64A9B4FFC65EE791B06A4AF691067BBA_RuntimeMethod_var), NULL);
 		NullCheck(L_19);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_19, L_20, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:156>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:156>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_21 = __this->___monitorBtn1;
 		NullCheck(L_21);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_22;
@@ -4765,7 +4838,7 @@ IL_004f:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_23, __this, (intptr_t)((void*)CCTVGame_U3CStartU3Eb__29_0_m9DE6882C04B20C8CA319F2EC54FE45FEB70A5904_RuntimeMethod_var), NULL);
 		NullCheck(L_22);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_22, L_23, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:157>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:157>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_24 = __this->___monitorBtn2;
 		NullCheck(L_24);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_25;
@@ -4774,7 +4847,7 @@ IL_004f:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_26, __this, (intptr_t)((void*)CCTVGame_U3CStartU3Eb__29_1_m1B559D7D72CF3D3B9419F6EA19A4F4A0DA799468_RuntimeMethod_var), NULL);
 		NullCheck(L_25);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_25, L_26, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:158>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:158>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_27 = __this->___monitorBtn3;
 		NullCheck(L_27);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_28;
@@ -4783,7 +4856,7 @@ IL_004f:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_29, __this, (intptr_t)((void*)CCTVGame_U3CStartU3Eb__29_2_m90FA5BBDC837180B128731740F3F191C48A4F348_RuntimeMethod_var), NULL);
 		NullCheck(L_28);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_28, L_29, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:159>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:159>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_30 = __this->___monitorBtn4;
 		NullCheck(L_30);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_31;
@@ -4792,11 +4865,11 @@ IL_004f:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_32, __this, (intptr_t)((void*)CCTVGame_U3CStartU3Eb__29_3_m8E74A8AB3FCEB15143814D6C6E28B28AD77E41CB_RuntimeMethod_var), NULL);
 		NullCheck(L_31);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_31, L_32, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:162>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:162>
 		CCTVGame_LoadSprites_mBD1429536E009E41EF8327CAE138CF3A0A086D6B(__this, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:165>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:165>
 		CCTVGame_UpdateMonitors_m052C54C12C8370A043762A55C06FFBC50D218A25(__this, 0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:166>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:166>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_33 = __this->___currentTimeText;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_34 = __this->___timeLabels;
 		NullCheck(L_34);
@@ -4806,44 +4879,44 @@ IL_004f:
 		L_37 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral0AD1785FF6FBD7E553870EEACBEC5C96CC834C0E, L_36, NULL);
 		NullCheck(L_33);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_33, L_37);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:167>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:167>
 		return;
 	}
 }
-// Method Definition Index: 74375
+// Method Definition Index: 74383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_SetInteractable_mFE458E8A06FB05931F8C84932658B1DC4541243A (CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:174>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:174>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___monitorBtn1;
 		bool L_1 = ___0_value;
 		NullCheck(L_0);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_0, L_1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:175>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:175>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___monitorBtn2;
 		bool L_3 = ___0_value;
 		NullCheck(L_2);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_2, L_3, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:176>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:176>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___monitorBtn3;
 		bool L_5 = ___0_value;
 		NullCheck(L_4);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_4, L_5, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:177>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:177>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___monitorBtn4;
 		bool L_7 = ___0_value;
 		NullCheck(L_6);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_6, L_7, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:178>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:178>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_8 = __this->___timeSlider;
 		bool L_9 = ___0_value;
 		NullCheck(L_8);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_8, L_9, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:179>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:179>
 		return;
 	}
 }
-// Method Definition Index: 74376
+// Method Definition Index: 74384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_LoadSprites_mBD1429536E009E41EF8327CAE138CF3A0A086D6B (CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4856,21 +4929,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_LoadSprites_mBD1429536E009E41EF
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:186>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:186>
 		V_0 = 0;
 		goto IL_003d;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:187>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:187>
 		V_1 = 0;
 		goto IL_0035;
 	}
 
 IL_0008:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:188>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:188>
 		SpriteU5BU2CU5D_t4536581742A7723E4BA3103935F44397E1C4BD3A* L_0 = __this->___sprites;
 		int32_t L_1 = V_0;
 		int32_t L_2 = V_1;
@@ -4886,14 +4959,14 @@ IL_0008:
 		L_8 = Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A(L_7, Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A_RuntimeMethod_var);
 		NullCheck(L_0);
 		(L_0)->SetAt(L_1, L_2, L_8);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:187>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:187>
 		int32_t L_9 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:187>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:187>
 		int32_t L_10 = V_1;
 		if ((((int32_t)L_10) < ((int32_t)4)))
 		{
@@ -4901,14 +4974,14 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:186>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:186>
 		int32_t L_11 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_003d:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:186>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:186>
 		int32_t L_12 = V_0;
 		if ((((int32_t)L_12) < ((int32_t)5)))
 		{
@@ -4916,25 +4989,25 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:189>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:189>
 		return;
 	}
 }
-// Method Definition Index: 74377
+// Method Definition Index: 74385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_OnStartClicked_m3F57BAAC4744AF82C1D2EDE2DEB370C3369836DE (CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:196>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:196>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___guidePopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:197>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:197>
 		CCTVGame_SetInteractable_mFE458E8A06FB05931F8C84932658B1DC4541243A(__this, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:198>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:198>
 		return;
 	}
 }
-// Method Definition Index: 74378
+// Method Definition Index: 74386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_OnSliderChanged_mC777B8FD76A8578E530D6C371BFC03C6BD6D61F0 (CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4944,10 +5017,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_OnSliderChanged_mC777B8FD76A857
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:205>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:205>
 		float L_0 = ___0_value;
 		__this->___currentTimeSlot = il2cpp_codegen_cast_double_to_int<int32_t>(L_0);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:206>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:206>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1 = __this->___currentTimeText;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = __this->___timeLabels;
 		int32_t L_3 = __this->___currentTimeSlot;
@@ -4958,14 +5031,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_OnSliderChanged_mC777B8FD76A857
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral0AD1785FF6FBD7E553870EEACBEC5C96CC834C0E, L_5, NULL);
 		NullCheck(L_1);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, L_6);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:207>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:207>
 		int32_t L_7 = __this->___currentTimeSlot;
 		CCTVGame_UpdateMonitors_m052C54C12C8370A043762A55C06FFBC50D218A25(__this, L_7, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:208>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:208>
 		return;
 	}
 }
-// Method Definition Index: 74379
+// Method Definition Index: 74387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_UpdateMonitors_m052C54C12C8370A043762A55C06FFBC50D218A25 (CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* __this, int32_t ___0_timeSlot, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4975,7 +5048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_UpdateMonitors_m052C54C12C8370A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:215>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:215>
 		SpriteU5BU2CU5D_t4536581742A7723E4BA3103935F44397E1C4BD3A* L_0 = __this->___sprites;
 		int32_t L_1 = ___0_timeSlot;
 		NullCheck(L_0);
@@ -4990,7 +5063,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_UpdateMonitors_m052C54C12C8370A
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:215>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:215>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___monitor1;
 		SpriteU5BU2CU5D_t4536581742A7723E4BA3103935F44397E1C4BD3A* L_5 = __this->___sprites;
 		int32_t L_6 = ___0_timeSlot;
@@ -5003,7 +5076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_UpdateMonitors_m052C54C12C8370A
 
 IL_002d:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:216>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:216>
 		SpriteU5BU2CU5D_t4536581742A7723E4BA3103935F44397E1C4BD3A* L_8 = __this->___sprites;
 		int32_t L_9 = ___0_timeSlot;
 		NullCheck(L_8);
@@ -5018,7 +5091,7 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:216>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:216>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_12 = __this->___monitor2;
 		SpriteU5BU2CU5D_t4536581742A7723E4BA3103935F44397E1C4BD3A* L_13 = __this->___sprites;
 		int32_t L_14 = ___0_timeSlot;
@@ -5031,7 +5104,7 @@ IL_002d:
 
 IL_005a:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:217>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:217>
 		SpriteU5BU2CU5D_t4536581742A7723E4BA3103935F44397E1C4BD3A* L_16 = __this->___sprites;
 		int32_t L_17 = ___0_timeSlot;
 		NullCheck(L_16);
@@ -5046,7 +5119,7 @@ IL_005a:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:217>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:217>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_20 = __this->___monitor3;
 		SpriteU5BU2CU5D_t4536581742A7723E4BA3103935F44397E1C4BD3A* L_21 = __this->___sprites;
 		int32_t L_22 = ___0_timeSlot;
@@ -5059,7 +5132,7 @@ IL_005a:
 
 IL_0087:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:218>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:218>
 		SpriteU5BU2CU5D_t4536581742A7723E4BA3103935F44397E1C4BD3A* L_24 = __this->___sprites;
 		int32_t L_25 = ___0_timeSlot;
 		NullCheck(L_24);
@@ -5074,7 +5147,7 @@ IL_0087:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:218>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:218>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_28 = __this->___monitor4;
 		SpriteU5BU2CU5D_t4536581742A7723E4BA3103935F44397E1C4BD3A* L_29 = __this->___sprites;
 		int32_t L_30 = ___0_timeSlot;
@@ -5087,11 +5160,11 @@ IL_0087:
 
 IL_00b4:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:219>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:219>
 		return;
 	}
 }
-// Method Definition Index: 74380
+// Method Definition Index: 74388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_OnMonitorClicked_m52C7657924656E970749E95CDD0FBA0922377C9C (CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* __this, int32_t ___0_monitorIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5111,7 +5184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_OnMonitorClicked_m52C7657924656
 	String_t* V_0 = NULL;
 	String_t* V_1 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:226>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:226>
 		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_0 = __this->___evidenceNames;
 		int32_t L_1 = __this->___currentTimeSlot;
 		int32_t L_2 = ___0_monitorIndex;
@@ -5119,7 +5192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_OnMonitorClicked_m52C7657924656
 		String_t* L_3;
 		L_3 = (L_0)->GetAt(L_1, L_2);
 		V_0 = L_3;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:227>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:227>
 		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_4 = __this->___evidenceDescs;
 		int32_t L_5 = __this->___currentTimeSlot;
 		int32_t L_6 = ___0_monitorIndex;
@@ -5127,7 +5200,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_OnMonitorClicked_m52C7657924656
 		String_t* L_7;
 		L_7 = (L_4)->GetAt(L_5, L_6);
 		V_1 = L_7;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:230>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:230>
 		String_t* L_8 = V_0;
 		if (L_8)
 		{
@@ -5135,11 +5208,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_OnMonitorClicked_m52C7657924656
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:232>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:232>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = __this->___evidenceTitleText;
 		NullCheck(L_9);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_9, _stringLiteral169273B643DD3C02448141C0F7F726E6287D5E5F);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:233>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:233>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_10 = __this->___evidenceDescText;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = __this->___timeLabels;
 		int32_t L_12 = __this->___currentTimeSlot;
@@ -5150,17 +5223,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_OnMonitorClicked_m52C7657924656
 		L_15 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_14, _stringLiteral067FA0F620A3DFDD7A497294DDF2B62CEFBE3833, NULL);
 		NullCheck(L_10);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_10, L_15);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:234>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:234>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___evidencePopup;
 		NullCheck(L_16);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:235>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:235>
 		return;
 	}
 
 IL_0068:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:239>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:239>
 		BooleanU5BU2CU5D_t0A96EF7DC71D7FB5C1757A719712D1DFB2D571B6* L_17 = __this->___collectedEvidence;
 		int32_t L_18 = __this->___currentTimeSlot;
 		int32_t L_19 = ___0_monitorIndex;
@@ -5173,50 +5246,50 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:241>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:241>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_21 = __this->___evidenceTitleText;
 		NullCheck(L_21);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_21, _stringLiteral165805F6BC4D946B48483FDA41952A007EA3D921);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:242>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:242>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_22 = __this->___evidenceDescText;
 		String_t* L_23 = V_0;
 		String_t* L_24;
 		L_24 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_23, _stringLiteral03268F4844E4FDA2986F7A3FD79C659889CD9004, NULL);
 		NullCheck(L_22);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_22, L_24);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:243>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:243>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___evidencePopup;
 		NullCheck(L_25);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_25, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:244>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:244>
 		return;
 	}
 
 IL_00af:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:248>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:248>
 		BooleanU5BU2CU5D_t0A96EF7DC71D7FB5C1757A719712D1DFB2D571B6* L_26 = __this->___collectedEvidence;
 		int32_t L_27 = __this->___currentTimeSlot;
 		int32_t L_28 = ___0_monitorIndex;
 		NullCheck(L_26);
 		(L_26)->SetAt(L_27, L_28, (bool)1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:249>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:249>
 		int32_t L_29 = __this->___totalEvidenceCount;
 		__this->___totalEvidenceCount = ((int32_t)il2cpp_codegen_add(L_29, 1));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:251>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:251>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_30 = __this->___evidenceTitleText;
 		NullCheck(L_30);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_30, _stringLiteralFF6638A73CB68FEB68E845705ED48B0774228CFD);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:252>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:252>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_31 = __this->___evidenceDescText;
 		String_t* L_32 = V_1;
 		NullCheck(L_31);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_31, L_32);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:253>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:253>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = __this->___evidencePopup;
 		NullCheck(L_33);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_33, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:255>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:255>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_34 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_35;
@@ -5227,7 +5300,7 @@ IL_00af:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:257>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:257>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_36 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_36);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_37;
@@ -5242,7 +5315,7 @@ IL_00af:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:258>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:258>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_40 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_40);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_41;
@@ -5254,7 +5327,7 @@ IL_00af:
 
 IL_0127:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:262>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:262>
 		int32_t L_43 = __this->___totalEvidenceCount;
 		int32_t L_44 = __this->___maxEvidence;
 		if ((((int32_t)L_43) < ((int32_t)L_44)))
@@ -5263,9 +5336,9 @@ IL_0127:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:265>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:265>
 		CCTVGame_SetInteractable_mFE458E8A06FB05931F8C84932658B1DC4541243A(__this, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:266>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:266>
 		RuntimeObject* L_45;
 		L_45 = CCTVGame_ShowClearPopup_m95A9FC50EB6F90843A3DF440D89CD6875E0E4CFD(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_46;
@@ -5274,23 +5347,23 @@ IL_0127:
 
 IL_0149:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:268>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:268>
 		return;
 	}
 }
-// Method Definition Index: 74381
+// Method Definition Index: 74389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_OnConfirmClicked_m93333A7E64A9B4FFC65EE791B06A4AF691067BBA (CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:275>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:275>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___evidencePopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:276>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:276>
 		return;
 	}
 }
-// Method Definition Index: 74382
+// Method Definition Index: 74390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CCTVGame_ShowClearPopup_m95A9FC50EB6F90843A3DF440D89CD6875E0E4CFD (CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5309,7 +5382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CCTVGame_ShowClearPopup_m95A9F
 		return L_1;
 	}
 }
-// Method Definition Index: 74383
+// Method Definition Index: 74391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame__ctor_m89990C65B1C43B2C33EE44A12C2FD3784DF3EF1F (CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5361,7 +5434,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame__ctor_m89990C65B1C43B2C33EE44A1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:13>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:13>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -5380,19 +5453,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame__ctor_m89990C65B1C43B2C33EE44A1
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral42BE60B4C6364C1F7470EC8777B59BD98DF7078F);
 		__this->___timeLabels = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___timeLabels), (void*)L_5);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:17>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:18>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:19>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:20>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:21>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:22>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:23>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:24>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:25>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:26>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:27>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:28>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:29>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:17>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:18>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:19>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:20>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:21>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:22>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:23>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:24>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:25>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:26>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:27>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:28>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:29>
 		il2cpp_array_size_t L_7[] = { (il2cpp_array_size_t)5, (il2cpp_array_size_t)4 };
 		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_6 = (StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF*)GenArrayNew(StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF_il2cpp_TypeInfo_var, L_7);
 		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_8 = L_6;
@@ -5457,19 +5530,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame__ctor_m89990C65B1C43B2C33EE44A1
 		(L_27)->SetAt(4, 3, _stringLiteral68324AE89280C63D9A3C060E497C376381E8D91C);
 		__this->___spriteNames = L_27;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___spriteNames), (void*)L_27);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:32>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:33>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:34>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:35>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:36>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:37>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:38>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:39>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:40>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:41>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:42>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:43>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:44>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:32>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:33>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:34>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:35>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:36>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:37>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:38>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:39>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:40>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:41>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:42>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:43>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:44>
 		il2cpp_array_size_t L_29[] = { (il2cpp_array_size_t)5, (il2cpp_array_size_t)4 };
 		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_28 = (StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF*)GenArrayNew(StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF_il2cpp_TypeInfo_var, L_29);
 		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_30 = L_28;
@@ -5495,24 +5568,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame__ctor_m89990C65B1C43B2C33EE44A1
 		(L_36)->SetAt(4, 2, _stringLiteral9C82FDE702C0E3A92B722FE20CFFD063F174D76A);
 		__this->___evidenceNames = L_36;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___evidenceNames), (void*)L_36);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:47>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:48>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:49>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:50>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:51>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:52>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:53>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:54>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:55>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:56>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:57>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:58>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:59>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:60>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:61>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:62>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:63>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:64>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:47>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:48>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:49>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:50>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:51>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:52>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:53>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:54>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:55>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:56>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:57>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:58>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:59>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:60>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:61>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:62>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:63>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:64>
 		il2cpp_array_size_t L_38[] = { (il2cpp_array_size_t)5, (il2cpp_array_size_t)4 };
 		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_37 = (StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF*)GenArrayNew(StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF_il2cpp_TypeInfo_var, L_38);
 		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_39 = L_37;
@@ -5538,14 +5611,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame__ctor_m89990C65B1C43B2C33EE44A1
 		(L_45)->SetAt(4, 2, _stringLiteral668819BDECE8F6153CAA25298463DCFE8A5E09B8);
 		__this->___evidenceDescs = L_45;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___evidenceDescs), (void*)L_45);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:67>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:68>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:69>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:70>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:71>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:72>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:73>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:74>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:67>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:68>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:69>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:70>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:71>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:72>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:73>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:74>
 		il2cpp_array_size_t L_47[] = { (il2cpp_array_size_t)5, (il2cpp_array_size_t)4 };
 		BooleanU5BU2CU5D_t0A96EF7DC71D7FB5C1757A719712D1DFB2D571B6* L_46 = (BooleanU5BU2CU5D_t0A96EF7DC71D7FB5C1757A719712D1DFB2D571B6*)GenArrayNew(BooleanU5BU2CU5D_t0A96EF7DC71D7FB5C1757A719712D1DFB2D571B6_il2cpp_TypeInfo_var, L_47);
 		BooleanU5BU2CU5D_t0A96EF7DC71D7FB5C1757A719712D1DFB2D571B6* L_48 = L_46;
@@ -5556,14 +5629,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame__ctor_m89990C65B1C43B2C33EE44A1
 		(L_49)->SetAt(4, 2, (bool)1);
 		__this->___isRealEvidence = L_49;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___isRealEvidence), (void*)L_49);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:126>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:126>
 		il2cpp_array_size_t L_51[] = { (il2cpp_array_size_t)5, (il2cpp_array_size_t)4 };
 		BooleanU5BU2CU5D_t0A96EF7DC71D7FB5C1757A719712D1DFB2D571B6* L_50 = (BooleanU5BU2CU5D_t0A96EF7DC71D7FB5C1757A719712D1DFB2D571B6*)GenArrayNew(BooleanU5BU2CU5D_t0A96EF7DC71D7FB5C1757A719712D1DFB2D571B6_il2cpp_TypeInfo_var, L_51);
 		__this->___collectedEvidence = L_50;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___collectedEvidence), (void*)L_50);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:128>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:128>
 		__this->___maxEvidence = 7;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:129>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:129>
 		il2cpp_array_size_t L_53[] = { (il2cpp_array_size_t)5, (il2cpp_array_size_t)4 };
 		SpriteU5BU2CU5D_t4536581742A7723E4BA3103935F44397E1C4BD3A* L_52 = (SpriteU5BU2CU5D_t4536581742A7723E4BA3103935F44397E1C4BD3A*)GenArrayNew(SpriteU5BU2CU5D_t4536581742A7723E4BA3103935F44397E1C4BD3A_il2cpp_TypeInfo_var, L_53);
 		__this->___sprites = L_52;
@@ -5572,38 +5645,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame__ctor_m89990C65B1C43B2C33EE44A1
 		return;
 	}
 }
-// Method Definition Index: 74384
+// Method Definition Index: 74392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_U3CStartU3Eb__29_0_m9DE6882C04B20C8CA319F2EC54FE45FEB70A5904 (CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:156>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:156>
 		CCTVGame_OnMonitorClicked_m52C7657924656E970749E95CDD0FBA0922377C9C(__this, 0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 74385
+// Method Definition Index: 74393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_U3CStartU3Eb__29_1_m1B559D7D72CF3D3B9419F6EA19A4F4A0DA799468 (CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:157>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:157>
 		CCTVGame_OnMonitorClicked_m52C7657924656E970749E95CDD0FBA0922377C9C(__this, 1, NULL);
 		return;
 	}
 }
-// Method Definition Index: 74386
+// Method Definition Index: 74394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_U3CStartU3Eb__29_2_m90FA5BBDC837180B128731740F3F191C48A4F348 (CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:158>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:158>
 		CCTVGame_OnMonitorClicked_m52C7657924656E970749E95CDD0FBA0922377C9C(__this, 2, NULL);
 		return;
 	}
 }
-// Method Definition Index: 74387
+// Method Definition Index: 74395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_U3CStartU3Eb__29_3_m8E74A8AB3FCEB15143814D6C6E28B28AD77E41CB (CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:159>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:159>
 		CCTVGame_OnMonitorClicked_m52C7657924656E970749E95CDD0FBA0922377C9C(__this, 3, NULL);
 		return;
 	}
@@ -5616,7 +5689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCTVGame_U3CStartU3Eb__29_3_m8E74A8AB3FC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74388
+// Method Definition Index: 74396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__37__ctor_mB15401F30B00F7AD4CE4DE99C069628770DCC0BE (U3CShowClearPopupU3Ed__37_t410C64F8F4201B91EF46E1DDA6C31D47D984ED8E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -5626,14 +5699,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__37__ctor_mB15401F
 		return;
 	}
 }
-// Method Definition Index: 74389
+// Method Definition Index: 74397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__37_System_IDisposable_Dispose_m32869DA0264985FC3FADC5286558AC04DF1C3CA3 (U3CShowClearPopupU3Ed__37_t410C64F8F4201B91EF46E1DDA6C31D47D984ED8E* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74390
+// Method Definition Index: 74398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowClearPopupU3Ed__37_MoveNext_m2E4875CA3403970630DBD92788B7253A5ACD8DDF (U3CShowClearPopupU3Ed__37_t410C64F8F4201B91EF46E1DDA6C31D47D984ED8E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5676,7 +5749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowClearPopupU3Ed__37_MoveNext_m2E48
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:283>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:283>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_3 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_3, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_3;
@@ -5688,25 +5761,25 @@ IL_0022:
 IL_0042:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:284>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:284>
 		CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* L_4 = V_1;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___evidencePopup;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:285>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:285>
 		CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* L_6 = V_1;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = L_6->___clearTitleText;
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:286>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:286>
 		CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* L_8 = V_1;
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = L_8->___clearDescText;
 		NullCheck(L_9);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:287>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:287>
 		CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* L_10 = V_1;
 		NullCheck(L_10);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_11 = L_10->___countdownText;
@@ -5715,14 +5788,14 @@ IL_0042:
 		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:289>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:289>
 		__this->___U3CiU3E5__2 = 3;
 		goto IL_00cd;
 	}
 
 IL_0087:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:291>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:291>
 		CCTVGame_tE7C494E0C08F27F8F4F340AF49D7000E7AEDA4D2* L_13 = V_1;
 		NullCheck(L_13);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_14 = L_13->___countdownText;
@@ -5731,7 +5804,7 @@ IL_0087:
 		L_16 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_15, NULL);
 		NullCheck(L_14);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, L_16);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:292>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:292>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_17 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_17, (1.0f), NULL);
 		__this->___U3CU3E2__current = L_17;
@@ -5743,7 +5816,7 @@ IL_0087:
 IL_00b6:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:289>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:289>
 		int32_t L_18 = __this->___U3CiU3E5__2;
 		V_2 = L_18;
 		int32_t L_19 = V_2;
@@ -5752,7 +5825,7 @@ IL_00b6:
 
 IL_00cd:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:289>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:289>
 		int32_t L_20 = __this->___U3CiU3E5__2;
 		if ((((int32_t)L_20) > ((int32_t)0)))
 		{
@@ -5760,14 +5833,14 @@ IL_00cd:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:295>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:295>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB683C057E8DA801FA01FD23F5A07DAEFB5C796EA, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:296>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CCTVGame.cs:296>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74391
+// Method Definition Index: 74399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__37_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCA2153369946BF23BABA8FA0A5D12633A2C38DCF (U3CShowClearPopupU3Ed__37_t410C64F8F4201B91EF46E1DDA6C31D47D984ED8E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5775,7 +5848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__37_Syst
 		return L_0;
 	}
 }
-// Method Definition Index: 74392
+// Method Definition Index: 74400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__37_System_Collections_IEnumerator_Reset_m6B755065905E7BFD653BB869253ED4D9EF84103A (U3CShowClearPopupU3Ed__37_t410C64F8F4201B91EF46E1DDA6C31D47D984ED8E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5784,7 +5857,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__37_System_Collect
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CShowClearPopupU3Ed__37_System_Collections_IEnumerator_Reset_m6B755065905E7BFD653BB869253ED4D9EF84103A_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 74393
+// Method Definition Index: 74401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__37_System_Collections_IEnumerator_get_Current_m5621A4D689C2034D744166E09837076A29F04AB4 (U3CShowClearPopupU3Ed__37_t410C64F8F4201B91EF46E1DDA6C31D47D984ED8E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5800,7 +5873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__37_Syst
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74394
+// Method Definition Index: 74402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_Start_m6CCB49632D50FA8F76A98B326013F7A9E3893CD0 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5828,35 +5901,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_Start_m6CCB49632D50FA8F76A98B3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:146>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:146>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___guidePopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:147>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:147>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___scanGame;
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:148>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:148>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___sliderGame;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:149>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:149>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___keywordGame;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:150>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:150>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___evidencePopup;
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:151>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:151>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___clearTitleText;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:152>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:152>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___clearDescText;
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:153>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:153>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_7 = __this->___countdownText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -5867,7 +5940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_Start_m6CCB49632D50FA8F76A98B3
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:154>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:154>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = __this->___countdownText;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
@@ -5878,28 +5951,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_Start_m6CCB49632D50FA8F76A98B3
 
 IL_0073:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:156>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:156>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_11 = __this->___fileBtn1;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:157>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:157>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_13 = __this->___fileBtn2;
 		NullCheck(L_13);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_13, NULL);
 		NullCheck(L_14);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:158>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:158>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_15 = __this->___fileBtn3;
 		NullCheck(L_15);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
 		L_16 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_15, NULL);
 		NullCheck(L_16);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:161>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:161>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_17 = __this->___phoneColorSprite;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -5910,7 +5983,7 @@ IL_0073:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:162>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:162>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_19;
 		L_19 = Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A(_stringLiteralA302DA403725B0D9DC14D178AA65A01570F659F0, Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A_RuntimeMethod_var);
 		__this->___phoneColorSprite = L_19;
@@ -5919,7 +5992,7 @@ IL_0073:
 
 IL_00c4:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:163>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:163>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_20 = __this->___phoneGraySprite;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_21;
@@ -5930,7 +6003,7 @@ IL_00c4:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:164>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:164>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_22;
 		L_22 = Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A(_stringLiteralB58D8F22883C299A6B33E227C44093EE7AEEC58A, Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A_RuntimeMethod_var);
 		__this->___phoneGraySprite = L_22;
@@ -5939,7 +6012,7 @@ IL_00c4:
 
 IL_00e2:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:167>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:167>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_23 = __this->___startButton;
 		NullCheck(L_23);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_24;
@@ -5948,7 +6021,7 @@ IL_00e2:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_25, __this, (intptr_t)((void*)CyberGame_OnStartClicked_m5ECE07AB492822EC54756CD67106E0F4949428E9_RuntimeMethod_var), NULL);
 		NullCheck(L_24);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_24, L_25, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:168>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:168>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_26 = __this->___fileBtn1;
 		NullCheck(L_26);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_27;
@@ -5957,7 +6030,7 @@ IL_00e2:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_28, __this, (intptr_t)((void*)CyberGame_U3CStartU3Eb__52_0_m646B776BA5F8AB9500AC1EF5E1E62B444104C054_RuntimeMethod_var), NULL);
 		NullCheck(L_27);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_27, L_28, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:169>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:169>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_29 = __this->___fileBtn2;
 		NullCheck(L_29);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_30;
@@ -5966,7 +6039,7 @@ IL_00e2:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_31, __this, (intptr_t)((void*)CyberGame_U3CStartU3Eb__52_1_m1F75506B02DA4506A5D18C7020A7C59476D6F140_RuntimeMethod_var), NULL);
 		NullCheck(L_30);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_30, L_31, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:170>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:170>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_32 = __this->___fileBtn3;
 		NullCheck(L_32);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_33;
@@ -5975,7 +6048,7 @@ IL_00e2:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_34, __this, (intptr_t)((void*)CyberGame_U3CStartU3Eb__52_2_m9CF9CE28C9BE098555D492E960AA7FFC0A4B560D_RuntimeMethod_var), NULL);
 		NullCheck(L_33);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_33, L_34, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:171>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:171>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_35 = __this->___confirmButton;
 		NullCheck(L_35);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_36;
@@ -5984,7 +6057,7 @@ IL_00e2:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_37, __this, (intptr_t)((void*)CyberGame_OnConfirmClicked_m82CC3EEED736481E534BB48E86D663AB600F1CEE_RuntimeMethod_var), NULL);
 		NullCheck(L_36);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_36, L_37, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:172>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:172>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_38 = __this->___scanCloseButton;
 		NullCheck(L_38);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_39;
@@ -5993,7 +6066,7 @@ IL_00e2:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_40, __this, (intptr_t)((void*)CyberGame_CloseScanGame_m527DFB76059F8A31AC1824F7704788F2239DBB85_RuntimeMethod_var), NULL);
 		NullCheck(L_39);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_39, L_40, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:173>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:173>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_41 = __this->___sliderCloseButton;
 		NullCheck(L_41);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_42;
@@ -6002,7 +6075,7 @@ IL_00e2:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_43, __this, (intptr_t)((void*)CyberGame_CloseSliderGame_mEAF0EA4D5BF612F3C0FDE4689969D60CE8114070_RuntimeMethod_var), NULL);
 		NullCheck(L_42);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_42, L_43, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:174>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:174>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_44 = __this->___restoreButton;
 		NullCheck(L_44);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_45;
@@ -6011,7 +6084,7 @@ IL_00e2:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_46, __this, (intptr_t)((void*)CyberGame_OnRestoreClicked_m312EF38B0C05A7FDD18D728144FE46FE8B7A78D3_RuntimeMethod_var), NULL);
 		NullCheck(L_45);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_45, L_46, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:175>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:175>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_47 = __this->___keywordCloseButton;
 		NullCheck(L_47);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_48;
@@ -6020,7 +6093,7 @@ IL_00e2:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_49, __this, (intptr_t)((void*)CyberGame_CloseKeywordGame_m09A1CA4B2C84E3A1385853C2FF3019B2850EDE30_RuntimeMethod_var), NULL);
 		NullCheck(L_48);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_48, L_49, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:177>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:177>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_50 = __this->___slider1;
 		NullCheck(L_50);
 		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_51;
@@ -6029,7 +6102,7 @@ IL_00e2:
 		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_52, __this, (intptr_t)((void*)CyberGame_OnSlider1Changed_m827AF9AAA87F44D39932D821F8354A0B1D03C061_RuntimeMethod_var), NULL);
 		NullCheck(L_51);
 		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_51, L_52, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:178>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:178>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_53 = __this->___slider2;
 		NullCheck(L_53);
 		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_54;
@@ -6038,7 +6111,7 @@ IL_00e2:
 		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_55, __this, (intptr_t)((void*)CyberGame_OnSlider2Changed_m20C4C0AF8A5ADCE32636056A437BDA599D040A19_RuntimeMethod_var), NULL);
 		NullCheck(L_54);
 		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_54, L_55, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:179>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:179>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_56 = __this->___slider3;
 		NullCheck(L_56);
 		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_57;
@@ -6047,52 +6120,52 @@ IL_00e2:
 		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_58, __this, (intptr_t)((void*)CyberGame_OnSlider3Changed_m961E268C13B84E9915D6419E6F0816CD6C8D5D73_RuntimeMethod_var), NULL);
 		NullCheck(L_57);
 		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_57, L_58, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:181>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:181>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_59 = __this->___keywordTemplate;
 		NullCheck(L_59);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_59, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:182>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:182>
 		return;
 	}
 }
-// Method Definition Index: 74395
+// Method Definition Index: 74403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnStartClicked_m5ECE07AB492822EC54756CD67106E0F4949428E9 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:189>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:189>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___guidePopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:190>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:190>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_1 = __this->___fileBtn1;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:191>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:191>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___fileBtn2;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:192>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:192>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = __this->___fileBtn3;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:193>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:193>
 		return;
 	}
 }
-// Method Definition Index: 74396
+// Method Definition Index: 74404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnFileClicked_mA346B65D90C34878DC0FEF7F71DC4B7B16E3A9D3 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, int32_t ___0_fileIndex, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:200>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:200>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_0 = __this->___fileCleared;
 		int32_t L_1 = ___0_fileIndex;
 		NullCheck(L_0);
@@ -6104,13 +6177,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnFileClicked_mA346B65D90C3487
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:200>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:200>
 		return;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:201>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:201>
 		int32_t L_4 = ___0_fileIndex;
 		__this->___currentFile = L_4;
 		int32_t L_5 = ___0_fileIndex;
@@ -6136,29 +6209,29 @@ IL_000b:
 
 IL_0025:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:205>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:205>
 		CyberGame_OpenScanGame_m2727E1C83B4FE5D0C433837066499AF8F344977C(__this, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:205>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:205>
 		return;
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:206>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:206>
 		CyberGame_OpenSliderGame_m23783DBD75D1C79774DABDC640014DC6497359FA(__this, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:206>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:206>
 		return;
 	}
 
 IL_0033:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:207>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:207>
 		CyberGame_OpenKeywordGame_mA2E7BA81523E116D1EB5B2D1FE3167A56E5D2CD4(__this, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:209>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:209>
 		return;
 	}
 }
-// Method Definition Index: 74397
+// Method Definition Index: 74405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OpenScanGame_m2727E1C83B4FE5D0C433837066499AF8F344977C (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6182,15 +6255,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OpenScanGame_m2727E1C83B4FE5D0
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:216>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:216>
 		__this->___foundCount = 0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:217>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:217>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___fragments;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_0, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:219>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:219>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_2 = __this->___fragments;
 		NullCheck(L_2);
 		Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_3;
@@ -6215,19 +6288,19 @@ FINALLY_0063:
 
 IL_0021_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:219>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:219>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 				L_4 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_1), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:221>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:221>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4;
 				NullCheck(L_5);
 				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:222>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:222>
 				NullCheck(L_5);
 				Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6;
 				L_6 = GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D(L_5, GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D_RuntimeMethod_var);
 				V_2 = L_6;
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:223>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:223>
 				Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_7 = V_2;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_8;
@@ -6238,15 +6311,15 @@ IL_0021_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:225>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:225>
 				Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_9 = V_2;
 				NullCheck(L_9);
 				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10;
 				L_10 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_9);
 				V_3 = L_10;
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:226>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:226>
 				(&V_3)->___a = (0.0f);
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:227>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:227>
 				Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_11 = V_2;
 				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12 = V_3;
 				NullCheck(L_11);
@@ -6255,7 +6328,7 @@ IL_0021_1:
 
 IL_0058_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:219>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:219>
 				bool L_13;
 				L_13 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_1), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 				if (L_13)
@@ -6275,11 +6348,11 @@ IL_0058_1:
 
 IL_0071:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:231>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:231>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_14 = __this->___scanTitleText;
 		NullCheck(L_14);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, _stringLiteral520D95CF20F01568A7F05CA08421F8292D3FCD84);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:232>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:232>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_15 = __this->___scanCountText;
 		int32_t L_16 = V_0;
 		int32_t L_17 = L_16;
@@ -6288,29 +6361,29 @@ IL_0071:
 		L_19 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralDD58DDE89B21D5A59681460A9B025FAD13620EC7, L_18, NULL);
 		NullCheck(L_15);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, L_19);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:233>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:233>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___scanGame;
 		NullCheck(L_20);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:234>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:234>
 		return;
 	}
 }
-// Method Definition Index: 74398
+// Method Definition Index: 74406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_CloseScanGame_m527DFB76059F8A31AC1824F7704788F2239DBB85 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:238>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:238>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___scanGame;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:239>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:239>
 		__this->___currentFile = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:240>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:240>
 		return;
 	}
 }
-// Method Definition Index: 74399
+// Method Definition Index: 74407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_Update_mD1C0E3F17E26B044BB497C31348B575D2F8B98B0 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -6319,7 +6392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_Update_mD1C0E3F17E26B044BB497C
 	Touch_t03E51455ED508492B3F278903A0114FA0E87B417 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:244>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:244>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___scanGame;
 		NullCheck(L_0);
 		bool L_1;
@@ -6337,13 +6410,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_Update_mD1C0E3F17E26B044BB497C
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:246>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:246>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
 		L_3 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:247>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:247>
 		V_1 = (bool)0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:250>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:250>
 		int32_t L_4;
 		L_4 = Input_get_touchCount_m057388BFC67A0F4CA53764B1022867ED81D01E39(NULL);
 		if ((((int32_t)L_4) <= ((int32_t)0)))
@@ -6352,11 +6425,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_Update_mD1C0E3F17E26B044BB497C
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:252>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:252>
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_5;
 		L_5 = Input_GetTouch_m75D99FE801A94279874FA8DC6B6ADAD35F5123B1(0, NULL);
 		V_2 = L_5;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:253>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:253>
 		int32_t L_6;
 		L_6 = Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0((&V_2), NULL);
 		if ((((int32_t)L_6) == ((int32_t)1)))
@@ -6375,17 +6448,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_Update_mD1C0E3F17E26B044BB497C
 
 IL_003f:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:255>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:255>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		L_8 = Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A((&V_2), NULL);
 		V_0 = L_8;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:256>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:256>
 		V_1 = (bool)1;
 	}
 
 IL_0049:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:266>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:266>
 		bool L_9 = V_1;
 		if (!L_9)
 		{
@@ -6393,18 +6466,18 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:266>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:266>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = V_0;
 		CyberGame_OnScanDrag_m269EDFD6B18DDAD5CE35CE40497FBCF147F218F2(__this, L_10, NULL);
 	}
 
 IL_0053:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:268>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:268>
 		return;
 	}
 }
-// Method Definition Index: 74400
+// Method Definition Index: 74408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnScanDrag_m269EDFD6B18DDAD5CE35CE40497FBCF147F218F2 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_screenPos, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6428,8 +6501,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnScanDrag_m269EDFD6B18DDAD5CE
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:272>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:273>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:272>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:273>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___scanArea;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_screenPos;
 		il2cpp_codegen_runtime_class_init_inline(RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C2AA98AB61244_il2cpp_TypeInfo_var);
@@ -6441,13 +6514,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnScanDrag_m269EDFD6B18DDAD5CE
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:273>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:273>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:275>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:275>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___scanBeam;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -6458,11 +6531,11 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:277>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:277>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___scanBeam;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:278>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:278>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___scanBeam;
 		NullCheck(L_6);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7;
@@ -6474,27 +6547,27 @@ IL_0012:
 
 IL_003d:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:281>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:281>
 		V_1 = 0;
 		goto IL_0113;
 	}
 
 IL_0044:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:283>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:283>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_9 = __this->___fragments;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_9, L_10, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
 		V_2 = L_11;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:284>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:284>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = V_2;
 		NullCheck(L_12);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_13;
 		L_13 = GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D(L_12, GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D_RuntimeMethod_var);
 		V_3 = L_13;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:285>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:285>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_14 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -6516,13 +6589,13 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:287>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:287>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = V_2;
 		NullCheck(L_19);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_20;
 		L_20 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_19, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
 		V_4 = L_20;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:288>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:288>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21 = V_0;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_22 = V_4;
 		NullCheck(L_22);
@@ -6530,30 +6603,30 @@ IL_0044:
 		L_23 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_22, NULL);
 		float L_24;
 		L_24 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_21, L_23, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:290>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:290>
 		if ((!(((float)L_24) < ((float)(80.0f)))))
 		{
 			goto IL_010f;
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:292>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:292>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_25 = V_3;
 		NullCheck(L_25);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26;
 		L_26 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_25);
 		V_5 = L_26;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:293>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:293>
 		(&V_5)->___a = (1.0f);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:294>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:294>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_27 = V_3;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28 = V_5;
 		NullCheck(L_27);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_27, L_28);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:295>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:295>
 		int32_t L_29 = __this->___foundCount;
 		__this->___foundCount = ((int32_t)il2cpp_codegen_add(L_29, 1));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:296>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:296>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_30 = __this->___scanCountText;
 		int32_t L_31 = __this->___foundCount;
 		int32_t L_32 = L_31;
@@ -6568,7 +6641,7 @@ IL_0044:
 		L_38 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral3931E6D8611AD78B9EAE8623A5552724272A477B, L_33, L_37, NULL);
 		NullCheck(L_30);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_30, L_38);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:298>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:298>
 		int32_t L_39 = __this->___foundCount;
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_40 = __this->___fragments;
 		NullCheck(L_40);
@@ -6580,7 +6653,7 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:299>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:299>
 		RuntimeObject* L_42;
 		L_42 = CyberGame_ScanGameClear_m56BB0B71A089A7A54377C43394C0B1377958104A(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_43;
@@ -6589,14 +6662,14 @@ IL_0044:
 
 IL_010f:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:281>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:281>
 		int32_t L_44 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_44, 1));
 	}
 
 IL_0113:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:281>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:281>
 		int32_t L_45 = V_1;
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_46 = __this->___fragments;
 		NullCheck(L_46);
@@ -6608,11 +6681,11 @@ IL_0113:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:302>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:302>
 		return;
 	}
 }
-// Method Definition Index: 74401
+// Method Definition Index: 74409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CyberGame_ScanGameClear_m56BB0B71A089A7A54377C43394C0B1377958104A (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6631,7 +6704,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CyberGame_ScanGameClear_m56BB0
 		return L_1;
 	}
 }
-// Method Definition Index: 74402
+// Method Definition Index: 74410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OpenSliderGame_m23783DBD75D1C79774DABDC640014DC6497359FA (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6647,35 +6720,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OpenSliderGame_m23783DBD75D1C7
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:316>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:316>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->___slider1;
 		NullCheck(L_0);
 		VirtualActionInvoker1< float >::Invoke(47, L_0, (0.0f));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:317>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:317>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_1 = __this->___slider2;
 		NullCheck(L_1);
 		VirtualActionInvoker1< float >::Invoke(47, L_1, (0.0f));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:318>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:318>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_2 = __this->___slider3;
 		NullCheck(L_2);
 		VirtualActionInvoker1< float >::Invoke(47, L_2, (0.0f));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:319>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:319>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_3 = __this->___sliderValue1;
 		NullCheck(L_3);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_3, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:320>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:320>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4 = __this->___sliderValue2;
 		NullCheck(L_4);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_4, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:321>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:321>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5 = __this->___sliderValue3;
 		NullCheck(L_5);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:322>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:322>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_6 = __this->___sliderResultText;
 		NullCheck(L_6);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:324>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:324>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_7 = __this->___phoneImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -6696,7 +6769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OpenSliderGame_m23783DBD75D1C7
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:325>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:325>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_11 = __this->___phoneImage;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_12 = __this->___phoneGraySprite;
 		NullCheck(L_11);
@@ -6705,7 +6778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OpenSliderGame_m23783DBD75D1C7
 
 IL_009d:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:327>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:327>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_13 = __this->___grayOverlay;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -6716,15 +6789,15 @@ IL_009d:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:329>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:329>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_15 = __this->___grayOverlay;
 		NullCheck(L_15);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_16;
 		L_16 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_15);
 		V_0 = L_16;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:330>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:330>
 		(&V_0)->___a = (0.899999976f);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:331>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:331>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_17 = __this->___grayOverlay;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18 = V_0;
 		NullCheck(L_17);
@@ -6733,7 +6806,7 @@ IL_009d:
 
 IL_00cf:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:334>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:334>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_19 = __this->___phoneImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_20;
@@ -6744,15 +6817,15 @@ IL_00cf:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:336>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:336>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_21 = __this->___phoneImage;
 		NullCheck(L_21);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22;
 		L_22 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_21);
 		V_1 = L_22;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:337>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:337>
 		(&V_1)->___a = (0.300000012f);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:338>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:338>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_23 = __this->___phoneImage;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24 = V_1;
 		NullCheck(L_23);
@@ -6761,29 +6834,29 @@ IL_00cf:
 
 IL_0101:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:341>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:341>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___sliderGame;
 		NullCheck(L_25);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_25, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:342>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:342>
 		return;
 	}
 }
-// Method Definition Index: 74403
+// Method Definition Index: 74411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_CloseSliderGame_mEAF0EA4D5BF612F3C0FDE4689969D60CE8114070 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:346>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:346>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___sliderGame;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:347>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:347>
 		__this->___currentFile = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:348>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:348>
 		return;
 	}
 }
-// Method Definition Index: 74404
+// Method Definition Index: 74412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnSlider1Changed_m827AF9AAA87F44D39932D821F8354A0B1D03C061 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6796,7 +6869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnSlider1Changed_m827AF9AAA87F
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:352>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:352>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___sliderValue1;
 		float L_1 = ___0_value;
 		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
@@ -6804,7 +6877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnSlider1Changed_m827AF9AAA87F
 		L_2 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_2);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:353>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:353>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3 = __this->___phoneImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -6815,18 +6888,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnSlider1Changed_m827AF9AAA87F
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:355>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:355>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = __this->___phoneImage;
 		NullCheck(L_5);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6;
 		L_6 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_5);
 		V_1 = L_6;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:356>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:356>
 		float L_7 = ___0_value;
 		float L_8;
 		L_8 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((0.200000003f), (1.0f), ((float)(L_7/(100.0f))), NULL);
 		(&V_1)->___a = L_8;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:357>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:357>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_9 = __this->___phoneImage;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10 = V_1;
 		NullCheck(L_9);
@@ -6835,11 +6908,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnSlider1Changed_m827AF9AAA87F
 
 IL_0058:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:359>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:359>
 		return;
 	}
 }
-// Method Definition Index: 74405
+// Method Definition Index: 74413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnSlider2Changed_m20C4C0AF8A5ADCE32636056A437BDA599D040A19 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6852,7 +6925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnSlider2Changed_m20C4C0AF8A5A
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:363>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:363>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___sliderValue2;
 		float L_1 = ___0_value;
 		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
@@ -6860,7 +6933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnSlider2Changed_m20C4C0AF8A5A
 		L_2 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_2);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:364>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:364>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3 = __this->___grayOverlay;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -6871,18 +6944,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnSlider2Changed_m20C4C0AF8A5A
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:366>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:366>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = __this->___grayOverlay;
 		NullCheck(L_5);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6;
 		L_6 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_5);
 		V_1 = L_6;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:367>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:367>
 		float L_7 = ___0_value;
 		float L_8;
 		L_8 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((0.899999976f), (0.0f), ((float)(L_7/(100.0f))), NULL);
 		(&V_1)->___a = L_8;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:368>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:368>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_9 = __this->___grayOverlay;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10 = V_1;
 		NullCheck(L_9);
@@ -6891,16 +6964,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnSlider2Changed_m20C4C0AF8A5A
 
 IL_0058:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:370>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:370>
 		return;
 	}
 }
-// Method Definition Index: 74406
+// Method Definition Index: 74414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnSlider3Changed_m961E268C13B84E9915D6419E6F0816CD6C8D5D73 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:374>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:374>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___sliderValue3;
 		float L_1 = ___0_value;
 		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
@@ -6908,11 +6981,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnSlider3Changed_m961E268C13B8
 		L_2 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_2);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:375>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:375>
 		return;
 	}
 }
-// Method Definition Index: 74407
+// Method Definition Index: 74415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnRestoreClicked_m312EF38B0C05A7FDD18D728144FE46FE8B7A78D3 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6950,7 +7023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnRestoreClicked_m312EF38B0C05
 	String_t* G_B28_0 = NULL;
 	String_t* G_B28_1 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:379>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:379>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->___slider1;
 		NullCheck(L_0);
 		float L_1;
@@ -6985,7 +7058,7 @@ IL_002f:
 IL_0030:
 	{
 		V_0 = (bool)G_B3_0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:380>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:380>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_10 = __this->___slider2;
 		NullCheck(L_10);
 		float L_11;
@@ -7020,7 +7093,7 @@ IL_0060:
 IL_0061:
 	{
 		V_1 = (bool)G_B6_0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:381>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:381>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_20 = __this->___slider3;
 		NullCheck(L_20);
 		float L_21;
@@ -7055,7 +7128,7 @@ IL_0091:
 IL_0092:
 	{
 		V_2 = (bool)G_B9_0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:383>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:383>
 		bool L_30 = V_0;
 		bool L_31 = V_1;
 		bool L_32 = V_2;
@@ -7065,7 +7138,7 @@ IL_0092:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:386>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:386>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_33 = __this->___phoneImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_34;
@@ -7086,7 +7159,7 @@ IL_0092:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:387>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:387>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_37 = __this->___phoneImage;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_38 = __this->___phoneColorSprite;
 		NullCheck(L_37);
@@ -7095,17 +7168,17 @@ IL_0092:
 
 IL_00c7:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:389>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:389>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_39 = __this->___sliderResultText;
 		NullCheck(L_39);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_39, _stringLiteralF0F41D28BBF2E8467AEF6F98AEEB56464F70DF51);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:390>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:390>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_40 = __this->___sliderResultText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_41;
 		L_41 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
 		NullCheck(L_40);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_40, L_41);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:391>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:391>
 		RuntimeObject* L_42;
 		L_42 = CyberGame_SliderGameClear_m2EE1267039A3A1FB7EB61C73DA614F20362D27F7(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_43;
@@ -7115,9 +7188,9 @@ IL_00c7:
 
 IL_00f5:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:396>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:396>
 		V_3 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:397>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:397>
 		bool L_44 = V_0;
 		if (L_44)
 		{
@@ -7125,7 +7198,7 @@ IL_00f5:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:397>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:397>
 		String_t* L_45 = V_3;
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_46 = __this->___slider1;
 		NullCheck(L_46);
@@ -7163,7 +7236,7 @@ IL_0120:
 
 IL_0126:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:398>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:398>
 		bool L_52 = V_1;
 		if (L_52)
 		{
@@ -7171,7 +7244,7 @@ IL_0126:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:398>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:398>
 		String_t* L_53 = V_3;
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_54 = __this->___slider2;
 		NullCheck(L_54);
@@ -7209,7 +7282,7 @@ IL_014b:
 
 IL_0151:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:399>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:399>
 		bool L_60 = V_2;
 		if (L_60)
 		{
@@ -7217,7 +7290,7 @@ IL_0151:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:399>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:399>
 		String_t* L_61 = V_3;
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_62 = __this->___slider3;
 		NullCheck(L_62);
@@ -7255,24 +7328,24 @@ IL_0176:
 
 IL_017c:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:400>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:400>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_68 = __this->___sliderResultText;
 		String_t* L_69 = V_3;
 		String_t* L_70;
 		L_70 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9ABA1C95C52FB91F5A7B7BAD73E49C04CA5EB759, L_69, NULL);
 		NullCheck(L_68);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_68, L_70);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:401>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:401>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_71 = __this->___sliderResultText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_72;
 		L_72 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
 		NullCheck(L_71);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_71, L_72);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:403>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:403>
 		return;
 	}
 }
-// Method Definition Index: 74408
+// Method Definition Index: 74416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CyberGame_SliderGameClear_m2EE1267039A3A1FB7EB61C73DA614F20362D27F7 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7291,7 +7364,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CyberGame_SliderGameClear_m2EE
 		return L_1;
 	}
 }
-// Method Definition Index: 74409
+// Method Definition Index: 74417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OpenKeywordGame_mA2E7BA81523E116D1EB5B2D1FE3167A56E5D2CD4 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7302,36 +7375,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OpenKeywordGame_mA2E7BA81523E1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:417>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:417>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___selectedKeywords;
 		NullCheck(L_0);
 		List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_inline(L_0, List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:418>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:418>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1 = __this->___keywordResultText;
 		NullCheck(L_1);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:419>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:419>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___analyzingPanel;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:420>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:420>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___keywordListPanel;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:421>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:421>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___keywordGame;
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:423>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:423>
 		RuntimeObject* L_5;
 		L_5 = CyberGame_AnalyzingProcess_m3F6987F8AD38E2EB4F294545A1C3DFD8224EA98C(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
 		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:424>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:424>
 		return;
 	}
 }
-// Method Definition Index: 74410
+// Method Definition Index: 74418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CyberGame_AnalyzingProcess_m3F6987F8AD38E2EB4F294545A1C3DFD8224EA98C (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7350,7 +7423,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CyberGame_AnalyzingProcess_m3F
 		return L_1;
 	}
 }
-// Method Definition Index: 74411
+// Method Definition Index: 74419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_GenerateKeywordButtons_mD559545D895B814BAF315CA80E1B63D927FED87F (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7376,7 +7449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_GenerateKeywordButtons_mD55954
 	String_t* V_5 = NULL;
 	U3CU3Ec__DisplayClass69_0_t04AF4425520D5318819BC0BB0ED88FAEFDD5883F* V_6 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:452>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:452>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___keywordContent;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -7418,13 +7491,13 @@ IL_0052:
 
 IL_000e_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:452>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:452>
 				RuntimeObject* L_5 = V_0;
 				NullCheck(L_5);
 				RuntimeObject* L_6;
 				L_6 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_5);
 				V_1 = ((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_6, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var));
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:454>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:454>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = V_1;
 				NullCheck(L_7);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
@@ -7439,7 +7512,7 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:455>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:455>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = V_1;
 				NullCheck(L_11);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
@@ -7450,7 +7523,7 @@ IL_000e_1:
 
 IL_0038_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:452>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:452>
 				RuntimeObject* L_13 = V_0;
 				NullCheck(L_13);
 				bool L_14;
@@ -7472,7 +7545,7 @@ IL_0038_1:
 
 IL_0053:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:459>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:459>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = __this->___allKeywords;
 		V_3 = L_15;
 		V_4 = 0;
@@ -7481,7 +7554,7 @@ IL_0053:
 
 IL_0062:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:459>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:459>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = V_3;
 		int32_t L_17 = V_4;
 		NullCheck(L_16);
@@ -7495,13 +7568,13 @@ IL_0062:
 		NullCheck(L_21);
 		L_21->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_21->___U3CU3E4__this), (void*)__this);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:461>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:461>
 		U3CU3Ec__DisplayClass69_0_t04AF4425520D5318819BC0BB0ED88FAEFDD5883F* L_22 = V_6;
 		String_t* L_23 = V_5;
 		NullCheck(L_22);
 		L_22->___kw = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&L_22->___kw), (void*)L_23);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:462>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:462>
 		U3CU3Ec__DisplayClass69_0_t04AF4425520D5318819BC0BB0ED88FAEFDD5883F* L_24 = V_6;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___keywordTemplate;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26 = __this->___keywordContent;
@@ -7511,33 +7584,33 @@ IL_0062:
 		NullCheck(L_24);
 		L_24->___btn = L_27;
 		Il2CppCodeGenWriteBarrier((void**)(&L_24->___btn), (void*)L_27);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:463>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:463>
 		U3CU3Ec__DisplayClass69_0_t04AF4425520D5318819BC0BB0ED88FAEFDD5883F* L_28 = V_6;
 		NullCheck(L_28);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = L_28->___btn;
 		NullCheck(L_29);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_29, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:465>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:465>
 		U3CU3Ec__DisplayClass69_0_t04AF4425520D5318819BC0BB0ED88FAEFDD5883F* L_30 = V_6;
 		NullCheck(L_30);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31 = L_30->___btn;
 		NullCheck(L_31);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_32;
 		L_32 = GameObject_GetComponentInChildren_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_m58413DB121C1F732459A1F2B911AB85B1BF21AFB(L_31, GameObject_GetComponentInChildren_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_m58413DB121C1F732459A1F2B911AB85B1BF21AFB_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:466>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:466>
 		U3CU3Ec__DisplayClass69_0_t04AF4425520D5318819BC0BB0ED88FAEFDD5883F* L_33 = V_6;
 		NullCheck(L_33);
 		String_t* L_34 = L_33->___kw;
 		NullCheck(L_32);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_32, L_34);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:468>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:468>
 		U3CU3Ec__DisplayClass69_0_t04AF4425520D5318819BC0BB0ED88FAEFDD5883F* L_35 = V_6;
 		NullCheck(L_35);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = L_35->___btn;
 		NullCheck(L_36);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_37;
 		L_37 = GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290(L_36, GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:469>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:469>
 		NullCheck(L_37);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_38;
 		L_38 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_37, NULL);
@@ -7552,7 +7625,7 @@ IL_0062:
 
 IL_00e6:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:459>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:459>
 		int32_t L_42 = V_4;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_43 = V_3;
 		NullCheck(L_43);
@@ -7562,11 +7635,11 @@ IL_00e6:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:471>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:471>
 		return;
 	}
 }
-// Method Definition Index: 74412
+// Method Definition Index: 74420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnKeywordSelected_m23653A893FEAE3657739FD8788BB23C413A5E389 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, String_t* ___0_keyword, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_btnObj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7595,7 +7668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnKeywordSelected_m23653A893FE
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_5 = NULL;
 	RuntimeObject* V_6 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:475>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:475>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___selectedKeywords;
 		String_t* L_1 = ___0_keyword;
 		NullCheck(L_0);
@@ -7607,13 +7680,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnKeywordSelected_m23653A893FE
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:478>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:478>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = __this->___selectedKeywords;
 		String_t* L_4 = ___0_keyword;
 		NullCheck(L_3);
 		bool L_5;
 		L_5 = List_1_Remove_mD9E8CFB6777A99046B3C0195F7343FE771A2E99D(L_3, L_4, List_1_Remove_mD9E8CFB6777A99046B3C0195F7343FE771A2E99D_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:479>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:479>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = ___1_btnObj;
 		NullCheck(L_6);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_7;
@@ -7628,12 +7701,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnKeywordSelected_m23653A893FE
 
 IL_003c:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:484>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:484>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_9 = __this->___selectedKeywords;
 		String_t* L_10 = ___0_keyword;
 		NullCheck(L_9);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_9, L_10, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:485>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:485>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = ___1_btnObj;
 		NullCheck(L_11);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_12;
@@ -7647,7 +7720,7 @@ IL_003c:
 
 IL_0067:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:489>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:489>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_14 = __this->___selectedKeywords;
 		NullCheck(L_14);
 		int32_t L_15;
@@ -7660,9 +7733,9 @@ IL_0067:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:491>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:491>
 		V_0 = (bool)1;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:492>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:492>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = __this->___correctKeywords;
 		V_1 = L_17;
 		V_2 = 0;
@@ -7671,14 +7744,14 @@ IL_0067:
 
 IL_008c:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:492>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:492>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = V_1;
 		int32_t L_19 = V_2;
 		NullCheck(L_18);
 		int32_t L_20 = L_19;
 		String_t* L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
 		V_3 = L_21;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:494>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:494>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_22 = __this->___selectedKeywords;
 		String_t* L_23 = V_3;
 		NullCheck(L_22);
@@ -7690,9 +7763,9 @@ IL_008c:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:496>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:496>
 		V_0 = (bool)0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:497>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:497>
 		goto IL_00ac;
 	}
 
@@ -7704,7 +7777,7 @@ IL_00a2:
 
 IL_00a6:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:492>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:492>
 		int32_t L_26 = V_2;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_27 = V_1;
 		NullCheck(L_27);
@@ -7716,7 +7789,7 @@ IL_00a6:
 
 IL_00ac:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:501>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:501>
 		bool L_28 = V_0;
 		if (!L_28)
 		{
@@ -7724,17 +7797,17 @@ IL_00ac:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:503>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:503>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_29 = __this->___keywordResultText;
 		NullCheck(L_29);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_29, _stringLiteral3E6BA15CAA2F54C78ACEBC84B1B4EB3DEEB87F4D);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:504>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:504>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_30 = __this->___keywordResultText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_31;
 		L_31 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
 		NullCheck(L_30);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_30, L_31);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:505>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:505>
 		RuntimeObject* L_32;
 		L_32 = CyberGame_KeywordGameClear_mE7CB2E82DD953FB2E649DC88FFD1398826D9CFC8(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_33;
@@ -7744,21 +7817,21 @@ IL_00ac:
 
 IL_00dd:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:509>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:509>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_34 = __this->___keywordResultText;
 		NullCheck(L_34);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_34, _stringLiteralD04B615DCC9EFF804F9B5E4F1894BEE80819A849);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:510>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:510>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_35 = __this->___keywordResultText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_36;
 		L_36 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
 		NullCheck(L_35);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_35, L_36);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:511>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:511>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_37 = __this->___selectedKeywords;
 		NullCheck(L_37);
 		List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_inline(L_37, List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:514>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:514>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38 = __this->___keywordContent;
 		NullCheck(L_38);
 		RuntimeObject* L_39;
@@ -7800,13 +7873,13 @@ IL_0178:
 
 IL_0117_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:514>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:514>
 				RuntimeObject* L_43 = V_4;
 				NullCheck(L_43);
 				RuntimeObject* L_44;
 				L_44 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_43);
 				V_5 = ((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_44, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var));
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:516>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:516>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_45 = V_5;
 				NullCheck(L_45);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_46;
@@ -7821,7 +7894,7 @@ IL_0117_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:517>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:517>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_49 = V_5;
 				NullCheck(L_49);
 				Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_50;
@@ -7835,7 +7908,7 @@ IL_0117_1:
 
 IL_0159_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:514>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:514>
 				RuntimeObject* L_52 = V_4;
 				NullCheck(L_52);
 				bool L_53;
@@ -7857,11 +7930,11 @@ IL_0159_1:
 
 IL_0179:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:521>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:521>
 		return;
 	}
 }
-// Method Definition Index: 74413
+// Method Definition Index: 74421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CyberGame_KeywordGameClear_mE7CB2E82DD953FB2E649DC88FFD1398826D9CFC8 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7880,21 +7953,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CyberGame_KeywordGameClear_mE7
 		return L_1;
 	}
 }
-// Method Definition Index: 74414
+// Method Definition Index: 74422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_CloseKeywordGame_m09A1CA4B2C84E3A1385853C2FF3019B2850EDE30 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:532>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:532>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___keywordGame;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:533>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:533>
 		__this->___currentFile = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:534>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:534>
 		return;
 	}
 }
-// Method Definition Index: 74415
+// Method Definition Index: 74423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_ShowEvidencePopup_mBE604F0D82F70FF5A2D062870E029350F9DA9501 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, int32_t ___0_fileIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7904,23 +7977,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_ShowEvidencePopup_mBE604F0D82F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:542>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:542>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___fileBtn1;
 		NullCheck(L_0);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:543>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:543>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_1 = __this->___fileBtn2;
 		NullCheck(L_1);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:544>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:544>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___fileBtn3;
 		NullCheck(L_2);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:546>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:546>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_3 = __this->___evidenceTitleText;
 		NullCheck(L_3);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_3, _stringLiteral050D57CC517DBD573951B504975328CAB1A8ADA1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:547>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:547>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4 = __this->___evidenceDescText;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = __this->___evidenceDescs;
 		int32_t L_6 = ___0_fileIndex;
@@ -7929,15 +8002,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_ShowEvidencePopup_mBE604F0D82F
 		String_t* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 		NullCheck(L_4);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_4, L_8);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:548>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:548>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___evidencePopup;
 		NullCheck(L_9);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:549>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:549>
 		return;
 	}
 }
-// Method Definition Index: 74416
+// Method Definition Index: 74424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnConfirmClicked_m82CC3EEED736481E534BB48E86D663AB600F1CEE (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7952,11 +8025,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnConfirmClicked_m82CC3EEED736
 	String_t* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:553>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:553>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___evidencePopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:556>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:556>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_1 = __this->___fileCleared;
 		NullCheck(L_1);
 		int32_t L_2 = 0;
@@ -7967,7 +8040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnConfirmClicked_m82CC3EEED736
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:556>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:556>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___fileBtn1;
 		NullCheck(L_4);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_4, (bool)1, NULL);
@@ -7975,7 +8048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_OnConfirmClicked_m82CC3EEED736
 
 IL_0022:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:557>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:557>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_5 = __this->___fileCleared;
 		NullCheck(L_5);
 		int32_t L_6 = 1;
@@ -7986,7 +8059,7 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:557>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:557>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_8 = __this->___fileBtn2;
 		NullCheck(L_8);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_8, (bool)1, NULL);
@@ -7994,7 +8067,7 @@ IL_0022:
 
 IL_0038:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:558>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:558>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = __this->___fileCleared;
 		NullCheck(L_9);
 		int32_t L_10 = 2;
@@ -8005,7 +8078,7 @@ IL_0038:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:558>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:558>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_12 = __this->___fileBtn3;
 		NullCheck(L_12);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_12, (bool)1, NULL);
@@ -8013,14 +8086,14 @@ IL_0038:
 
 IL_004e:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:560>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:560>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = __this->___evidenceNames;
 		int32_t L_14 = __this->___currentFile;
 		NullCheck(L_13);
 		int32_t L_15 = L_14;
 		String_t* L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
 		V_0 = L_16;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:561>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:561>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_17 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -8031,7 +8104,7 @@ IL_004e:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:563>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:563>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_19 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_19);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_20;
@@ -8046,7 +8119,7 @@ IL_004e:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:564>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:564>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_23 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_23);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_24;
@@ -8058,15 +8131,15 @@ IL_004e:
 
 IL_008b:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:567>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:567>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_26 = __this->___fileCleared;
 		int32_t L_27 = __this->___currentFile;
 		NullCheck(L_26);
 		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(L_27), (bool)1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:568>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:568>
 		int32_t L_28 = __this->___totalCleared;
 		__this->___totalCleared = ((int32_t)il2cpp_codegen_add(L_28, 1));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:570>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:570>
 		int32_t L_29 = __this->___currentFile;
 		V_1 = L_29;
 		int32_t L_30 = V_1;
@@ -8092,27 +8165,27 @@ IL_008b:
 
 IL_00c2:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:572>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:572>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_31 = __this->___fileBtn1;
 		NullCheck(L_31);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_31, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:572>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:572>
 		goto IL_00ea;
 	}
 
 IL_00d0:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:573>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:573>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_32 = __this->___fileBtn2;
 		NullCheck(L_32);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_32, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:573>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:573>
 		goto IL_00ea;
 	}
 
 IL_00de:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:574>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:574>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_33 = __this->___fileBtn3;
 		NullCheck(L_33);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_33, (bool)0, NULL);
@@ -8120,9 +8193,9 @@ IL_00de:
 
 IL_00ea:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:577>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:577>
 		__this->___currentFile = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:579>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:579>
 		int32_t L_34 = __this->___totalCleared;
 		if ((((int32_t)L_34) < ((int32_t)3)))
 		{
@@ -8130,7 +8203,7 @@ IL_00ea:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:580>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:580>
 		RuntimeObject* L_35;
 		L_35 = CyberGame_ShowClearPopup_m5339A154731B5BB0780B151E978A6EEEA556BDAB(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_36;
@@ -8139,11 +8212,11 @@ IL_00ea:
 
 IL_0107:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:581>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:581>
 		return;
 	}
 }
-// Method Definition Index: 74417
+// Method Definition Index: 74425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CyberGame_ShowClearPopup_m5339A154731B5BB0780B151E978A6EEEA556BDAB (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8162,7 +8235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CyberGame_ShowClearPopup_m5339
 		return L_1;
 	}
 }
-// Method Definition Index: 74418
+// Method Definition Index: 74426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame__ctor_mBEDE687ED1E60D0A3E3D22586AB1F5CC8D0FF0F3 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8194,19 +8267,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame__ctor_mBEDE687ED1E60D0A3E3D225
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:91>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:92>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:93>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:94>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:95>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:96>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:97>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:98>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:99>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:100>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:101>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:102>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:103>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:91>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:92>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:93>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:94>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:95>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:96>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:97>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:98>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:99>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:100>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:101>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:102>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:103>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)10));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -8240,12 +8313,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame__ctor_mBEDE687ED1E60D0A3E3D225
 		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (String_t*)_stringLiteral436E337956AAEC9392BABDF59D6B6BBD90471607);
 		__this->___allKeywords = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___allKeywords), (void*)L_10);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:105>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:106>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:107>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:108>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:109>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:110>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:105>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:106>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:107>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:108>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:109>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:110>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_11;
 		NullCheck(L_12);
@@ -8258,17 +8331,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame__ctor_mBEDE687ED1E60D0A3E3D225
 		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral3384FC41550F641C101A61887E5D4A58BB7E1C18);
 		__this->___correctKeywords = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___correctKeywords), (void*)L_14);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:112>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:112>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_15 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_15, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		__this->___selectedKeywords = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___selectedKeywords), (void*)L_15);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:117>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:118>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:119>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:120>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:121>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:122>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:117>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:118>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:119>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:120>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:121>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:122>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = L_16;
 		NullCheck(L_17);
@@ -8281,12 +8354,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame__ctor_mBEDE687ED1E60D0A3E3D225
 		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralC5B2CC89202D57C285D467165AD7EF1CB6847111);
 		__this->___evidenceNames = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___evidenceNames), (void*)L_19);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:124>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:125>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:126>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:127>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:128>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:129>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:124>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:125>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:126>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:127>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:128>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:129>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_21 = L_20;
 		NullCheck(L_21);
@@ -8299,20 +8372,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame__ctor_mBEDE687ED1E60D0A3E3D225
 		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralC36B8830FE357E2FF74ABEF5CDC834588C0A8277);
 		__this->___evidenceDescs = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___evidenceDescs), (void*)L_23);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:134>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:134>
 		__this->___currentFile = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:135>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:135>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_24 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)3);
 		__this->___fileCleared = L_24;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___fileCleared), (void*)L_24);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:138>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:138>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_25 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)3);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_26 = L_25;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_27 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____40AEFF8EA39839DFB2ABCC0FEB3F864A4FAFBCC11DC0101ACA37F2A9DC476496_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_26, L_27, NULL);
 		__this->___answerMin = L_26;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___answerMin), (void*)L_26);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:139>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:139>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_28 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)3);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_29 = L_28;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_30 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____76AA97B977FF87D7629192E1F4D092F83D9339E208508680BBB3278EAD055B60_FieldInfo_var) };
@@ -8323,29 +8396,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame__ctor_mBEDE687ED1E60D0A3E3D225
 		return;
 	}
 }
-// Method Definition Index: 74419
+// Method Definition Index: 74427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_U3CStartU3Eb__52_0_m646B776BA5F8AB9500AC1EF5E1E62B444104C054 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:168>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:168>
 		CyberGame_OnFileClicked_mA346B65D90C34878DC0FEF7F71DC4B7B16E3A9D3(__this, 0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 74420
+// Method Definition Index: 74428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_U3CStartU3Eb__52_1_m1F75506B02DA4506A5D18C7020A7C59476D6F140 (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:169>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:169>
 		CyberGame_OnFileClicked_mA346B65D90C34878DC0FEF7F71DC4B7B16E3A9D3(__this, 1, NULL);
 		return;
 	}
 }
-// Method Definition Index: 74421
+// Method Definition Index: 74429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_U3CStartU3Eb__52_2_m9CF9CE28C9BE098555D492E960AA7FFC0A4B560D (CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:170>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:170>
 		CyberGame_OnFileClicked_mA346B65D90C34878DC0FEF7F71DC4B7B16E3A9D3(__this, 2, NULL);
 		return;
 	}
@@ -8358,7 +8431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CyberGame_U3CStartU3Eb__52_2_m9CF9CE28C9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74422
+// Method Definition Index: 74430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass69_0__ctor_mEB2AF4FB41C2AD6853D4F0277D8E73023A0A86BB (U3CU3Ec__DisplayClass69_0_t04AF4425520D5318819BC0BB0ED88FAEFDD5883F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8366,11 +8439,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass69_0__ctor_mEB2AF4F
 		return;
 	}
 }
-// Method Definition Index: 74423
+// Method Definition Index: 74431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass69_0_U3CGenerateKeywordButtonsU3Eb__0_m73CEE94B0D0D126F8145B709DCE6E51A6B820A21 (U3CU3Ec__DisplayClass69_0_t04AF4425520D5318819BC0BB0ED88FAEFDD5883F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:469>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:469>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_0 = __this->___U3CU3E4__this;
 		String_t* L_1 = __this->___kw;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___btn;
@@ -8387,7 +8460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass69_0_U3CGenerateKey
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74424
+// Method Definition Index: 74432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnalyzingProcessU3Ed__68__ctor_mCB06693FD541DA9C4215A2546FC9AF52D9B28450 (U3CAnalyzingProcessU3Ed__68_t8BBE1737B2D8927F6631F4ADC955C73EE9F302D7* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -8397,14 +8470,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnalyzingProcessU3Ed__68__ctor_mCB066
 		return;
 	}
 }
-// Method Definition Index: 74425
+// Method Definition Index: 74433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnalyzingProcessU3Ed__68_System_IDisposable_Dispose_mFE7AC4B5E5BF601406D1E3C5C803161A168D298F (U3CAnalyzingProcessU3Ed__68_t8BBE1737B2D8927F6631F4ADC955C73EE9F302D7* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74426
+// Method Definition Index: 74434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnalyzingProcessU3Ed__68_MoveNext_m5F91274ADBAA13864F1B5E9C3DA65A0F2052D42F (U3CAnalyzingProcessU3Ed__68_t8BBE1737B2D8927F6631F4ADC955C73EE9F302D7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8444,11 +8517,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnalyzingProcessU3Ed__68_MoveNext_m5F
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:429>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:429>
 		__this->___U3CelapsedU3E5__2 = (0.0f);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:430>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:430>
 		__this->___U3CdurationU3E5__3 = (2.0f);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:431>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:431>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_3 = V_1;
 		NullCheck(L_3);
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_4 = L_3->___analyzingBar;
@@ -8459,12 +8532,12 @@ IL_0022:
 
 IL_0051:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:435>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:435>
 		float L_5 = __this->___U3CelapsedU3E5__2;
 		float L_6;
 		L_6 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CelapsedU3E5__2 = ((float)il2cpp_codegen_add(L_5, L_6));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:436>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:436>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_7 = V_1;
 		NullCheck(L_7);
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_8 = L_7->___analyzingBar;
@@ -8472,7 +8545,7 @@ IL_0051:
 		float L_10 = __this->___U3CdurationU3E5__3;
 		NullCheck(L_8);
 		VirtualActionInvoker1< float >::Invoke(47, L_8, ((float)(L_9/L_10)));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:437>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:437>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -8486,7 +8559,7 @@ IL_008b:
 
 IL_0092:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:433>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:433>
 		float L_11 = __this->___U3CelapsedU3E5__2;
 		float L_12 = __this->___U3CdurationU3E5__3;
 		if ((((float)L_11) < ((float)L_12)))
@@ -8495,13 +8568,13 @@ IL_0092:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:440>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:440>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_13 = V_1;
 		NullCheck(L_13);
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_14 = L_13->___analyzingBar;
 		NullCheck(L_14);
 		VirtualActionInvoker1< float >::Invoke(47, L_14, (1.0f));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:441>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:441>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_15 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_15, (0.300000012f), NULL);
 		__this->___U3CU3E2__current = L_15;
@@ -8513,27 +8586,27 @@ IL_0092:
 IL_00c9:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:444>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:444>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_16 = V_1;
 		NullCheck(L_16);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = L_16->___analyzingPanel;
 		NullCheck(L_17);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:445>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:445>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_18 = V_1;
 		NullCheck(L_18);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = L_18->___keywordListPanel;
 		NullCheck(L_19);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_19, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:446>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:446>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_20 = V_1;
 		NullCheck(L_20);
 		CyberGame_GenerateKeywordButtons_mD559545D895B814BAF315CA80E1B63D927FED87F(L_20, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:447>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:447>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74427
+// Method Definition Index: 74435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnalyzingProcessU3Ed__68_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA7460840C8584DA5369FCC1EBF416654639646BE (U3CAnalyzingProcessU3Ed__68_t8BBE1737B2D8927F6631F4ADC955C73EE9F302D7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8541,7 +8614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnalyzingProcessU3Ed__68_Sy
 		return L_0;
 	}
 }
-// Method Definition Index: 74428
+// Method Definition Index: 74436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnalyzingProcessU3Ed__68_System_Collections_IEnumerator_Reset_m9452C73AD540360BDFA7D7818A92A3E98AFE62D3 (U3CAnalyzingProcessU3Ed__68_t8BBE1737B2D8927F6631F4ADC955C73EE9F302D7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8550,7 +8623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnalyzingProcessU3Ed__68_System_Colle
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAnalyzingProcessU3Ed__68_System_Collections_IEnumerator_Reset_m9452C73AD540360BDFA7D7818A92A3E98AFE62D3_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 74429
+// Method Definition Index: 74437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnalyzingProcessU3Ed__68_System_Collections_IEnumerator_get_Current_mF7BC712D87D0E276D34DA53139EE4B08A1F9682A (U3CAnalyzingProcessU3Ed__68_t8BBE1737B2D8927F6631F4ADC955C73EE9F302D7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8566,7 +8639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnalyzingProcessU3Ed__68_Sy
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74430
+// Method Definition Index: 74438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CKeywordGameClearU3Ed__71__ctor_mA860CFCBB2D5F8D9FBF0B0D768B0974EADBCB20E (U3CKeywordGameClearU3Ed__71_t9CB394FBA7D8B05868EE218C3EB872854B991F2B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -8576,14 +8649,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CKeywordGameClearU3Ed__71__ctor_mA860C
 		return;
 	}
 }
-// Method Definition Index: 74431
+// Method Definition Index: 74439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CKeywordGameClearU3Ed__71_System_IDisposable_Dispose_mE679D7B3B8DCBED78EBB64D67615369607E36870 (U3CKeywordGameClearU3Ed__71_t9CB394FBA7D8B05868EE218C3EB872854B991F2B* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74432
+// Method Definition Index: 74440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CKeywordGameClearU3Ed__71_MoveNext_mB9F9C6D10130ADB2AB604DD4E1555D1CD153B88E (U3CKeywordGameClearU3Ed__71_t9CB394FBA7D8B05868EE218C3EB872854B991F2B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8619,7 +8692,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CKeywordGameClearU3Ed__71_MoveNext_mB9
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:525>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:525>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (0.800000012f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -8631,24 +8704,24 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:526>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:526>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_5 = V_1;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = L_5->___keywordGame;
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:527>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:527>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_7 = V_1;
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_8 = V_1;
 		NullCheck(L_8);
 		int32_t L_9 = L_8->___currentFile;
 		NullCheck(L_7);
 		CyberGame_ShowEvidencePopup_mBE604F0D82F70FF5A2D062870E029350F9DA9501(L_7, L_9, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:528>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:528>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74433
+// Method Definition Index: 74441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CKeywordGameClearU3Ed__71_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD559ED78431EC45136EA2DEAC538AC81B1A07D63 (U3CKeywordGameClearU3Ed__71_t9CB394FBA7D8B05868EE218C3EB872854B991F2B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8656,7 +8729,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CKeywordGameClearU3Ed__71_Sy
 		return L_0;
 	}
 }
-// Method Definition Index: 74434
+// Method Definition Index: 74442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CKeywordGameClearU3Ed__71_System_Collections_IEnumerator_Reset_m961051574AA14CC7B58A60FF2113497B54406C3C (U3CKeywordGameClearU3Ed__71_t9CB394FBA7D8B05868EE218C3EB872854B991F2B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8665,7 +8738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CKeywordGameClearU3Ed__71_System_Colle
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CKeywordGameClearU3Ed__71_System_Collections_IEnumerator_Reset_m961051574AA14CC7B58A60FF2113497B54406C3C_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 74435
+// Method Definition Index: 74443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CKeywordGameClearU3Ed__71_System_Collections_IEnumerator_get_Current_mB5B3558021EDF893A7765D390B56268192819C16 (U3CKeywordGameClearU3Ed__71_t9CB394FBA7D8B05868EE218C3EB872854B991F2B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8681,7 +8754,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CKeywordGameClearU3Ed__71_Sy
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74436
+// Method Definition Index: 74444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScanGameClearU3Ed__59__ctor_mDAC819FEA00DB91034FFCD78286E95A45519CBB4 (U3CScanGameClearU3Ed__59_t084CA712147115C4CEF13D3929573A53F597A1FD* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -8691,14 +8764,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScanGameClearU3Ed__59__ctor_mDAC819FE
 		return;
 	}
 }
-// Method Definition Index: 74437
+// Method Definition Index: 74445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScanGameClearU3Ed__59_System_IDisposable_Dispose_m95782141A51BC989183F67FFD109D5637F20353B (U3CScanGameClearU3Ed__59_t084CA712147115C4CEF13D3929573A53F597A1FD* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74438
+// Method Definition Index: 74446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CScanGameClearU3Ed__59_MoveNext_m8DEC8EBBBCED8F08EE24390B6C6EF1727E2F45A0 (U3CScanGameClearU3Ed__59_t084CA712147115C4CEF13D3929573A53F597A1FD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8734,7 +8807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CScanGameClearU3Ed__59_MoveNext_m8DEC8
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:306>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:306>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -8746,24 +8819,24 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:307>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:307>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_5 = V_1;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = L_5->___scanGame;
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:308>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:308>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_7 = V_1;
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_8 = V_1;
 		NullCheck(L_8);
 		int32_t L_9 = L_8->___currentFile;
 		NullCheck(L_7);
 		CyberGame_ShowEvidencePopup_mBE604F0D82F70FF5A2D062870E029350F9DA9501(L_7, L_9, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:309>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:309>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74439
+// Method Definition Index: 74447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CScanGameClearU3Ed__59_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA09486E1C1D50D9567EBF8D1AEDD02F51AFCDC80 (U3CScanGameClearU3Ed__59_t084CA712147115C4CEF13D3929573A53F597A1FD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8771,7 +8844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CScanGameClearU3Ed__59_Syste
 		return L_0;
 	}
 }
-// Method Definition Index: 74440
+// Method Definition Index: 74448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScanGameClearU3Ed__59_System_Collections_IEnumerator_Reset_mDB6C6F10BCCB4D5D9F880FE3BC572202A4DE44A4 (U3CScanGameClearU3Ed__59_t084CA712147115C4CEF13D3929573A53F597A1FD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8780,7 +8853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScanGameClearU3Ed__59_System_Collecti
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CScanGameClearU3Ed__59_System_Collections_IEnumerator_Reset_mDB6C6F10BCCB4D5D9F880FE3BC572202A4DE44A4_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 74441
+// Method Definition Index: 74449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CScanGameClearU3Ed__59_System_Collections_IEnumerator_get_Current_mBE0B7E0221065E87316002C70A2888EDB5D8D7F7 (U3CScanGameClearU3Ed__59_t084CA712147115C4CEF13D3929573A53F597A1FD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8796,7 +8869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CScanGameClearU3Ed__59_Syste
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74442
+// Method Definition Index: 74450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__75__ctor_m69CA54EAE8608FAF2F66BDFE9EB762D927C913ED (U3CShowClearPopupU3Ed__75_t060A5C939473CB2450156988B24DF8091EA65926* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -8806,14 +8879,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__75__ctor_m69CA54E
 		return;
 	}
 }
-// Method Definition Index: 74443
+// Method Definition Index: 74451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__75_System_IDisposable_Dispose_m714688AB703B62FB3EF1B3C343F7D87AD3798C87 (U3CShowClearPopupU3Ed__75_t060A5C939473CB2450156988B24DF8091EA65926* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74444
+// Method Definition Index: 74452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowClearPopupU3Ed__75_MoveNext_m1DF94BC0006E9122BD9654D2B7AE20A06E4AFD36 (U3CShowClearPopupU3Ed__75_t060A5C939473CB2450156988B24DF8091EA65926* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8852,19 +8925,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowClearPopupU3Ed__75_MoveNext_m1DF9
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:588>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:588>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_4 = V_1;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___clearTitleText;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:589>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:589>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_6 = V_1;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = L_6->___clearDescText;
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:590>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:590>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_8 = V_1;
 		NullCheck(L_8);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = L_8->___countdownText;
@@ -8873,14 +8946,14 @@ IL_0017:
 		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:592>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:592>
 		__this->___U3CiU3E5__2 = 3;
 		goto IL_0096;
 	}
 
 IL_0050:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:594>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:594>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_11 = V_1;
 		NullCheck(L_11);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = L_11->___countdownText;
@@ -8889,7 +8962,7 @@ IL_0050:
 		L_14 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_13, NULL);
 		NullCheck(L_12);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_12, L_14);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:595>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:595>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_15 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_15, (1.0f), NULL);
 		__this->___U3CU3E2__current = L_15;
@@ -8901,7 +8974,7 @@ IL_0050:
 IL_007f:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:592>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:592>
 		int32_t L_16 = __this->___U3CiU3E5__2;
 		V_2 = L_16;
 		int32_t L_17 = V_2;
@@ -8910,7 +8983,7 @@ IL_007f:
 
 IL_0096:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:592>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:592>
 		int32_t L_18 = __this->___U3CiU3E5__2;
 		if ((((int32_t)L_18) > ((int32_t)0)))
 		{
@@ -8918,14 +8991,14 @@ IL_0096:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:598>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:598>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB683C057E8DA801FA01FD23F5A07DAEFB5C796EA, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:599>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:599>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74445
+// Method Definition Index: 74453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__75_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7852E5854466D8310A1E5DBBB883E17669AA4571 (U3CShowClearPopupU3Ed__75_t060A5C939473CB2450156988B24DF8091EA65926* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8933,7 +9006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__75_Syst
 		return L_0;
 	}
 }
-// Method Definition Index: 74446
+// Method Definition Index: 74454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__75_System_Collections_IEnumerator_Reset_mF39F574E97DEA058B9DB6134970EF0106A6FE7ED (U3CShowClearPopupU3Ed__75_t060A5C939473CB2450156988B24DF8091EA65926* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8942,7 +9015,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__75_System_Collect
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CShowClearPopupU3Ed__75_System_Collections_IEnumerator_Reset_mF39F574E97DEA058B9DB6134970EF0106A6FE7ED_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 74447
+// Method Definition Index: 74455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__75_System_Collections_IEnumerator_get_Current_m3303BA436C8FB2BFA4C881FCA63D8B5DEC6CF160 (U3CShowClearPopupU3Ed__75_t060A5C939473CB2450156988B24DF8091EA65926* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8958,7 +9031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__75_Syst
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74448
+// Method Definition Index: 74456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSliderGameClearU3Ed__66__ctor_m7BA69D944025B15C7C7C3A6056D41A93EF8054F9 (U3CSliderGameClearU3Ed__66_t4238AE2630D98E67353260557FDEA743A30CE52E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -8968,14 +9041,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSliderGameClearU3Ed__66__ctor_m7BA69D
 		return;
 	}
 }
-// Method Definition Index: 74449
+// Method Definition Index: 74457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSliderGameClearU3Ed__66_System_IDisposable_Dispose_m6B2AE9F7FC98578D86CE648DE180A140097B4F89 (U3CSliderGameClearU3Ed__66_t4238AE2630D98E67353260557FDEA743A30CE52E* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74450
+// Method Definition Index: 74458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSliderGameClearU3Ed__66_MoveNext_m89C3E2E44919D64C4C5794F6D0254F698DB8B7B3 (U3CSliderGameClearU3Ed__66_t4238AE2630D98E67353260557FDEA743A30CE52E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9011,7 +9084,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSliderGameClearU3Ed__66_MoveNext_m89C
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:407>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:407>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (0.800000012f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -9023,24 +9096,24 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:408>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:408>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_5 = V_1;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = L_5->___sliderGame;
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:409>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:409>
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_7 = V_1;
 		CyberGame_t968E9667A1AE8A9A8E80C22AEBF79657FF48D381* L_8 = V_1;
 		NullCheck(L_8);
 		int32_t L_9 = L_8->___currentFile;
 		NullCheck(L_7);
 		CyberGame_ShowEvidencePopup_mBE604F0D82F70FF5A2D062870E029350F9DA9501(L_7, L_9, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:410>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/CyberGame.cs:410>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74451
+// Method Definition Index: 74459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSliderGameClearU3Ed__66_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCBF23B815393FFD19DA9D5067432918054ABB2D4 (U3CSliderGameClearU3Ed__66_t4238AE2630D98E67353260557FDEA743A30CE52E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9048,7 +9121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSliderGameClearU3Ed__66_Sys
 		return L_0;
 	}
 }
-// Method Definition Index: 74452
+// Method Definition Index: 74460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSliderGameClearU3Ed__66_System_Collections_IEnumerator_Reset_m0F84AE3D1E4AA3481268591F850E81A96AD27322 (U3CSliderGameClearU3Ed__66_t4238AE2630D98E67353260557FDEA743A30CE52E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9057,7 +9130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSliderGameClearU3Ed__66_System_Collec
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSliderGameClearU3Ed__66_System_Collections_IEnumerator_Reset_m0F84AE3D1E4AA3481268591F850E81A96AD27322_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 74453
+// Method Definition Index: 74461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSliderGameClearU3Ed__66_System_Collections_IEnumerator_get_Current_m5BA3D49288EAAFC1BC8FC598D142FABB839B86D8 (U3CSliderGameClearU3Ed__66_t4238AE2630D98E67353260557FDEA743A30CE52E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9073,105 +9146,105 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSliderGameClearU3Ed__66_Sys
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74454
+// Method Definition Index: 74462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DataManager_get_MaxPlayers_mFEA5CEB3E39414E083717C0D331FAAA040A6D9A0 (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:9>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:9>
 		int32_t L_0 = __this->___U3CMaxPlayersU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 74455
+// Method Definition Index: 74463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataManager_set_MaxPlayers_m2C7C9E2E0E71351A6C36966A3F645DBA65E635B4 (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:9>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:9>
 		int32_t L_0 = ___0_value;
 		__this->___U3CMaxPlayersU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 74456
+// Method Definition Index: 74464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DataManager_get_SelectedJob_m59F41D4462E9743FCB4B37795170FBE6936187FF (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:12>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:12>
 		String_t* L_0 = __this->___U3CSelectedJobU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 74457
+// Method Definition Index: 74465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataManager_set_SelectedJob_mE604590438B074710D7152E8FFA7AF315C1AB99B (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:12>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:12>
 		String_t* L_0 = ___0_value;
 		__this->___U3CSelectedJobU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSelectedJobU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 74458
+// Method Definition Index: 74466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* DataManager_get_CollectedEvidences_mA86F29F97E532447C6B3B249DB5243E2CD638F16 (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:15>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:15>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___U3CCollectedEvidencesU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 74459
+// Method Definition Index: 74467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataManager_set_CollectedEvidences_mC7FD65780E73F4FC167B1C32AC611845C9CEB743 (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:15>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:15>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___0_value;
 		__this->___U3CCollectedEvidencesU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCollectedEvidencesU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 74460
+// Method Definition Index: 74468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* DataManager_get_SharedEvidences_m36B8F4DDEE4A2ABC88945CE2BF8BC9C840398049 (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:19>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:19>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___U3CSharedEvidencesU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 74461
+// Method Definition Index: 74469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataManager_set_SharedEvidences_m31FC4E7B6CB657C5067D4D7AE35B75363B253C9C (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:19>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:19>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___0_value;
 		__this->___U3CSharedEvidencesU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSharedEvidencesU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 74462
+// Method Definition Index: 74470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DataManager_get_CurrentStage_mFA01B06D98C9D4B1CD7BA9286B207BF55447B837 (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:23>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:23>
 		int32_t L_0 = __this->___U3CCurrentStageU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 74463
+// Method Definition Index: 74471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataManager_set_CurrentStage_m75F2C7AE027CD7B2E171338B868EB19C81D4554D (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:23>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:23>
 		int32_t L_0 = ___0_value;
 		__this->___U3CCurrentStageU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 74464
+// Method Definition Index: 74472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataManager_Awake_mBED5EDC55313601164C69104F2D67B067AC6183E (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9182,7 +9255,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataManager_Awake_mBED5EDC55313601164C69
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:27>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:27>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_0 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9193,10 +9266,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataManager_Awake_mBED5EDC55313601164C69
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:29>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:29>
 		((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance), (void*)__this);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:30>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:30>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -9206,16 +9279,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataManager_Awake_mBED5EDC55313601164C69
 
 IL_001f:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:34>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:34>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_3, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:36>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 74465
+// Method Definition Index: 74473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataManager__ctor_mD735B7F80F3DE13E2BB45118CDA7FA619330DCDA (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9227,22 +9300,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataManager__ctor_mD735B7F80F3DE13E2BB45
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:9>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:9>
 		__this->___U3CMaxPlayersU3Ek__BackingField = 4;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:12>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:12>
 		__this->___U3CSelectedJobU3Ek__BackingField = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSelectedJobU3Ek__BackingField), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:16>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:16>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		__this->___U3CCollectedEvidencesU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCollectedEvidencesU3Ek__BackingField), (void*)L_0);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:20>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:20>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_1, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		__this->___U3CSharedEvidencesU3Ek__BackingField = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSharedEvidencesU3Ek__BackingField), (void*)L_1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:23>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:23>
 		__this->___U3CCurrentStageU3Ek__BackingField = 1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -9256,40 +9329,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataManager__ctor_mD735B7F80F3DE13E2BB45
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74466
+// Method Definition Index: 74474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogueManager_StartDialogue_m4E1763C6B60E07A24F7C58B7F7EB839A4019139D (DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* __this, List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* ___0_lines, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_onFinished, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:52>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:52>
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_0 = ___0_lines;
 		__this->___currentLines = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentLines), (void*)L_0);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:53>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:53>
 		__this->___currentIndex = 0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:54>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:54>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___1_onFinished;
 		__this->___onDialogueFinished = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___onDialogueFinished), (void*)L_1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:55>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:55>
 		__this->___isDialogueActive = (bool)1;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:57>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:57>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___dialoguePanel;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:58>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:58>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___nextIcon;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:60>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:60>
 		RuntimeObject* L_4;
 		L_4 = DialogueManager_FadeIn_m0292538B0EA96BB91C1C63701EFD21BB17C432EE(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
 		L_5 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_4, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:61>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:61>
 		return;
 	}
 }
-// Method Definition Index: 74467
+// Method Definition Index: 74475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DialogueManager_FadeIn_m0292538B0EA96BB91C1C63701EFD21BB17C432EE (DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9308,7 +9381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DialogueManager_FadeIn_m029253
 		return L_1;
 	}
 }
-// Method Definition Index: 74468
+// Method Definition Index: 74476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DialogueManager_FadeOut_m3EE995B861459C573DC6372E7397AA9A01524A3B (DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9327,7 +9400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DialogueManager_FadeOut_m3EE99
 		return L_1;
 	}
 }
-// Method Definition Index: 74469
+// Method Definition Index: 74477
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogueManager_ShowLine_m7B4A63FCA998F1FDEE88DA6653B3ACFD6637228D (DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9340,7 +9413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogueManager_ShowLine_m7B4A63FCA998F1
 	}
 	DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* V_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:123>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:123>
 		int32_t L_0 = ___0_index;
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_1 = __this->___currentLines;
 		NullCheck(L_1);
@@ -9352,32 +9425,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogueManager_ShowLine_m7B4A63FCA998F1
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:125>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:125>
 		RuntimeObject* L_3;
 		L_3 = DialogueManager_FadeOut_m3EE995B861459C573DC6372E7397AA9A01524A3B(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
 		L_4 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_3, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:126>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:126>
 		return;
 	}
 
 IL_001c:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:129>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:129>
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_5 = __this->___currentLines;
 		int32_t L_6 = ___0_index;
 		NullCheck(L_5);
 		DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* L_7;
 		L_7 = List_1_get_Item_m4F19E3F885DD2D6FB51C8A71D70D7352A64C72FA(L_5, L_6, List_1_get_Item_m4F19E3F885DD2D6FB51C8A71D70D7352A64C72FA_RuntimeMethod_var);
 		V_0 = L_7;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:132>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:132>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_8 = __this->___speakerNameText;
 		DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* L_9 = V_0;
 		NullCheck(L_9);
 		String_t* L_10 = L_9->___speakerName;
 		NullCheck(L_8);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_8, L_10);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:135>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:135>
 		DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* L_11 = V_0;
 		NullCheck(L_11);
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_12 = L_11->___characterSprite;
@@ -9390,7 +9463,7 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:136>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:136>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_14 = __this->___characterImage;
 		DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* L_15 = V_0;
 		NullCheck(L_15);
@@ -9401,7 +9474,7 @@ IL_001c:
 
 IL_0059:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:139>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:139>
 		DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* L_17 = V_0;
 		NullCheck(L_17);
 		String_t* L_18 = L_17->___text;
@@ -9409,11 +9482,11 @@ IL_0059:
 		L_19 = DialogueManager_TypeText_m4AF8FA17DB6FBE695CCBA62AA528D27F58371320(__this, L_18, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_20;
 		L_20 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_19, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:140>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:140>
 		return;
 	}
 }
-// Method Definition Index: 74470
+// Method Definition Index: 74478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DialogueManager_TypeText_m4AF8FA17DB6FBE695CCBA62AA528D27F58371320 (DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* __this, String_t* ___0_text, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9437,14 +9510,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DialogueManager_TypeText_m4AF8
 		return L_2;
 	}
 }
-// Method Definition Index: 74471
+// Method Definition Index: 74479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogueManager_Update_mA382C03AB88E0346D811295A3357869600B52286 (DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	Touch_t03E51455ED508492B3F278903A0114FA0E87B417 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:174>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:174>
 		bool L_0 = __this->___isDialogueActive;
 		if (L_0)
 		{
@@ -9452,15 +9525,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogueManager_Update_mA382C03AB88E0346
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:174>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:174>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:176>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:176>
 		V_0 = (bool)0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:179>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:179>
 		int32_t L_1;
 		L_1 = Input_get_touchCount_m057388BFC67A0F4CA53764B1022867ED81D01E39(NULL);
 		if ((((int32_t)L_1) <= ((int32_t)0)))
@@ -9480,13 +9553,13 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:180>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:180>
 		V_0 = (bool)1;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:186>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:186>
 		bool L_4 = V_0;
 		if (L_4)
 		{
@@ -9494,13 +9567,13 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:186>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:186>
 		return;
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:188>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:188>
 		bool L_5 = __this->___isTyping;
 		if (!L_5)
 		{
@@ -9508,15 +9581,15 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:191>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:191>
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:192>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:192>
 		__this->___isTyping = (bool)0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:193>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:193>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_6 = __this->___dialogueText;
 		NullCheck(L_6);
 		TMP_Text_set_maxVisibleCharacters_mEDD8DCB11D204F3FC10BFAC49BF6E8E09548358A(L_6, ((int32_t)9999), NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:194>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:194>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___nextIcon;
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
@@ -9525,17 +9598,17 @@ IL_0029:
 
 IL_005b:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:199>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:199>
 		int32_t L_8 = __this->___currentIndex;
 		__this->___currentIndex = ((int32_t)il2cpp_codegen_add(L_8, 1));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:200>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:200>
 		int32_t L_9 = __this->___currentIndex;
 		DialogueManager_ShowLine_m7B4A63FCA998F1FDEE88DA6653B3ACFD6637228D(__this, L_9, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:202>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:202>
 		return;
 	}
 }
-// Method Definition Index: 74472
+// Method Definition Index: 74480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogueManager__ctor_m219FBB101CA1818E97E7E97784E88402F20AE430 (DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9546,9 +9619,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogueManager__ctor_m219FBB101CA1818E9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:24>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:24>
 		__this->___charInterval = (0.0299999993f);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:41>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:41>
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_0 = (List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A*)il2cpp_codegen_object_new(List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A_il2cpp_TypeInfo_var);
 		List_1__ctor_m6A920FF138C542D066034F9C378412938D895EC7(L_0, List_1__ctor_m6A920FF138C542D066034F9C378412938D895EC7_RuntimeMethod_var);
 		__this->___currentLines = L_0;
@@ -9565,7 +9638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogueManager__ctor_m219FBB101CA1818E9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74473
+// Method Definition Index: 74481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogueLine__ctor_m9DF1A035F15A2A8DEDE6AA165A536CC9309C4317 (DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9581,7 +9654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogueLine__ctor_m9DF1A035F15A2A8DEDE6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74474
+// Method Definition Index: 74482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeInU3Ed__15__ctor_m900554A57F576C1FBD4C668790EA8981F81794ED (U3CFadeInU3Ed__15_t99870CFC34543F4DA2A61204D19C781E4E443A2F* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -9591,14 +9664,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeInU3Ed__15__ctor_m900554A57F576C1
 		return;
 	}
 }
-// Method Definition Index: 74475
+// Method Definition Index: 74483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeInU3Ed__15_System_IDisposable_Dispose_mB5D9E5A0829E7720AC77D6EAC8806FA6EB9520C5 (U3CFadeInU3Ed__15_t99870CFC34543F4DA2A61204D19C781E4E443A2F* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74476
+// Method Definition Index: 74484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadeInU3Ed__15_MoveNext_m771449F3EA3F7578D2DFCA405438A2B08D4A5BC3 (U3CFadeInU3Ed__15_t99870CFC34543F4DA2A61204D19C781E4E443A2F* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -9628,7 +9701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadeInU3Ed__15_MoveNext_m771449F3EA3F
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:68>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:68>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_4 = V_1;
 		NullCheck(L_4);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = L_4->___fadePanel;
@@ -9637,7 +9710,7 @@ IL_001a:
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:69>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:69>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_7 = V_1;
 		NullCheck(L_7);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_8 = L_7->___fadePanel;
@@ -9645,42 +9718,42 @@ IL_001a:
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9;
 		L_9 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_8);
 		__this->___U3CcU3E5__2 = L_9;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:70>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:70>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_10 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CcU3E5__2);
 		L_10->___a = (1.0f);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:71>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:71>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_11 = V_1;
 		NullCheck(L_11);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_12 = L_11->___fadePanel;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = __this->___U3CcU3E5__2;
 		NullCheck(L_12);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_12, L_13);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:73>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:73>
 		__this->___U3CtU3E5__3 = (0.0f);
 		goto IL_00d1;
 	}
 
 IL_0071:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:76>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:76>
 		float L_14 = __this->___U3CtU3E5__3;
 		float L_15;
 		L_15 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CtU3E5__3 = ((float)il2cpp_codegen_add(L_14, L_15));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:77>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:77>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_16 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CcU3E5__2);
 		float L_17 = __this->___U3CtU3E5__3;
 		float L_18;
 		L_18 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((1.0f), (0.0f), ((float)(L_17/(0.5f))), NULL);
 		L_16->___a = L_18;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:78>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:78>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_19 = V_1;
 		NullCheck(L_19);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_20 = L_19->___fadePanel;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_21 = __this->___U3CcU3E5__2;
 		NullCheck(L_20);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_20, L_21);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:79>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:79>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -9694,7 +9767,7 @@ IL_00ca:
 
 IL_00d1:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:74>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:74>
 		float L_22 = __this->___U3CtU3E5__3;
 		if ((((float)L_22) < ((float)(0.5f))))
 		{
@@ -9702,17 +9775,17 @@ IL_00d1:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:82>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:82>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_23 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CcU3E5__2);
 		L_23->___a = (0.0f);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:83>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:83>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_24 = V_1;
 		NullCheck(L_24);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_25 = L_24->___fadePanel;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26 = __this->___U3CcU3E5__2;
 		NullCheck(L_25);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_25, L_26);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:84>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:84>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_27 = V_1;
 		NullCheck(L_27);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_28 = L_27->___fadePanel;
@@ -9721,18 +9794,18 @@ IL_00d1:
 		L_29 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_28, NULL);
 		NullCheck(L_29);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_29, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:86>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:86>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_30 = V_1;
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_31 = V_1;
 		NullCheck(L_31);
 		int32_t L_32 = L_31->___currentIndex;
 		NullCheck(L_30);
 		DialogueManager_ShowLine_m7B4A63FCA998F1FDEE88DA6653B3ACFD6637228D(L_30, L_32, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:87>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:87>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74477
+// Method Definition Index: 74485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeInU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE20B114003A31CDB0A2221D07D9650FE17B87600 (U3CFadeInU3Ed__15_t99870CFC34543F4DA2A61204D19C781E4E443A2F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9740,7 +9813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeInU3Ed__15_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 74478
+// Method Definition Index: 74486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeInU3Ed__15_System_Collections_IEnumerator_Reset_m9A77CD03D895041975F16017467F215EAD0858AD (U3CFadeInU3Ed__15_t99870CFC34543F4DA2A61204D19C781E4E443A2F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9749,7 +9822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeInU3Ed__15_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CFadeInU3Ed__15_System_Collections_IEnumerator_Reset_m9A77CD03D895041975F16017467F215EAD0858AD_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 74479
+// Method Definition Index: 74487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeInU3Ed__15_System_Collections_IEnumerator_get_Current_mA2E389AA62850B651C9163CE4DBCEBD679FA1857 (U3CFadeInU3Ed__15_t99870CFC34543F4DA2A61204D19C781E4E443A2F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9765,7 +9838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeInU3Ed__15_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74480
+// Method Definition Index: 74488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeOutU3Ed__16__ctor_m8EB8F7A755F35902BE902EB9DA9EE58B77B886ED (U3CFadeOutU3Ed__16_tF3305C33E403EE6FC22AB43EA7B9364C5BA2B29C* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -9775,14 +9848,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeOutU3Ed__16__ctor_m8EB8F7A755F359
 		return;
 	}
 }
-// Method Definition Index: 74481
+// Method Definition Index: 74489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeOutU3Ed__16_System_IDisposable_Dispose_m6E281D006AFB46BE79DEF015114FBAE97DE9B810 (U3CFadeOutU3Ed__16_tF3305C33E403EE6FC22AB43EA7B9364C5BA2B29C* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74482
+// Method Definition Index: 74490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadeOutU3Ed__16_MoveNext_m67FB1AE7F86838A5F4CEA0BBF7BD1F64157FD530 (U3CFadeOutU3Ed__16_tF3305C33E403EE6FC22AB43EA7B9364C5BA2B29C* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -9814,7 +9887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadeOutU3Ed__16_MoveNext_m67FB1AE7F86
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:94>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:94>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_4 = V_1;
 		NullCheck(L_4);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = L_4->___fadePanel;
@@ -9823,7 +9896,7 @@ IL_001a:
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:95>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:95>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_7 = V_1;
 		NullCheck(L_7);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_8 = L_7->___fadePanel;
@@ -9831,42 +9904,42 @@ IL_001a:
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9;
 		L_9 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_8);
 		__this->___U3CcU3E5__2 = L_9;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:96>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:96>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_10 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CcU3E5__2);
 		L_10->___a = (0.0f);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:97>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:97>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_11 = V_1;
 		NullCheck(L_11);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_12 = L_11->___fadePanel;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = __this->___U3CcU3E5__2;
 		NullCheck(L_12);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_12, L_13);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:99>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:99>
 		__this->___U3CtU3E5__3 = (0.0f);
 		goto IL_00d1;
 	}
 
 IL_0071:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:102>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:102>
 		float L_14 = __this->___U3CtU3E5__3;
 		float L_15;
 		L_15 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CtU3E5__3 = ((float)il2cpp_codegen_add(L_14, L_15));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:103>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:103>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_16 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CcU3E5__2);
 		float L_17 = __this->___U3CtU3E5__3;
 		float L_18;
 		L_18 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((0.0f), (1.0f), ((float)(L_17/(0.5f))), NULL);
 		L_16->___a = L_18;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:104>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:104>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_19 = V_1;
 		NullCheck(L_19);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_20 = L_19->___fadePanel;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_21 = __this->___U3CcU3E5__2;
 		NullCheck(L_20);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_20, L_21);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:105>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:105>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -9880,7 +9953,7 @@ IL_00ca:
 
 IL_00d1:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:100>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:100>
 		float L_22 = __this->___U3CtU3E5__3;
 		if ((((float)L_22) < ((float)(0.5f))))
 		{
@@ -9888,27 +9961,27 @@ IL_00d1:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:108>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:108>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_23 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CcU3E5__2);
 		L_23->___a = (1.0f);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:109>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:109>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_24 = V_1;
 		NullCheck(L_24);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_25 = L_24->___fadePanel;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26 = __this->___U3CcU3E5__2;
 		NullCheck(L_25);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_25, L_26);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:111>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:111>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_27 = V_1;
 		NullCheck(L_27);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = L_27->___dialoguePanel;
 		NullCheck(L_28);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_28, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:112>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:112>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_29 = V_1;
 		NullCheck(L_29);
 		L_29->___isDialogueActive = (bool)0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:115>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:115>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_30 = V_1;
 		NullCheck(L_30);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_31 = L_30->___onDialogueFinished;
@@ -9932,11 +10005,11 @@ IL_011e:
 
 IL_0123:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:116>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:116>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74483
+// Method Definition Index: 74491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeOutU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mFF59E81C54AF519BE7A5F45AE422598AB4966F82 (U3CFadeOutU3Ed__16_tF3305C33E403EE6FC22AB43EA7B9364C5BA2B29C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9944,7 +10017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeOutU3Ed__16_System_Coll
 		return L_0;
 	}
 }
-// Method Definition Index: 74484
+// Method Definition Index: 74492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeOutU3Ed__16_System_Collections_IEnumerator_Reset_m8822FBC84366D49ABE0E8A3B383CAE80192C3CCB (U3CFadeOutU3Ed__16_tF3305C33E403EE6FC22AB43EA7B9364C5BA2B29C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9953,7 +10026,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeOutU3Ed__16_System_Collections_IE
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CFadeOutU3Ed__16_System_Collections_IEnumerator_Reset_m8822FBC84366D49ABE0E8A3B383CAE80192C3CCB_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 74485
+// Method Definition Index: 74493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeOutU3Ed__16_System_Collections_IEnumerator_get_Current_mB19112F554177E2343E56A64D2146A17A92C6071 (U3CFadeOutU3Ed__16_tF3305C33E403EE6FC22AB43EA7B9364C5BA2B29C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9969,7 +10042,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeOutU3Ed__16_System_Coll
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74486
+// Method Definition Index: 74494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTypeTextU3Ed__18__ctor_mF4C3F287991484F4AAE2F38D17D947DB112C49BE (U3CTypeTextU3Ed__18_t4A0663A97181831D85C154EDF72240ECCD5DB989* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -9979,14 +10052,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTypeTextU3Ed__18__ctor_mF4C3F28799148
 		return;
 	}
 }
-// Method Definition Index: 74487
+// Method Definition Index: 74495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTypeTextU3Ed__18_System_IDisposable_Dispose_m47E54F21490C4B8A5DCD78447E96947B1C3ECE6F (U3CTypeTextU3Ed__18_t4A0663A97181831D85C154EDF72240ECCD5DB989* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74488
+// Method Definition Index: 74496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CTypeTextU3Ed__18_MoveNext_m2EBDB3A7DE5DEF1C8557849AB41189A1F8C2E3BB (U3CTypeTextU3Ed__18_t4A0663A97181831D85C154EDF72240ECCD5DB989* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10025,35 +10098,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CTypeTextU3Ed__18_MoveNext_m2EBDB3A7DE
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:147>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:147>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_4 = V_1;
 		NullCheck(L_4);
 		L_4->___isTyping = (bool)1;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:148>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:148>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_5 = V_1;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = L_5->___nextIcon;
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:149>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:149>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_7 = V_1;
 		NullCheck(L_7);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_8 = L_7->___dialogueText;
 		NullCheck(L_8);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_8, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:152>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:152>
 		__this->___U3CvisibleCountU3E5__2 = 0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:153>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:153>
 		String_t* L_9 = __this->___text;
 		V_2 = L_9;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:155>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:155>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_10 = V_1;
 		NullCheck(L_10);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_11 = L_10->___dialogueText;
 		String_t* L_12 = V_2;
 		NullCheck(L_11);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_11, L_12);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:156>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:156>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_13 = V_1;
 		NullCheck(L_13);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_14 = L_13->___dialogueText;
@@ -10064,19 +10137,19 @@ IL_001a:
 
 IL_006c:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:160>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:160>
 		int32_t L_15 = __this->___U3CvisibleCountU3E5__2;
 		V_3 = L_15;
 		int32_t L_16 = V_3;
 		__this->___U3CvisibleCountU3E5__2 = ((int32_t)il2cpp_codegen_add(L_16, 1));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:161>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:161>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_17 = V_1;
 		NullCheck(L_17);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_18 = L_17->___dialogueText;
 		int32_t L_19 = __this->___U3CvisibleCountU3E5__2;
 		NullCheck(L_18);
 		TMP_Text_set_maxVisibleCharacters_mEDD8DCB11D204F3FC10BFAC49BF6E8E09548358A(L_18, L_19, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:162>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:162>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_20 = V_1;
 		NullCheck(L_20);
 		float L_21 = L_20->___charInterval;
@@ -10095,7 +10168,7 @@ IL_00a7:
 
 IL_00ae:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:158>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:158>
 		int32_t L_23 = __this->___U3CvisibleCountU3E5__2;
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_24 = V_1;
 		NullCheck(L_24);
@@ -10111,21 +10184,21 @@ IL_00ae:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:165>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:165>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_28 = V_1;
 		NullCheck(L_28);
 		L_28->___isTyping = (bool)0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:166>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:166>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_29 = V_1;
 		NullCheck(L_29);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = L_29->___nextIcon;
 		NullCheck(L_30);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_30, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:167>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DialogueManager.cs:167>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74489
+// Method Definition Index: 74497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTypeTextU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m02A4938B16332B952C684CDE7DDC9521D8783AAB (U3CTypeTextU3Ed__18_t4A0663A97181831D85C154EDF72240ECCD5DB989* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10133,7 +10206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTypeTextU3Ed__18_System_Col
 		return L_0;
 	}
 }
-// Method Definition Index: 74490
+// Method Definition Index: 74498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTypeTextU3Ed__18_System_Collections_IEnumerator_Reset_mD2DDD1F82D70C41F7767E6530BF1F8D7BE180909 (U3CTypeTextU3Ed__18_t4A0663A97181831D85C154EDF72240ECCD5DB989* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10142,7 +10215,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTypeTextU3Ed__18_System_Collections_I
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CTypeTextU3Ed__18_System_Collections_IEnumerator_Reset_mD2DDD1F82D70C41F7767E6530BF1F8D7BE180909_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 74491
+// Method Definition Index: 74499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTypeTextU3Ed__18_System_Collections_IEnumerator_get_Current_m6F776A7F64EAE35E3BB61D36C45F936C56CB376E (U3CTypeTextU3Ed__18_t4A0663A97181831D85C154EDF72240ECCD5DB989* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10158,7 +10231,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTypeTextU3Ed__18_System_Col
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74492
+// Method Definition Index: 74500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DraggableFingerprint_Awake_m22E4F760986588C4F4749738F0EF6BA280051776 (DraggableFingerprint_t94428AA67EBF1A26E63B02BB1DA4AB7EB4FA42C5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10172,22 +10245,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DraggableFingerprint_Awake_m22E4F7609865
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:16>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:16>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0;
 		L_0 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(__this, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		__this->___rectTransform = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___rectTransform), (void*)L_0);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:17>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:17>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_1;
 		L_1 = Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2(__this, Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2_RuntimeMethod_var);
 		__this->___canvasGroup = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___canvasGroup), (void*)L_1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:18>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:18>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_2;
 		L_2 = Component_GetComponentInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m5FB554DD7C0F662DAB84C0F292B221CAE3F0A5B3(__this, Component_GetComponentInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m5FB554DD7C0F662DAB84C0F292B221CAE3F0A5B3_RuntimeMethod_var);
 		__this->___canvas = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___canvas), (void*)L_2);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:21>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:21>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_3 = __this->___canvasGroup;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -10198,7 +10271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DraggableFingerprint_Awake_m22E4F7609865
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:22>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:22>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_5);
@@ -10210,21 +10283,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DraggableFingerprint_Awake_m22E4F7609865
 
 IL_0043:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:23>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 74493
+// Method Definition Index: 74501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DraggableFingerprint_OnBeginDrag_mC8C8ED31CAED4679C4694F208EC4C1BDEB27E338 (DraggableFingerprint_t94428AA67EBF1A26E63B02BB1DA4AB7EB4FA42C5* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:28>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:28>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___rectTransform;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_0, NULL);
 		__this->___originalPosition = L_1;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:29>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:29>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_2);
@@ -10232,7 +10305,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DraggableFingerprint_OnBeginDrag_mC8C8ED
 		L_3 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_2, NULL);
 		__this->___originalParent = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___originalParent), (void*)L_3);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:32>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:32>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_5 = __this->___canvas;
@@ -10241,24 +10314,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DraggableFingerprint_OnBeginDrag_mC8C8ED
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_5, NULL);
 		NullCheck(L_4);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_4, L_6, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:33>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:33>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
 		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_7);
 		Transform_SetAsLastSibling_m848AF1A0B4C7912FE88D8CBCF92B83D57B2B917E(L_7, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:36>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:36>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_8 = __this->___canvasGroup;
 		NullCheck(L_8);
 		CanvasGroup_set_blocksRaycasts_m6C17F35782D16AE3FC42FCD1A4D68E1C4A4776E0(L_8, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:37>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 74494
+// Method Definition Index: 74502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DraggableFingerprint_OnDrag_m03AA110D5E610DEE3D2DD75E81449AB4672BE780 (DraggableFingerprint_t94428AA67EBF1A26E63B02BB1DA4AB7EB4FA42C5* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:42>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:42>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___rectTransform;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = L_0;
 		NullCheck(L_1);
@@ -10278,44 +10351,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DraggableFingerprint_OnDrag_m03AA110D5E6
 		L_8 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_2, L_7, NULL);
 		NullCheck(L_1);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_1, L_8, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:43>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 74495
+// Method Definition Index: 74503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DraggableFingerprint_OnEndDrag_mA34ABC8B99A285068EA81546407A8591537F2936 (DraggableFingerprint_t94428AA67EBF1A26E63B02BB1DA4AB7EB4FA42C5* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:48>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:48>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___canvasGroup;
 		NullCheck(L_0);
 		CanvasGroup_set_blocksRaycasts_m6C17F35782D16AE3FC42FCD1A4D68E1C4A4776E0(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:51>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:51>
 		DraggableFingerprint_ReturnToOriginal_mC2F3D1E7C18762809E01F06E71A562AB0ECFFACB(__this, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:52>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 74496
+// Method Definition Index: 74504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DraggableFingerprint_ReturnToOriginal_mC2F3D1E7C18762809E01F06E71A562AB0ECFFACB (DraggableFingerprint_t94428AA67EBF1A26E63B02BB1DA4AB7EB4FA42C5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:56>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:56>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___originalParent;
 		NullCheck(L_0);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_0, L_1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:57>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:57>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = __this->___rectTransform;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = __this->___originalPosition;
 		NullCheck(L_2);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_2, L_3, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:58>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DraggableFingerprint.cs:58>
 		return;
 	}
 }
-// Method Definition Index: 74497
+// Method Definition Index: 74505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DraggableFingerprint__ctor_m676D70A21C194767DA7C77F4A192D6CCCE7666BA (DraggableFingerprint_t94428AA67EBF1A26E63B02BB1DA4AB7EB4FA42C5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10331,7 +10404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DraggableFingerprint__ctor_m676D70A21C19
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74498
+// Method Definition Index: 74506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FingerprintDropZone_OnDrop_m6C4491668C8122CEF3DBAD18F325131802999594 (FingerprintDropZone_t999B6E767462B83B90E45B291EEF438E6690E9DD* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10348,8 +10421,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FingerprintDropZone_OnDrop_m6C4491668C81
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* G_B1_0 = NULL;
 	DraggableFingerprint_t94428AA67EBF1A26E63B02BB1DA4AB7EB4FA42C5* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:12>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:13>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:12>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:13>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___0_eventData;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
@@ -10378,7 +10451,7 @@ IL_000d:
 IL_0012:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:15>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:15>
 		DraggableFingerprint_t94428AA67EBF1A26E63B02BB1DA4AB7EB4FA42C5* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -10389,18 +10462,18 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:15>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:15>
 		return;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:18>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:18>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_6;
 		L_6 = Object_FindFirstObjectByType_TisForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F_m47CBE2B9636FA59CBE31BE9BBCB4F49A46097579(Object_FindFirstObjectByType_TisForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F_m47CBE2B9636FA59CBE31BE9BBCB4F49A46097579_RuntimeMethod_var);
 		V_1 = L_6;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:19>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:19>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_7 = V_1;
 		bool L_8;
 		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -10410,7 +10483,7 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:21>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:21>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_9 = V_1;
 		String_t* L_10 = __this->___suspectName;
 		DraggableFingerprint_t94428AA67EBF1A26E63B02BB1DA4AB7EB4FA42C5* L_11 = V_0;
@@ -10420,11 +10493,11 @@ IL_001d:
 
 IL_0039:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:23>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/FingerprintDropZone.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 74499
+// Method Definition Index: 74507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FingerprintDropZone__ctor_m536883A30F17E8DA37938F0272B2FEA427CA696E (FingerprintDropZone_t999B6E767462B83B90E45B291EEF438E6690E9DD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10440,7 +10513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FingerprintDropZone__ctor_m536883A30F17E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74500
+// Method Definition Index: 74508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_Start_mAB2743DCAB8F4DCFCCD726899A2E8ED50E1F2296 (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10464,32 +10537,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_Start_mAB2743DCAB8F4DCFCCD7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:137>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:137>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___guidePopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:138>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:138>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_1 = __this->___exclamationBtn1;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:139>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:139>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___exclamationBtn2;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:140>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:140>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = __this->___exclamationBtn3;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:141>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:141>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = __this->___startButton;
 		NullCheck(L_7);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_8;
@@ -10498,46 +10571,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_Start_mAB2743DCAB8F4DCFCCD7
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_9, __this, (intptr_t)((void*)ForensicGame_OnStartClicked_mB2E588F9B8646C13A84842F9E55A83F3F83F997B_RuntimeMethod_var), NULL);
 		NullCheck(L_8);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_8, L_9, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:142>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:142>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___dimBackground;
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:143>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:143>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___fingerprintImage1;
 		NullCheck(L_11);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:144>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:144>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___fingerprintImage2;
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:145>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:145>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___fingerprintImage3;
 		NullCheck(L_13);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:146>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:146>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_14 = __this->___powderButton;
 		NullCheck(L_14);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
 		L_15 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_14, NULL);
 		NullCheck(L_15);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:147>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:147>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___evidencePopup;
 		NullCheck(L_16);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:148>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:148>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___afisPanel;
 		NullCheck(L_17);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:149>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:149>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___clearTitleText;
 		NullCheck(L_18);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:150>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:150>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___clearDescText;
 		NullCheck(L_19);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_19, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:151>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:151>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_20 = __this->___countdownText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_21;
@@ -10548,7 +10621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_Start_mAB2743DCAB8F4DCFCCD7
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:152>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:152>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_22 = __this->___countdownText;
 		NullCheck(L_22);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
@@ -10559,11 +10632,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_Start_mAB2743DCAB8F4DCFCCD7
 
 IL_00eb:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:153>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:153>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->___gaugeBackground;
 		NullCheck(L_24);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_24, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:154>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:154>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_25 = __this->___gaugeFill;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_26;
@@ -10574,7 +10647,7 @@ IL_00eb:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:154>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:154>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_27 = __this->___gaugeFill;
 		NullCheck(L_27);
 		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_27, (0.0f), NULL);
@@ -10582,7 +10655,7 @@ IL_00eb:
 
 IL_0115:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:157>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:157>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_28 = __this->___foundSprite;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_29;
@@ -10593,7 +10666,7 @@ IL_0115:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:157>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:157>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_30;
 		L_30 = Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A(_stringLiteral7CE42D8CDC19E8C93F8824F563923C253B25B2FC, Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A_RuntimeMethod_var);
 		__this->___foundSprite = L_30;
@@ -10602,7 +10675,7 @@ IL_0115:
 
 IL_0133:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:158>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:158>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_31 = __this->___fpSprite1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_32;
@@ -10613,7 +10686,7 @@ IL_0133:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:158>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:158>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_33;
 		L_33 = Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A(_stringLiteralFD4440EC2282BAAC5538CF1EA1171F60A502F4BE, Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A_RuntimeMethod_var);
 		__this->___fpSprite1 = L_33;
@@ -10622,7 +10695,7 @@ IL_0133:
 
 IL_0151:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:159>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:159>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_34 = __this->___fpSprite2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_35;
@@ -10633,7 +10706,7 @@ IL_0151:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:159>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:159>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_36;
 		L_36 = Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A(_stringLiteralB0365E7909F1C38967C87C1C9FC3F6373A33654D, Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A_RuntimeMethod_var);
 		__this->___fpSprite2 = L_36;
@@ -10642,7 +10715,7 @@ IL_0151:
 
 IL_016f:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:160>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:160>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_37 = __this->___fpSprite3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_38;
@@ -10653,7 +10726,7 @@ IL_016f:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:160>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:160>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_39;
 		L_39 = Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A(_stringLiteral4CACA0BB03F225E920D6F76E2B87887DE84E2D99, Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A_RuntimeMethod_var);
 		__this->___fpSprite3 = L_39;
@@ -10662,7 +10735,7 @@ IL_016f:
 
 IL_018d:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:161>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:161>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_40 = __this->___fpSprite4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_41;
@@ -10673,7 +10746,7 @@ IL_018d:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:161>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:161>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_42;
 		L_42 = Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A(_stringLiteral3FEACCE9A2502EA8C9F314167EA5330C77BCE58C, Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A_RuntimeMethod_var);
 		__this->___fpSprite4 = L_42;
@@ -10682,7 +10755,7 @@ IL_018d:
 
 IL_01ab:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:163>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:163>
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_43 = (SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B*)(SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B*)SZArrayNew(SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B_il2cpp_TypeInfo_var, (uint32_t)3);
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_44 = L_43;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_45 = __this->___fpSprite3;
@@ -10698,7 +10771,7 @@ IL_01ab:
 		(L_48)->SetAt(static_cast<il2cpp_array_size_t>(2), (Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99*)L_49);
 		__this->___locationSprites = L_48;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___locationSprites), (void*)L_48);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:165>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:165>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_50 = __this->___fpImage1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_51;
@@ -10719,7 +10792,7 @@ IL_01ab:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:165>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:165>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_54 = __this->___fpImage1;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_55 = __this->___fpSprite1;
 		NullCheck(L_54);
@@ -10728,7 +10801,7 @@ IL_01ab:
 
 IL_01ff:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:166>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:166>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_56 = __this->___fpImage2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_57;
@@ -10749,7 +10822,7 @@ IL_01ff:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:166>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:166>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_60 = __this->___fpImage2;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_61 = __this->___fpSprite2;
 		NullCheck(L_60);
@@ -10758,7 +10831,7 @@ IL_01ff:
 
 IL_022c:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:167>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:167>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_62 = __this->___fpImage3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_63;
@@ -10779,7 +10852,7 @@ IL_022c:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:167>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:167>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_66 = __this->___fpImage3;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_67 = __this->___fpSprite3;
 		NullCheck(L_66);
@@ -10788,7 +10861,7 @@ IL_022c:
 
 IL_0259:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:168>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:168>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_68 = __this->___fpImage4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_69;
@@ -10809,7 +10882,7 @@ IL_0259:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:168>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:168>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_72 = __this->___fpImage4;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_73 = __this->___fpSprite4;
 		NullCheck(L_72);
@@ -10818,7 +10891,7 @@ IL_0259:
 
 IL_0286:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:170>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:170>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_74 = __this->___exclamationBtn1;
 		NullCheck(L_74);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_75;
@@ -10827,7 +10900,7 @@ IL_0286:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_76, __this, (intptr_t)((void*)ForensicGame_U3CStartU3Eb__53_0_m670F106CAD22B5950FFC676657CC3E7B3BF0EED8_RuntimeMethod_var), NULL);
 		NullCheck(L_75);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_75, L_76, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:171>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:171>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_77 = __this->___exclamationBtn2;
 		NullCheck(L_77);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_78;
@@ -10836,7 +10909,7 @@ IL_0286:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_79, __this, (intptr_t)((void*)ForensicGame_U3CStartU3Eb__53_1_mB30B4146B0B7CC5E21B4B29B17FCAB67814E9904_RuntimeMethod_var), NULL);
 		NullCheck(L_78);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_78, L_79, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:172>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:172>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_80 = __this->___exclamationBtn3;
 		NullCheck(L_80);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_81;
@@ -10845,7 +10918,7 @@ IL_0286:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_82, __this, (intptr_t)((void*)ForensicGame_U3CStartU3Eb__53_2_mE68B3BD49DF097DC2E58B2F351A1EC979ECC5B25_RuntimeMethod_var), NULL);
 		NullCheck(L_81);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_81, L_82, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:174>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:174>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_83 = __this->___powderButton;
 		NullCheck(L_83);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_84;
@@ -10854,7 +10927,7 @@ IL_0286:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_85, __this, (intptr_t)((void*)ForensicGame_OnPowderClicked_m77D75FAA18433292823A8680D5D9F884826ABEB5_RuntimeMethod_var), NULL);
 		NullCheck(L_84);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_84, L_85, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:175>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:175>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_86 = __this->___confirmButton;
 		NullCheck(L_86);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_87;
@@ -10863,44 +10936,44 @@ IL_0286:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_88, __this, (intptr_t)((void*)ForensicGame_OnConfirmClicked_mAD342D6656CEF9EF16683F31200C73CAAC00157B_RuntimeMethod_var), NULL);
 		NullCheck(L_87);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_87, L_88, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:176>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:176>
 		return;
 	}
 }
-// Method Definition Index: 74501
+// Method Definition Index: 74509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnStartClicked_mB2E588F9B8646C13A84842F9E55A83F3F83F997B (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:183>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:183>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___guidePopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:184>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:184>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_1 = __this->___exclamationBtn1;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:185>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:185>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___exclamationBtn2;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:186>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:186>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = __this->___exclamationBtn3;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:187>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:187>
 		return;
 	}
 }
-// Method Definition Index: 74502
+// Method Definition Index: 74510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnExclamationClicked_m5B4D8E78D70F23C814A859CD2C1820B3573234BE (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, int32_t ___0_location, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10921,7 +10994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnExclamationClicked_m5B4D8
 	RuntimeObject* V_2 = NULL;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:194>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:194>
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_0 = __this->___locationCleared;
 		int32_t L_1 = ___0_location;
 		NullCheck(L_0);
@@ -10933,26 +11006,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnExclamationClicked_m5B4D8
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:194>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:194>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:196>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:196>
 		int32_t L_3 = ___0_location;
 		__this->___currentLocation = L_3;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:197>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:197>
 		__this->___powderSpread = (bool)0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:198>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:198>
 		__this->___fingerFound = (bool)0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:199>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:199>
 		__this->___brushCount = 0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:200>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:200>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		L_4 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___lastBrushPos = L_4;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:202>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:202>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___dimBackground;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
@@ -10979,39 +11052,39 @@ IL_000f:
 
 IL_0056:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:207>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:207>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = __this->___brushArea1;
 		__this->___currentBrushArea = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentBrushArea), (void*)L_7);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:208>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:208>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___fingerprintImage1;
 		__this->___currentFingerprintImage = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentFingerprintImage), (void*)L_8);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:209>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:209>
 		goto IL_00a2;
 	}
 
 IL_0070:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:211>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:211>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = __this->___brushArea2;
 		__this->___currentBrushArea = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentBrushArea), (void*)L_9);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:212>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:212>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___fingerprintImage2;
 		__this->___currentFingerprintImage = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentFingerprintImage), (void*)L_10);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:213>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:213>
 		goto IL_00a2;
 	}
 
 IL_008a:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:215>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:215>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_11 = __this->___brushArea3;
 		__this->___currentBrushArea = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentBrushArea), (void*)L_11);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:216>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:216>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___fingerprintImage3;
 		__this->___currentFingerprintImage = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentFingerprintImage), (void*)L_12);
@@ -11019,13 +11092,13 @@ IL_008a:
 
 IL_00a2:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:220>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:220>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___currentFingerprintImage;
 		NullCheck(L_13);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_14;
 		L_14 = GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D(L_13, GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D_RuntimeMethod_var);
 		V_0 = L_14;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:221>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:221>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_15 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -11036,15 +11109,15 @@ IL_00a2:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:223>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:223>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_17 = V_0;
 		NullCheck(L_17);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18;
 		L_18 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_17);
 		V_1 = L_18;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:224>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:224>
 		(&V_1)->___a = (0.0f);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:225>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:225>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_19 = V_0;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20 = V_1;
 		NullCheck(L_19);
@@ -11053,11 +11126,11 @@ IL_00a2:
 
 IL_00d1:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:227>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:227>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___currentFingerprintImage;
 		NullCheck(L_21);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:229>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:229>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = __this->___brushContainer;
 		NullCheck(L_22);
 		RuntimeObject* L_23;
@@ -11099,12 +11172,12 @@ IL_011a:
 
 IL_00eb_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:229>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:229>
 				RuntimeObject* L_27 = V_2;
 				NullCheck(L_27);
 				RuntimeObject* L_28;
 				L_28 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_27);
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:230>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:230>
 				NullCheck(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_28, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)));
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29;
 				L_29 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_28, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), NULL);
@@ -11114,7 +11187,7 @@ IL_00eb_1:
 
 IL_0100_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:229>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:229>
 				RuntimeObject* L_30 = V_2;
 				NullCheck(L_30);
 				bool L_31;
@@ -11136,26 +11209,26 @@ IL_0100_1:
 
 IL_011b:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:232>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:232>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_32 = __this->___powderButton;
 		NullCheck(L_32);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33;
 		L_33 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_32, NULL);
 		NullCheck(L_33);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_33, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:233>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:233>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_34 = __this->___powderBtnText;
 		NullCheck(L_34);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_34, _stringLiteralC29A8C5E083AA23534D036F16ACD342F6676FDF5);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:234>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:234>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_35 = __this->___powderButton;
 		NullCheck(L_35);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_35, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:237>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:237>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = __this->___gaugeBackground;
 		NullCheck(L_36);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_36, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:238>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:238>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_37 = __this->___gaugeFill;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_38;
@@ -11166,7 +11239,7 @@ IL_011b:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:238>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:238>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_39 = __this->___gaugeFill;
 		NullCheck(L_39);
 		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_39, (0.0f), NULL);
@@ -11174,11 +11247,11 @@ IL_011b:
 
 IL_0172:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:239>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:239>
 		return;
 	}
 }
-// Method Definition Index: 74503
+// Method Definition Index: 74511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnPowderClicked_m77D75FAA18433292823A8680D5D9F884826ABEB5 (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11188,7 +11261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnPowderClicked_m77D75FAA18
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:246>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:246>
 		bool L_0 = __this->___powderSpread;
 		if (!L_0)
 		{
@@ -11196,27 +11269,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnPowderClicked_m77D75FAA18
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:246>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:246>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:247>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:247>
 		__this->___powderSpread = (bool)1;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:248>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:248>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_1 = __this->___powderButton;
 		NullCheck(L_1);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:249>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:249>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___powderBtnText;
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, _stringLiteralE97FB8CD2B65B89F9866F983992FE6C058543A32);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:250>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:250>
 		return;
 	}
 }
-// Method Definition Index: 74504
+// Method Definition Index: 74512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_Update_m656B1E609155FB54A1E58EACBF25B7FBE2D3DF26 (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11228,7 +11301,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_Update_m656B1E609155FB54A1E
 	Touch_t03E51455ED508492B3F278903A0114FA0E87B417 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:257>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:257>
 		bool L_0 = __this->___powderSpread;
 		if (!L_0)
 		{
@@ -11255,13 +11328,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_Update_m656B1E609155FB54A1E
 
 IL_001e:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:257>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:257>
 		return;
 	}
 
 IL_001f:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:260>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:260>
 		int32_t L_4;
 		L_4 = Input_get_touchCount_m057388BFC67A0F4CA53764B1022867ED81D01E39(NULL);
 		if ((((int32_t)L_4) <= ((int32_t)0)))
@@ -11270,11 +11343,11 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:262>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:262>
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_5;
 		L_5 = Input_GetTouch_m75D99FE801A94279874FA8DC6B6ADAD35F5123B1(0, NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:263>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:263>
 		int32_t L_6;
 		L_6 = Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0((&V_0), NULL);
 		if ((((int32_t)L_6) == ((int32_t)1)))
@@ -11293,7 +11366,7 @@ IL_001f:
 
 IL_0041:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:264>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:264>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		L_8 = Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A((&V_0), NULL);
 		ForensicGame_OnBrush_mE9638B40AC4426411D9E2A9106437731B5D45F99(__this, L_8, NULL);
@@ -11301,11 +11374,11 @@ IL_0041:
 
 IL_004e:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:270>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:270>
 		return;
 	}
 }
-// Method Definition Index: 74505
+// Method Definition Index: 74513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnBrush_mE9638B40AC4426411D9E2A9106437731B5D45F99 (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_screenPos, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11331,7 +11404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnBrush_mE9638B40AC4426411D
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* G_B7_0 = NULL;
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B9_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:277>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:277>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_screenPos;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = __this->___lastBrushPos;
 		float L_2;
@@ -11343,17 +11416,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnBrush_mE9638B40AC4426411D
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:277>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:277>
 		return;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:278>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:278>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_screenPos;
 		__this->___lastBrushPos = L_4;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:280>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:281>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:280>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:281>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->___currentBrushArea;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___0_screenPos;
 		il2cpp_codegen_runtime_class_init_inline(RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C2AA98AB61244_il2cpp_TypeInfo_var);
@@ -11365,13 +11438,13 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:281>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:281>
 		return;
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:283>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:283>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8 = __this->___currentBrushArea;
 		NullCheck(L_8);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_9;
@@ -11387,20 +11460,20 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:283>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:283>
 		return;
 	}
 
 IL_0045:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:285>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:285>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___brushCirclePrefab;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->___brushContainer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_12, L_13, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:286>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:287>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:286>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:287>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = L_14;
 		NullCheck(L_15);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_16;
@@ -11414,18 +11487,18 @@ IL_0045:
 		L_20 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_18, L_19, NULL);
 		NullCheck(L_16);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_16, L_20, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:288>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:288>
 		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_15, (1.5f), NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:290>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:290>
 		int32_t L_21 = __this->___brushCount;
 		__this->___brushCount = ((int32_t)il2cpp_codegen_add(L_21, 1));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:292>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:292>
 		int32_t L_22 = __this->___brushCount;
 		int32_t L_23 = __this->___brushCountToReveal;
 		float L_24;
 		L_24 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(((float)L_22)/((float)L_23))), NULL);
 		V_1 = L_24;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:293>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:293>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___currentFingerprintImage;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = L_25;
 		if (L_26)
@@ -11451,7 +11524,7 @@ IL_00ac:
 IL_00b1:
 	{
 		V_2 = G_B9_0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:294>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:294>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_28 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_29;
@@ -11462,16 +11535,16 @@ IL_00b1:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:296>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:296>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_30 = V_2;
 		NullCheck(L_30);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_31;
 		L_31 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_30);
 		V_4 = L_31;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:297>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:297>
 		float L_32 = V_1;
 		(&V_4)->___a = L_32;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:298>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:298>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_33 = V_2;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34 = V_4;
 		NullCheck(L_33);
@@ -11480,7 +11553,7 @@ IL_00b1:
 
 IL_00d3:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:302>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:302>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_35 = __this->___gaugeFill;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_36;
@@ -11491,7 +11564,7 @@ IL_00d3:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:303>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:303>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_37 = __this->___gaugeFill;
 		float L_38 = V_1;
 		NullCheck(L_37);
@@ -11500,7 +11573,7 @@ IL_00d3:
 
 IL_00ed:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:305>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:305>
 		int32_t L_39 = __this->___brushCount;
 		int32_t L_40 = __this->___brushCountToReveal;
 		if ((!(((float)((float)L_39)) >= ((float)((float)il2cpp_codegen_multiply(((float)L_40), (0.800000012f)))))))
@@ -11516,9 +11589,9 @@ IL_00ed:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:307>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:307>
 		__this->___fingerFound = (bool)1;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:308>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:308>
 		RuntimeObject* L_42;
 		L_42 = ForensicGame_ShowFingerprintFound_m615965E86585124A12895EC22C2FA4378BC17BF1(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_43;
@@ -11527,11 +11600,11 @@ IL_00ed:
 
 IL_011f:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:310>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:310>
 		return;
 	}
 }
-// Method Definition Index: 74506
+// Method Definition Index: 74514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ForensicGame_ShowFingerprintFound_m615965E86585124A12895EC22C2FA4378BC17BF1 (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11550,7 +11623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ForensicGame_ShowFingerprintFo
 		return L_1;
 	}
 }
-// Method Definition Index: 74507
+// Method Definition Index: 74515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnConfirmClicked_mAD342D6656CEF9EF16683F31200C73CAAC00157B (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11562,15 +11635,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnConfirmClicked_mAD342D665
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:333>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:333>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___evidencePopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:334>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:334>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___gaugeBackground;
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:336>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:336>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___foundFingerprintImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -11595,7 +11668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnConfirmClicked_mAD342D665
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:337>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:337>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_9 = __this->___foundFingerprintImage;
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_10 = __this->___locationSprites;
 		int32_t L_11 = __this->___currentLocation;
@@ -11608,23 +11681,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnConfirmClicked_mAD342D665
 
 IL_0053:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:339>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:339>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_14 = __this->___afisDescText;
 		NullCheck(L_14);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, _stringLiteral902762891A943510699C637216BE78D62268F60B);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:340>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:340>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_15 = __this->___resultText;
 		NullCheck(L_15);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:341>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:341>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___afisPanel;
 		NullCheck(L_16);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:342>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:342>
 		return;
 	}
 }
-// Method Definition Index: 74508
+// Method Definition Index: 74516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnSuspectDropped_mFA1C996D34792B020692B593A4F4A556E61D3A1A (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, String_t* ___0_suspectName, DraggableFingerprint_t94428AA67EBF1A26E63B02BB1DA4AB7EB4FA42C5* ___1_draggable, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11635,7 +11708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnSuspectDropped_mFA1C996D3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:349>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:349>
 		String_t* L_0 = ___0_suspectName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = __this->___correctAnswers;
 		int32_t L_2 = __this->___currentLocation;
@@ -11650,20 +11723,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnSuspectDropped_mFA1C996D3
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:351>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:351>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_6 = __this->___resultText;
 		String_t* L_7 = ___0_suspectName;
 		String_t* L_8;
 		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_7, _stringLiteral24F9ED6C62FA46E9F0C601E97E3BDDBE145C1907, NULL);
 		NullCheck(L_6);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, L_8);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:352>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:352>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = __this->___resultText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10;
 		L_10 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
 		NullCheck(L_9);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_9, L_10);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:353>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:353>
 		RuntimeObject* L_11;
 		L_11 = ForensicGame_EvidenceObtained_m8FF3FBF5286EC50326B17DE74B83C3B84C728FD0(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_12;
@@ -11673,28 +11746,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_OnSuspectDropped_mFA1C996D3
 
 IL_0049:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:357>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:357>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_13 = __this->___resultText;
 		String_t* L_14 = ___0_suspectName;
 		String_t* L_15;
 		L_15 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_14, _stringLiteral6CD7E57BA5A6D53E6319370D2B5BA7B71AE33352, NULL);
 		NullCheck(L_13);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, L_15);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:358>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:358>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_16 = __this->___resultText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_17;
 		L_17 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
 		NullCheck(L_16);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_16, L_17);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:359>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:359>
 		DraggableFingerprint_t94428AA67EBF1A26E63B02BB1DA4AB7EB4FA42C5* L_18 = ___1_draggable;
 		NullCheck(L_18);
 		DraggableFingerprint_ReturnToOriginal_mC2F3D1E7C18762809E01F06E71A562AB0ECFFACB(L_18, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:361>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:361>
 		return;
 	}
 }
-// Method Definition Index: 74509
+// Method Definition Index: 74517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ForensicGame_EvidenceObtained_m8FF3FBF5286EC50326B17DE74B83C3B84C728FD0 (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11713,7 +11786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ForensicGame_EvidenceObtained_
 		return L_1;
 	}
 }
-// Method Definition Index: 74510
+// Method Definition Index: 74518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ForensicGame_ShowClearPopup_mA849A61E40B1659390352A60B78A12D0112FF409 (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11732,7 +11805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ForensicGame_ShowClearPopup_mA
 		return L_1;
 	}
 }
-// Method Definition Index: 74511
+// Method Definition Index: 74519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame__ctor_mA36367DD1E1133FC7CB13D16A55731E8BEFA5E7B (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11751,11 +11824,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame__ctor_mA36367DD1E1133FC7CB1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:46>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:46>
 		__this->___brushCountToReveal = ((int32_t)30);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:47>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:47>
 		__this->___minBrushDistance = (20.0f);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:116>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:116>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -11768,7 +11841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame__ctor_mA36367DD1E1133FC7CB1
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral1E1F8E0D0FC2A81432169C0C165C989A29EB698A);
 		__this->___correctAnswers = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___correctAnswers), (void*)L_3);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:117>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:117>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
 		NullCheck(L_5);
@@ -11781,13 +11854,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame__ctor_mA36367DD1E1133FC7CB1
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral9DBBCF8A686A9BAAD10255A455E5EA542387BF38);
 		__this->___evidenceNames = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___evidenceNames), (void*)L_7);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:123>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:123>
 		__this->___currentLocation = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:127>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:127>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		L_8 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___lastBrushPos = L_8;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:130>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:130>
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_9 = (List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A*)il2cpp_codegen_object_new(List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A_il2cpp_TypeInfo_var);
 		List_1__ctor_m87539832B82A3453971F3BCC702C7346E8D3F953(L_9, List_1__ctor_m87539832B82A3453971F3BCC702C7346E8D3F953_RuntimeMethod_var);
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_10 = L_9;
@@ -11805,29 +11878,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame__ctor_mA36367DD1E1133FC7CB1
 		return;
 	}
 }
-// Method Definition Index: 74512
+// Method Definition Index: 74520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_U3CStartU3Eb__53_0_m670F106CAD22B5950FFC676657CC3E7B3BF0EED8 (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:170>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:170>
 		ForensicGame_OnExclamationClicked_m5B4D8E78D70F23C814A859CD2C1820B3573234BE(__this, 0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 74513
+// Method Definition Index: 74521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_U3CStartU3Eb__53_1_mB30B4146B0B7CC5E21B4B29B17FCAB67814E9904 (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:171>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:171>
 		ForensicGame_OnExclamationClicked_m5B4D8E78D70F23C814A859CD2C1820B3573234BE(__this, 1, NULL);
 		return;
 	}
 }
-// Method Definition Index: 74514
+// Method Definition Index: 74522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_U3CStartU3Eb__53_2_mE68B3BD49DF097DC2E58B2F351A1EC979ECC5B25 (ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:172>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:172>
 		ForensicGame_OnExclamationClicked_m5B4D8E78D70F23C814A859CD2C1820B3573234BE(__this, 2, NULL);
 		return;
 	}
@@ -11840,7 +11913,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ForensicGame_U3CStartU3Eb__53_2_mE68B3BD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74515
+// Method Definition Index: 74523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEvidenceObtainedU3Ed__62__ctor_mA02888BE0623361690E5E890461299E09D3C56C2 (U3CEvidenceObtainedU3Ed__62_t6087ACBB6C08427CC9169D5A7CEB36073A57E758* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -11850,14 +11923,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEvidenceObtainedU3Ed__62__ctor_mA0288
 		return;
 	}
 }
-// Method Definition Index: 74516
+// Method Definition Index: 74524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEvidenceObtainedU3Ed__62_System_IDisposable_Dispose_mF960327F38A72F28AE14E582973BDF29B89FC158 (U3CEvidenceObtainedU3Ed__62_t6087ACBB6C08427CC9169D5A7CEB36073A57E758* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74517
+// Method Definition Index: 74525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CEvidenceObtainedU3Ed__62_MoveNext_mDCA244A28039C190E1DDAB7D98A65A2CA8A73B4A (U3CEvidenceObtainedU3Ed__62_t6087ACBB6C08427CC9169D5A7CEB36073A57E758* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11901,7 +11974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CEvidenceObtainedU3Ed__62_MoveNext_mDC
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:368>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:368>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_4 = V_1;
 		NullCheck(L_4);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4->___evidenceNames;
@@ -11912,7 +11985,7 @@ IL_0017:
 		int32_t L_8 = L_7;
 		String_t* L_9 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
 		V_2 = L_9;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:369>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:369>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_10 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -11923,7 +11996,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:371>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:371>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_12 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_12);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_13;
@@ -11938,7 +12011,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:372>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:372>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_16 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_16);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_17;
@@ -11950,7 +12023,7 @@ IL_0017:
 
 IL_005b:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:375>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:375>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_19 = V_1;
 		NullCheck(L_19);
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_20 = L_19->___locationCleared;
@@ -11959,7 +12032,7 @@ IL_005b:
 		int32_t L_22 = L_21->___currentLocation;
 		NullCheck(L_20);
 		List_1_set_Item_mFEA98FA49B98EC8B769FB82DED7622F672AD1ADB(L_20, L_22, (bool)1, List_1_set_Item_mFEA98FA49B98EC8B769FB82DED7622F672AD1ADB_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:377>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:377>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_23 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_23, (2.0f), NULL);
 		__this->___U3CU3E2__current = L_23;
@@ -11971,25 +12044,25 @@ IL_005b:
 IL_0086:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:379>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:379>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_24 = V_1;
 		NullCheck(L_24);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = L_24->___afisPanel;
 		NullCheck(L_25);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_25, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:380>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:380>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_26 = V_1;
 		NullCheck(L_26);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = L_26->___dimBackground;
 		NullCheck(L_27);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_27, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:381>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:381>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_28 = V_1;
 		NullCheck(L_28);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = L_28->___currentFingerprintImage;
 		NullCheck(L_29);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_29, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:382>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:382>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_30 = V_1;
 		NullCheck(L_30);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_31 = L_30->___powderButton;
@@ -11998,13 +12071,13 @@ IL_0086:
 		L_32 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_31, NULL);
 		NullCheck(L_32);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_32, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:383>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:383>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_33 = V_1;
 		NullCheck(L_33);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = L_33->___gaugeBackground;
 		NullCheck(L_34);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_34, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:384>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:384>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_35 = V_1;
 		NullCheck(L_35);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_36 = L_35->___gaugeFill;
@@ -12017,7 +12090,7 @@ IL_0086:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:384>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:384>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_38 = V_1;
 		NullCheck(L_38);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_39 = L_38->___gaugeFill;
@@ -12027,7 +12100,7 @@ IL_0086:
 
 IL_00ec:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:386>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:386>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_40 = V_1;
 		NullCheck(L_40);
 		int32_t L_41 = L_40->___currentLocation;
@@ -12055,7 +12128,7 @@ IL_00ec:
 
 IL_0107:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:388>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:388>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_43 = V_1;
 		NullCheck(L_43);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_44 = L_43->___exclamationBtn1;
@@ -12064,13 +12137,13 @@ IL_0107:
 		L_45 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_44, NULL);
 		NullCheck(L_45);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_45, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:388>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:388>
 		goto IL_013e;
 	}
 
 IL_011a:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:389>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:389>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_46 = V_1;
 		NullCheck(L_46);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_47 = L_46->___exclamationBtn2;
@@ -12079,13 +12152,13 @@ IL_011a:
 		L_48 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_47, NULL);
 		NullCheck(L_48);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_48, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:389>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:389>
 		goto IL_013e;
 	}
 
 IL_012d:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:390>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:390>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_49 = V_1;
 		NullCheck(L_49);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_50 = L_49->___exclamationBtn3;
@@ -12098,16 +12171,16 @@ IL_012d:
 
 IL_013e:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:393>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:393>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_52 = V_1;
 		NullCheck(L_52);
 		L_52->___currentLocation = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:394>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:394>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_53 = V_1;
 		NullCheck(L_53);
 		L_53->___currentBrushArea = (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_53->___currentBrushArea), (void*)(RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:397>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:397>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_54 = V_1;
 		NullCheck(L_54);
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_55 = L_54->___locationCleared;
@@ -12144,7 +12217,7 @@ IL_013e:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:399>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:399>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_63 = V_1;
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_64 = V_1;
 		NullCheck(L_64);
@@ -12157,11 +12230,11 @@ IL_013e:
 
 IL_0183:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:401>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:401>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74518
+// Method Definition Index: 74526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEvidenceObtainedU3Ed__62_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m465A711898A8961C0D112EF69D05F35C182172C5 (U3CEvidenceObtainedU3Ed__62_t6087ACBB6C08427CC9169D5A7CEB36073A57E758* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12169,7 +12242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEvidenceObtainedU3Ed__62_Sy
 		return L_0;
 	}
 }
-// Method Definition Index: 74519
+// Method Definition Index: 74527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEvidenceObtainedU3Ed__62_System_Collections_IEnumerator_Reset_m2AD93D8A0865898F850314D374DCFAD88683030D (U3CEvidenceObtainedU3Ed__62_t6087ACBB6C08427CC9169D5A7CEB36073A57E758* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12178,7 +12251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEvidenceObtainedU3Ed__62_System_Colle
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CEvidenceObtainedU3Ed__62_System_Collections_IEnumerator_Reset_m2AD93D8A0865898F850314D374DCFAD88683030D_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 74520
+// Method Definition Index: 74528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEvidenceObtainedU3Ed__62_System_Collections_IEnumerator_get_Current_m72CD074999DFD1C851720B08F1FF5CD7F3F519F5 (U3CEvidenceObtainedU3Ed__62_t6087ACBB6C08427CC9169D5A7CEB36073A57E758* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12194,7 +12267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEvidenceObtainedU3Ed__62_Sy
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74521
+// Method Definition Index: 74529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__63__ctor_m1E65789E8D9F55ACA14AC7323A53DE8DA3530D36 (U3CShowClearPopupU3Ed__63_t873096D162B202BE04246A650F9CD622C7EE1E07* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -12204,14 +12277,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__63__ctor_m1E65789
 		return;
 	}
 }
-// Method Definition Index: 74522
+// Method Definition Index: 74530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__63_System_IDisposable_Dispose_mEB6BBF8CA2BCDE8813103DFCFD8E30AF5A2B2537 (U3CShowClearPopupU3Ed__63_t873096D162B202BE04246A650F9CD622C7EE1E07* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74523
+// Method Definition Index: 74531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowClearPopupU3Ed__63_MoveNext_m986F056CB5E500B799DA364C8DD2EFC03BAC10B4 (U3CShowClearPopupU3Ed__63_t873096D162B202BE04246A650F9CD622C7EE1E07* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12250,19 +12323,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowClearPopupU3Ed__63_MoveNext_m986F
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:408>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:408>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_4 = V_1;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___clearTitleText;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:409>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:409>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_6 = V_1;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = L_6->___clearDescText;
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:410>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:410>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_8 = V_1;
 		NullCheck(L_8);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = L_8->___countdownText;
@@ -12271,14 +12344,14 @@ IL_0017:
 		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:412>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:412>
 		__this->___U3CiU3E5__2 = 3;
 		goto IL_0096;
 	}
 
 IL_0050:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:414>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:414>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_11 = V_1;
 		NullCheck(L_11);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = L_11->___countdownText;
@@ -12287,7 +12360,7 @@ IL_0050:
 		L_14 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_13, NULL);
 		NullCheck(L_12);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_12, L_14);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:415>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:415>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_15 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_15, (1.0f), NULL);
 		__this->___U3CU3E2__current = L_15;
@@ -12299,7 +12372,7 @@ IL_0050:
 IL_007f:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:412>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:412>
 		int32_t L_16 = __this->___U3CiU3E5__2;
 		V_2 = L_16;
 		int32_t L_17 = V_2;
@@ -12308,7 +12381,7 @@ IL_007f:
 
 IL_0096:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:412>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:412>
 		int32_t L_18 = __this->___U3CiU3E5__2;
 		if ((((int32_t)L_18) > ((int32_t)0)))
 		{
@@ -12316,14 +12389,14 @@ IL_0096:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:418>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:418>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB683C057E8DA801FA01FD23F5A07DAEFB5C796EA, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:419>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:419>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74524
+// Method Definition Index: 74532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__63_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7F37990E41DEBE23B5334F6C56EA97E0CA34F53D (U3CShowClearPopupU3Ed__63_t873096D162B202BE04246A650F9CD622C7EE1E07* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12331,7 +12404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__63_Syst
 		return L_0;
 	}
 }
-// Method Definition Index: 74525
+// Method Definition Index: 74533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__63_System_Collections_IEnumerator_Reset_m38C2BD1E9EBDC8E6E0953CE8B32CABACF07BF156 (U3CShowClearPopupU3Ed__63_t873096D162B202BE04246A650F9CD622C7EE1E07* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12340,7 +12413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__63_System_Collect
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CShowClearPopupU3Ed__63_System_Collections_IEnumerator_Reset_m38C2BD1E9EBDC8E6E0953CE8B32CABACF07BF156_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 74526
+// Method Definition Index: 74534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__63_System_Collections_IEnumerator_get_Current_mDB971D23E38BF1DD8A5B3AD5D3D9A6F2FA2B88A9 (U3CShowClearPopupU3Ed__63_t873096D162B202BE04246A650F9CD622C7EE1E07* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12356,7 +12429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__63_Syst
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74527
+// Method Definition Index: 74535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowFingerprintFoundU3Ed__59__ctor_mB2C8F67BD414DC3C8BFEA90C34989B746CE5F512 (U3CShowFingerprintFoundU3Ed__59_tB1F53C558C239BC4DFC1FF9B7BD0B2C281D8FA33* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -12366,14 +12439,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowFingerprintFoundU3Ed__59__ctor_mB
 		return;
 	}
 }
-// Method Definition Index: 74528
+// Method Definition Index: 74536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowFingerprintFoundU3Ed__59_System_IDisposable_Dispose_m076D929748E371B1D5EFEAE8076A12C6809BD507 (U3CShowFingerprintFoundU3Ed__59_tB1F53C558C239BC4DFC1FF9B7BD0B2C281D8FA33* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74529
+// Method Definition Index: 74537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowFingerprintFoundU3Ed__59_MoveNext_m6000D337DED198A89A207F39E06FDDE72B2B2AC7 (U3CShowFingerprintFoundU3Ed__59_tB1F53C558C239BC4DFC1FF9B7BD0B2C281D8FA33* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12412,7 +12485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowFingerprintFoundU3Ed__59_MoveNext
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:317>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:317>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -12424,7 +12497,7 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:318>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:318>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_5 = V_1;
 		NullCheck(L_5);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = L_5->___powderButton;
@@ -12433,31 +12506,31 @@ IL_0037:
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:319>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:319>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_8 = V_1;
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = L_8->___evidencePopup;
 		NullCheck(L_9);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:320>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:320>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_10 = V_1;
 		NullCheck(L_10);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = L_10->___gaugeBackground;
 		NullCheck(L_11);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:321>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:321>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_12 = V_1;
 		NullCheck(L_12);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_13 = L_12->___popupTitleText;
 		NullCheck(L_13);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, _stringLiteral78F4814DBB18D006AB7080EF206680EAE2697483);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:322>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:322>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_14 = V_1;
 		NullCheck(L_14);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_15 = L_14->___popupDescText;
 		NullCheck(L_15);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, _stringLiteral579A3B4757C1809F04E70B519AEB58D026E841A1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:324>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:324>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_16 = V_1;
 		NullCheck(L_16);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_17 = L_16->___fingerprintPopupImage;
@@ -12488,7 +12561,7 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:325>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:325>
 		ForensicGame_t42BB3F52FCCD20BE0F23250E192B1EBC2F47D62F* L_26 = V_1;
 		NullCheck(L_26);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_27 = L_26->___fingerprintPopupImage;
@@ -12507,11 +12580,11 @@ IL_0037:
 
 IL_00c2:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:326>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/ForensicGame.cs:326>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74530
+// Method Definition Index: 74538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowFingerprintFoundU3Ed__59_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4E46C8DFB47837318AE01F081A0E1C06B71966EA (U3CShowFingerprintFoundU3Ed__59_tB1F53C558C239BC4DFC1FF9B7BD0B2C281D8FA33* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12519,7 +12592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowFingerprintFoundU3Ed__5
 		return L_0;
 	}
 }
-// Method Definition Index: 74531
+// Method Definition Index: 74539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowFingerprintFoundU3Ed__59_System_Collections_IEnumerator_Reset_m794DD4F19473D77BCAEE45FFCD88CEDE88045632 (U3CShowFingerprintFoundU3Ed__59_tB1F53C558C239BC4DFC1FF9B7BD0B2C281D8FA33* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12528,7 +12601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowFingerprintFoundU3Ed__59_System_C
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CShowFingerprintFoundU3Ed__59_System_Collections_IEnumerator_Reset_m794DD4F19473D77BCAEE45FFCD88CEDE88045632_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 74532
+// Method Definition Index: 74540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowFingerprintFoundU3Ed__59_System_Collections_IEnumerator_get_Current_mAA42930246A3228598EE08F16F806A1B280CC3FC (U3CShowFingerprintFoundU3Ed__59_tB1F53C558C239BC4DFC1FF9B7BD0B2C281D8FA33* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12544,7 +12617,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowFingerprintFoundU3Ed__5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74533
+// Method Definition Index: 74541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Awake_m4B6E8E2AF58C95C9A2A0C4637A34AE0892CB637F (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12554,17 +12627,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Awake_m4B6E8E2AF58C95C9A2A0C
 		return;
 	}
 }
-// Method Definition Index: 74534
+// Method Definition Index: 74542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnStartClient_m267EEA6EA8808A4449D4FEDC8CD6ED3AB21D1477 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:27>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:27>
 		NetworkBehaviour_OnStartClient_mD2123C69CB7A9BEB00D739742F04DA9D8E8F2077(__this, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:28>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 74535
+// Method Definition Index: 74543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_SelectJobServerRpc_m5357149B42B18D8C44B29A7B08EC3C79FD8AFF57 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, String_t* ___0_jobName, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___1_sender, const RuntimeMethod* method) 
 {
 	{
@@ -12574,7 +12647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_SelectJobServerRpc_m5357149B
 		return;
 	}
 }
-// Method Definition Index: 74536
+// Method Definition Index: 74544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RequestJobStatusServerRpc_m84299C16104E29204AC2D1B66D26A72906E287A2 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_sender, const RuntimeMethod* method) 
 {
 	{
@@ -12583,7 +12656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RequestJobStatusServerRpc_m8
 		return;
 	}
 }
-// Method Definition Index: 74537
+// Method Definition Index: 74545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_SetMaxPlayersAndLoadSceneForConnServerRpc_mBBC9B37D66B87783616E6E2F7853DCC95A87AF78 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, int32_t ___0_count, int32_t ___1_targetClientId, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___2_sender, const RuntimeMethod* method) 
 {
 	{
@@ -12594,7 +12667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_SetMaxPlayersAndLoadSceneFor
 		return;
 	}
 }
-// Method Definition Index: 74538
+// Method Definition Index: 74546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ShareEvidencesServerRpc_mC1A7BC2A3FA00BC2DAA08708149C4E4454DDA2FC (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_evidences, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___1_sender, const RuntimeMethod* method) 
 {
 	{
@@ -12604,7 +12677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ShareEvidencesServerRpc_mC1A
 		return;
 	}
 }
-// Method Definition Index: 74539
+// Method Definition Index: 74547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ReceiveEvidencesClientRpc_m73B7ECB71398C0C4DD89FDA8A522ACB39CFA555E (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_evidences, const RuntimeMethod* method) 
 {
 	{
@@ -12613,7 +12686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ReceiveEvidencesClientRpc_m7
 		return;
 	}
 }
-// Method Definition Index: 74540
+// Method Definition Index: 74548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_AddEvidenceDirectly_m59FA813A7530C2232AC8E616964B3BC978DD5CE8 (String_t* ___0_evidence, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12627,7 +12700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_AddEvidenceDirectly_m59FA813
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:108>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:108>
 		il2cpp_codegen_runtime_class_init_inline(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___ReceivedEvidences;
 		String_t* L_1 = ___0_evidence;
@@ -12640,7 +12713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_AddEvidenceDirectly_m59FA813
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:109>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:109>
 		il2cpp_codegen_runtime_class_init_inline(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___ReceivedEvidences;
 		String_t* L_4 = ___0_evidence;
@@ -12650,17 +12723,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_AddEvidenceDirectly_m59FA813
 
 IL_0018:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:110>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:110>
 		String_t* L_5 = ___0_evidence;
 		String_t* L_6;
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralC02137FBA75999841C423C82678E5AF8F5B2E52E, L_5, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_6, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:111>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:111>
 		return;
 	}
 }
-// Method Definition Index: 74541
+// Method Definition Index: 74549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_SetMaxPlayersAndLoadSceneTargetRpc_m3001E43E8D6844357592EFC150D1883E102A3738 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	{
@@ -12670,7 +12743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_SetMaxPlayersAndLoadSceneTar
 		return;
 	}
 }
-// Method Definition Index: 74542
+// Method Definition Index: 74550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateJobStatusTargetRpc_m4E4A19D3C903011F5CD6A84708E92BD6A6AF1F8F (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, String_t* ___1_jobName, bool ___2_isTaken, const RuntimeMethod* method) 
 {
 	{
@@ -12681,7 +12754,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateJobStatusTargetRpc_m4E
 		return;
 	}
 }
-// Method Definition Index: 74543
+// Method Definition Index: 74551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnClientDisconnected_mF58081342CC0FC905FC0AC60D97A0D12B876749C (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, int32_t ___0_clientId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12697,7 +12770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnClientDisconnected_mF58081
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:135>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:135>
 		Dictionary_2_t291007AFA4B4075BA87D802F2E42017CB8C857C9* L_0 = __this->___clientJobs;
 		int32_t L_1 = ___0_clientId;
 		NullCheck(L_0);
@@ -12709,43 +12782,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnClientDisconnected_mF58081
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:137>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:137>
 		Dictionary_2_t291007AFA4B4075BA87D802F2E42017CB8C857C9* L_3 = __this->___clientJobs;
 		int32_t L_4 = ___0_clientId;
 		NullCheck(L_3);
 		String_t* L_5;
 		L_5 = Dictionary_2_get_Item_mD4A750E28CFF3DE9AE032540D174398E46DAA39D(L_3, L_4, Dictionary_2_get_Item_mD4A750E28CFF3DE9AE032540D174398E46DAA39D_RuntimeMethod_var);
 		V_0 = L_5;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:138>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:138>
 		Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* L_6 = __this->___selectedJobs;
 		String_t* L_7 = V_0;
 		NullCheck(L_6);
 		bool L_8;
 		L_8 = Dictionary_2_Remove_m0C90DB78F4134CDEB001F338AA2745F8D9651CAC(L_6, L_7, Dictionary_2_Remove_m0C90DB78F4134CDEB001F338AA2745F8D9651CAC_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:139>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:139>
 		Dictionary_2_t291007AFA4B4075BA87D802F2E42017CB8C857C9* L_9 = __this->___clientJobs;
 		int32_t L_10 = ___0_clientId;
 		NullCheck(L_9);
 		bool L_11;
 		L_11 = Dictionary_2_Remove_m8C6B53B3929199790085D5EDD16F2AC5A5C15A34(L_9, L_10, Dictionary_2_Remove_m8C6B53B3929199790085D5EDD16F2AC5A5C15A34_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:140>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:140>
 		String_t* L_12 = V_0;
 		String_t* L_13;
 		L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral98E864F28D2747D98E3E941C0491D5FFB8DEED57, L_12, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_13, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:141>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:141>
 		String_t* L_14 = V_0;
 		GameManager_UpdateJobStatusClientRpc_m08850B529CA64291CC4267D57AFBC2A20463D4B1(__this, L_14, (bool)0, NULL);
 	}
 
 IL_004d:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:143>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:143>
 		return;
 	}
 }
-// Method Definition Index: 74544
+// Method Definition Index: 74552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RejectJobClientRpc_m45E1CB49CBA1152D0DEA6A1986760CDC0CDFABF3 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, String_t* ___1_jobName, const RuntimeMethod* method) 
 {
 	{
@@ -12755,7 +12828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RejectJobClientRpc_m45E1CB49
 		return;
 	}
 }
-// Method Definition Index: 74545
+// Method Definition Index: 74553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ConfirmJobClientRpc_m099532EAF0903C89FC16567A703148DFF546B7D2 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, String_t* ___1_jobName, const RuntimeMethod* method) 
 {
 	{
@@ -12765,7 +12838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ConfirmJobClientRpc_m099532E
 		return;
 	}
 }
-// Method Definition Index: 74546
+// Method Definition Index: 74554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateJobStatusClientRpc_m08850B529CA64291CC4267D57AFBC2A20463D4B1 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, String_t* ___0_jobName, bool ___1_isTaken, const RuntimeMethod* method) 
 {
 	{
@@ -12775,7 +12848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateJobStatusClientRpc_m08
 		return;
 	}
 }
-// Method Definition Index: 74547
+// Method Definition Index: 74555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_LoadJobSelectSceneServerRpc_mD03D6A42262714BCB657E0A5E3F3AB4124A55DE6 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_sender, const RuntimeMethod* method) 
 {
 	{
@@ -12784,7 +12857,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_LoadJobSelectSceneServerRpc_
 		return;
 	}
 }
-// Method Definition Index: 74548
+// Method Definition Index: 74556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_LoadJobSelectSceneClientRpc_m349708C70AD7CA690BC8C962D63273E6598C13E8 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12792,7 +12865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_LoadJobSelectSceneClientRpc_
 		return;
 	}
 }
-// Method Definition Index: 74549
+// Method Definition Index: 74557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UnlockJobSelectServerRpc_m4F60D86C9D46E9D113185FC386733767B6BBB2BE (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_sender, const RuntimeMethod* method) 
 {
 	{
@@ -12801,7 +12874,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UnlockJobSelectServerRpc_m4F
 		return;
 	}
 }
-// Method Definition Index: 74550
+// Method Definition Index: 74558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UnlockJobSelectClientRpc_mD65A14506287C25CF6077D492865408BD1F6277F (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12809,7 +12882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UnlockJobSelectClientRpc_mD6
 		return;
 	}
 }
-// Method Definition Index: 74551
+// Method Definition Index: 74559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12823,14 +12896,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:11>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:12>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:11>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:12>
 		Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* L_0 = (Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588*)il2cpp_codegen_object_new(Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mA3C3860EDE2CDD08BBD68C389377BC89D029D968(L_0, Dictionary_2__ctor_mA3C3860EDE2CDD08BBD68C389377BC89D029D968_RuntimeMethod_var);
 		__this->___selectedJobs = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___selectedJobs), (void*)L_0);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:13>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:14>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:13>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:14>
 		Dictionary_2_t291007AFA4B4075BA87D802F2E42017CB8C857C9* L_1 = (Dictionary_2_t291007AFA4B4075BA87D802F2E42017CB8C857C9*)il2cpp_codegen_object_new(Dictionary_2_t291007AFA4B4075BA87D802F2E42017CB8C857C9_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mC854597C0C338BBA12EE451456D8658DF6D01BD4(L_1, Dictionary_2__ctor_mC854597C0C338BBA12EE451456D8658DF6D01BD4_RuntimeMethod_var);
 		__this->___clientJobs = L_1;
@@ -12840,7 +12913,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52
 		return;
 	}
 }
-// Method Definition Index: 74552
+// Method Definition Index: 74560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__cctor_m41B7309DC74C0AE67762C267F934CE6F9920C7D4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12852,7 +12925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__cctor_m41B7309DC74C0AE67762
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:18>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:18>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___ReceivedEvidences = L_0;
@@ -12860,7 +12933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__cctor_m41B7309DC74C0AE67762
 		return;
 	}
 }
-// Method Definition Index: 74553
+// Method Definition Index: 74561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_NetworkInitialize___Early_m8CA49F3463988825A0E095890E9FE1802A4629D7 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12944,7 +13017,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 74554
+// Method Definition Index: 74562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_NetworkInitialize___Late_m3F75934D13ACC668330B4019A42BBBA53B959D99 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12965,7 +13038,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 74555
+// Method Definition Index: 74563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_NetworkInitializeIfDisabled_m9092AC954B439A9A35D495B30639071941A5A20B (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12974,7 +13047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_NetworkInitializeIfDisabled_
 		return;
 	}
 }
-// Method Definition Index: 74556
+// Method Definition Index: 74564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcWriter___Server_SelectJobServerRpc___2943234052_mD5B86E923A2E65C809EBF18F6E625309651F3470 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, String_t* ___0_jobName, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___1_sender, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13024,7 +13097,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74557
+// Method Definition Index: 74565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___SelectJobServerRpc___2943234052_m8E973848F65F214811E9C05F1749DFB0AAED3CB8 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, String_t* ___0_p, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___1_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13038,7 +13111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___SelectJobServerRp
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:35>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:35>
 		Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* L_0 = __this->___selectedJobs;
 		String_t* L_1 = ___0_p;
 		NullCheck(L_0);
@@ -13050,17 +13123,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___SelectJobServerRp
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:37>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:37>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_3 = ___1_p;
 		String_t* L_4 = ___0_p;
 		GameManager_RejectJobClientRpc_m45E1CB49CBA1152D0DEA6A1986760CDC0CDFABF3(__this, L_3, L_4, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:38>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:38>
 		return;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:41>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:41>
 		Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* L_5 = __this->___selectedJobs;
 		String_t* L_6 = ___0_p;
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_7 = ___1_p;
@@ -13068,7 +13141,7 @@ IL_0017:
 		int32_t L_8 = L_7->___ClientId;
 		NullCheck(L_5);
 		Dictionary_2_set_Item_m038480C0EC13713DBD89A53BE69FF0359501B4C2(L_5, L_6, L_8, Dictionary_2_set_Item_m038480C0EC13713DBD89A53BE69FF0359501B4C2_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:42>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:42>
 		Dictionary_2_t291007AFA4B4075BA87D802F2E42017CB8C857C9* L_9 = __this->___clientJobs;
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_10 = ___1_p;
 		NullCheck(L_10);
@@ -13076,24 +13149,24 @@ IL_0017:
 		String_t* L_12 = ___0_p;
 		NullCheck(L_9);
 		Dictionary_2_set_Item_mD6B904ADF5B3D53E0D896FA7AF623E90CA1C95F0(L_9, L_11, L_12, Dictionary_2_set_Item_mD6B904ADF5B3D53E0D896FA7AF623E90CA1C95F0_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:43>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:43>
 		String_t* L_13 = ___0_p;
 		String_t* L_14;
 		L_14 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralCCF791F6E2514801F3380D259538E7BAA85BE129, L_13, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_14, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:45>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:45>
 		String_t* L_15 = ___0_p;
 		GameManager_UpdateJobStatusClientRpc_m08850B529CA64291CC4267D57AFBC2A20463D4B1(__this, L_15, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:46>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:46>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_16 = ___1_p;
 		String_t* L_17 = ___0_p;
 		GameManager_ConfirmJobClientRpc_m099532EAF0903C89FC16567A703148DFF546B7D2(__this, L_16, L_17, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:47>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 74558
+// Method Definition Index: 74566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcReader___Server_SelectJobServerRpc___2943234052_mFE22C171051F867FE20540024E6861FEAA5E1541 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___2_conn, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -13122,7 +13195,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 74559
+// Method Definition Index: 74567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcWriter___Server_RequestJobStatusServerRpc___328543758_m303E704AB9C9050C40E972AD1AC53E04F40024E5 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_sender, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13168,7 +13241,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74560
+// Method Definition Index: 74568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___RequestJobStatusServerRpc___328543758_m6555D3823A2C7D23EBEBEE021A067034E4D9B8D4 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13186,7 +13259,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___RequestJobStatusS
 	KeyValuePair_2_t203D89707A14A98B3FB295DFFAC0F4D3CF2B1078 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:53>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:53>
 		Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* L_0 = __this->___selectedJobs;
 		NullCheck(L_0);
 		Enumerator_tA2BDFFCCD73E0822BD39B8A162012DCD95F9FDCA L_1;
@@ -13211,11 +13284,11 @@ FINALLY_0030:
 
 IL_000e_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:53>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:53>
 				KeyValuePair_2_t203D89707A14A98B3FB295DFFAC0F4D3CF2B1078 L_2;
 				L_2 = Enumerator_get_Current_m58E48C7A4B001DD9CC590DEF18D64A3D9E5E6F7B_inline((&V_0), Enumerator_get_Current_m58E48C7A4B001DD9CC590DEF18D64A3D9E5E6F7B_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:55>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:55>
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_3 = ___0_p;
 				String_t* L_4;
 				L_4 = KeyValuePair_2_get_Key_mC9FB52D78F362AE8CD0466E65D0CAFB23CD1C25D_inline((&V_1), KeyValuePair_2_get_Key_mC9FB52D78F362AE8CD0466E65D0CAFB23CD1C25D_RuntimeMethod_var);
@@ -13224,7 +13297,7 @@ IL_000e_1:
 
 IL_0025_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:53>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:53>
 				bool L_5;
 				L_5 = Enumerator_MoveNext_mCB84750BAFE59C7D53C86B28A910BBE68DDE5D33((&V_0), Enumerator_MoveNext_mCB84750BAFE59C7D53C86B28A910BBE68DDE5D33_RuntimeMethod_var);
 				if (L_5)
@@ -13244,11 +13317,11 @@ IL_0025_1:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:57>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 74561
+// Method Definition Index: 74569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcReader___Server_RequestJobStatusServerRpc___328543758_m0614BB5D8BBCAEC5995B638DBCBCCB03E9372872 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___2_conn, const RuntimeMethod* method) 
 {
 	{
@@ -13270,7 +13343,7 @@ IL_000d:
 		return;
 	}
 }
-// Method Definition Index: 74562
+// Method Definition Index: 74570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcWriter___Server_SetMaxPlayersAndLoadSceneForConnServerRpc___4191121986_mAD68E7600D5BC3CC192A1E91385E16CFF342001F (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, int32_t ___0_count, int32_t ___1_targetClientId, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___2_sender, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13324,7 +13397,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74563
+// Method Definition Index: 74571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___SetMaxPlayersAndLoadSceneForConnServerRpc___4191121986_m3D155BEA06D52242EE6F1C6016406F1BA40D53AC (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, int32_t ___0_p, int32_t ___1_p, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___2_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13335,12 +13408,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___SetMaxPlayersAndL
 	}
 	NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* V_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:64>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:64>
 		int32_t L_0 = ___0_p;
 		__this->___maxPlayers = L_0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:66>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:67>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:68>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:66>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:67>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:68>
 		ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* L_1;
 		L_1 = InstanceFinder_get_ServerManager_m6BF5361EE7E5DB19213FB837F85673A38C8C4046(NULL);
 		NullCheck(L_1);
@@ -13355,7 +13428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___SetMaxPlayersAndL
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:70>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:70>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_5 = V_0;
 		int32_t L_6 = ___0_p;
 		GameManager_SetMaxPlayersAndLoadSceneTargetRpc_m3001E43E8D6844357592EFC150D1883E102A3738(__this, L_5, L_6, NULL);
@@ -13363,11 +13436,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___SetMaxPlayersAndL
 
 IL_0023:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:72>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 74564
+// Method Definition Index: 74572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcReader___Server_SetMaxPlayersAndLoadSceneForConnServerRpc___4191121986_m7ADE622C54966F0ABDB0C73B34B4C3FA72386571 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___2_conn, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -13403,7 +13476,7 @@ IL_0027:
 		return;
 	}
 }
-// Method Definition Index: 74565
+// Method Definition Index: 74573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcWriter___Server_ShareEvidencesServerRpc___840429916_mB17B20234566191DDF290FE29719750E69EC5FB6 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_evidences, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___1_sender, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13452,7 +13525,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74566
+// Method Definition Index: 74574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___ShareEvidencesServerRpc___840429916_m14315ECE88A982A242E806FD497E67F6CF2C3960 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_p, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___1_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13463,7 +13536,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___ShareEvidencesSer
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:82>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:82>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___0_p;
 		NullCheck(L_0);
 		int32_t L_1 = ((int32_t)(((RuntimeArray*)L_0)->max_length));
@@ -13472,14 +13545,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___ShareEvidencesSer
 		L_3 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral118A5EA18014E61CD5915735DABCDD6005530FA0, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:83>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:83>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = ___0_p;
 		GameManager_ReceiveEvidencesClientRpc_m73B7ECB71398C0C4DD89FDA8A522ACB39CFA555E(__this, L_4, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:84>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:84>
 		return;
 	}
 }
-// Method Definition Index: 74567
+// Method Definition Index: 74575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcReader___Server_ShareEvidencesServerRpc___840429916_m09FBE682982AE790C4E338923CF78123DF115EAD (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___2_conn, const RuntimeMethod* method) 
 {
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_0 = NULL;
@@ -13507,7 +13580,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 74568
+// Method Definition Index: 74576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcWriter___Observers_ReceiveEvidencesClientRpc___1782520955_m8D12FFAC7AB7BD4FD64E4BF3D201E4389CF82FD8 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_evidences, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13556,7 +13629,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74569
+// Method Definition Index: 74577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___ReceiveEvidencesClientRpc___1782520955_mCD01EED868EE7F472A5253AE70378CD34D527FCF (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13574,7 +13647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___ReceiveEvidencesC
 	int32_t V_1 = 0;
 	String_t* V_2 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:89>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:89>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___0_p;
 		V_0 = L_0;
 		V_1 = 0;
@@ -13583,14 +13656,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___ReceiveEvidencesC
 
 IL_0006:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:89>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:89>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		String_t* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:91>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:91>
 		il2cpp_codegen_runtime_class_init_inline(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_5 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___ReceivedEvidences;
 		String_t* L_6 = V_2;
@@ -13603,7 +13676,7 @@ IL_0006:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:92>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:92>
 		il2cpp_codegen_runtime_class_init_inline(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_8 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___ReceivedEvidences;
 		String_t* L_9 = V_2;
@@ -13619,7 +13692,7 @@ IL_0022:
 
 IL_0026:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:89>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:89>
 		int32_t L_11 = V_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = V_0;
 		NullCheck(L_12);
@@ -13629,7 +13702,7 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:94>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:94>
 		il2cpp_codegen_runtime_class_init_inline(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_13 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___ReceivedEvidences;
 		NullCheck(L_13);
@@ -13641,11 +13714,11 @@ IL_0026:
 		L_17 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral8C693FB2C119649ADE6EE58534AD1B3EE00A2FAE, L_16, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_17, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:101>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:101>
 		return;
 	}
 }
-// Method Definition Index: 74570
+// Method Definition Index: 74578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcReader___Observers_ReceiveEvidencesClientRpc___1782520955_mB65028D5443A8DDBC3DB8CD7DFB6FDB95D070959 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_0 = NULL;
@@ -13672,7 +13745,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 74571
+// Method Definition Index: 74579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcWriter___Target_SetMaxPlayersAndLoadSceneTargetRpc___2681120339_m49AE837D34AC29210B1FE8AD7F7DD819317D7DB3 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13723,7 +13796,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74572
+// Method Definition Index: 74580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___SetMaxPlayersAndLoadSceneTargetRpc___2681120339_m2E12BEE883B2BCC68F598EEDF24B5E6AC226067D (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_p, int32_t ___1_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13735,20 +13808,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___SetMaxPlayersAndL
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:118>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:118>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_0 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		int32_t L_1 = ___1_p;
 		NullCheck(L_0);
 		DataManager_set_MaxPlayers_m2C7C9E2E0E71351A6C36966A3F645DBA65E635B4_inline(L_0, L_1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:119>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:120>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:119>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:120>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralD03F0FF465C74FEFC780942A42832943AEF871B4, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:122>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:122>
 		return;
 	}
 }
-// Method Definition Index: 74573
+// Method Definition Index: 74581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcReader___Target_SetMaxPlayersAndLoadSceneTargetRpc___2681120339_m3E18B3A2201BDE3963577B4C2BB9FF1ED58FEB9C (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -13778,7 +13851,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 74574
+// Method Definition Index: 74582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcWriter___Target_UpdateJobStatusTargetRpc___619441887_mFA36B619036255DC1846C02D7C5381ACA32BC4E8 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, String_t* ___1_jobName, bool ___2_isTaken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13833,7 +13906,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74575
+// Method Definition Index: 74583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___UpdateJobStatusTargetRpc___619441887_mD9A3CD89A1508EC8D487EFB71087344D77C5870D (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_p, String_t* ___1_p, bool ___2_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13845,7 +13918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___UpdateJobStatusTa
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B2_0 = NULL;
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:129>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:129>
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_0 = ((MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_StaticFields*)il2cpp_codegen_static_fields_for(MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_il2cpp_TypeInfo_var))->___Instance;
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_1 = L_0;
 		if (L_1)
@@ -13865,11 +13938,11 @@ IL_000a:
 		bool L_3 = ___2_p;
 		NullCheck(G_B2_0);
 		MobileJobSelect_OnJobStatusUpdated_mE5D0B7662FCAB01B8DC0583AB1C9122EBC3A7A41(G_B2_0, L_2, L_3, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:131>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:131>
 		return;
 	}
 }
-// Method Definition Index: 74576
+// Method Definition Index: 74584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcReader___Target_UpdateJobStatusTargetRpc___619441887_mA45D7FBC0FE8FD045E231BB0E67A9B84F6AFDAD8 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -13906,7 +13979,7 @@ IL_0027:
 		return;
 	}
 }
-// Method Definition Index: 74577
+// Method Definition Index: 74585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcWriter___Target_RejectJobClientRpc___2971853958_m5E1548F7A5124DB9975818641A0A914D28EA1582 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, String_t* ___1_jobName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13957,7 +14030,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74578
+// Method Definition Index: 74586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___RejectJobClientRpc___2971853958_m5B33B139EE10AE8B6AA0FF4E48ADA2C7000BDCA6 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_p, String_t* ___1_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13971,13 +14044,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___RejectJobClientRp
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B2_0 = NULL;
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:149>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:149>
 		String_t* L_0 = ___1_p;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral390245798DA827E3C633F1859D97F62458827820, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:151>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:151>
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_2 = ((MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_StaticFields*)il2cpp_codegen_static_fields_for(MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_il2cpp_TypeInfo_var))->___Instance;
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_3 = L_2;
 		if (L_3)
@@ -13996,11 +14069,11 @@ IL_001a:
 		String_t* L_4 = ___1_p;
 		NullCheck(G_B2_0);
 		MobileJobSelect_OnJobRejected_mD692BFC7D1C1B1567E946E2AE7868972B445CA9E(G_B2_0, L_4, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:153>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:153>
 		return;
 	}
 }
-// Method Definition Index: 74579
+// Method Definition Index: 74587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcReader___Target_RejectJobClientRpc___2971853958_m4C99B84F603BE83C8F7913F333E8B023916AC4EB (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -14030,7 +14103,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 74580
+// Method Definition Index: 74588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcWriter___Target_ConfirmJobClientRpc___2971853958_mC45B63D149C840A9F97EB02A1F3EE2D2D44933B0 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, String_t* ___1_jobName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14081,7 +14154,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74581
+// Method Definition Index: 74589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___ConfirmJobClientRpc___2971853958_m528BD720F1F3E4167CB9DC5F5F791520B928799E (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_p, String_t* ___1_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14095,13 +14168,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___ConfirmJobClientR
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B2_0 = NULL;
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:159>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:159>
 		String_t* L_0 = ___1_p;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral8C545BC124D10E3C5B903C5E347FACE4677CDD7B, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:161>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:161>
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_2 = ((MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_StaticFields*)il2cpp_codegen_static_fields_for(MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_il2cpp_TypeInfo_var))->___Instance;
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_3 = L_2;
 		if (L_3)
@@ -14120,11 +14193,11 @@ IL_001a:
 		String_t* L_4 = ___1_p;
 		NullCheck(G_B2_0);
 		MobileJobSelect_OnJobConfirmed_mB71475BCE065E362A0B2D65FF1D7A50A981B3578(G_B2_0, L_4, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:163>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:163>
 		return;
 	}
 }
-// Method Definition Index: 74582
+// Method Definition Index: 74590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcReader___Target_ConfirmJobClientRpc___2971853958_mD63E964E8E9D3B07F84A313AB2AD9393BEDBC508 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -14154,7 +14227,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 74583
+// Method Definition Index: 74591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcWriter___Observers_UpdateJobStatusClientRpc___310431262_mD6313DA0DD816E69B87DF0460F060696AB86533C (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, String_t* ___0_jobName, bool ___1_isTaken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14208,7 +14281,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74584
+// Method Definition Index: 74592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___UpdateJobStatusClientRpc___310431262_m5D627E52B294DEDC5C4AF35E7B5B8A66DE6E5EFC (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, String_t* ___0_p, bool ___1_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14222,7 +14295,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___UpdateJobStatusCl
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B2_0 = NULL;
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:169>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:169>
 		String_t* L_0 = ___0_p;
 		bool L_1 = ___1_p;
 		bool L_2 = L_1;
@@ -14231,7 +14304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___UpdateJobStatusCl
 		L_4 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralDECE095E481EBE3BE2908CC3BA693CE0363D09C1, L_0, L_3, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_4, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:171>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:171>
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_5 = ((MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_StaticFields*)il2cpp_codegen_static_fields_for(MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_il2cpp_TypeInfo_var))->___Instance;
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_6 = L_5;
 		if (L_6)
@@ -14251,11 +14324,11 @@ IL_0020:
 		bool L_8 = ___1_p;
 		NullCheck(G_B2_0);
 		MobileJobSelect_OnJobStatusUpdated_mE5D0B7662FCAB01B8DC0583AB1C9122EBC3A7A41(G_B2_0, L_7, L_8, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:173>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:173>
 		return;
 	}
 }
-// Method Definition Index: 74585
+// Method Definition Index: 74593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcReader___Observers_UpdateJobStatusClientRpc___310431262_mA12AC40FF4993DB762AE61802A593E464C533369 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -14290,7 +14363,7 @@ IL_0027:
 		return;
 	}
 }
-// Method Definition Index: 74586
+// Method Definition Index: 74594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcWriter___Server_LoadJobSelectSceneServerRpc___328543758_m048F8D3BD279BF726550201A9F6C3BC2B427599F (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_sender, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14336,17 +14409,17 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74587
+// Method Definition Index: 74595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___LoadJobSelectSceneServerRpc___328543758_mDD051B8E1D53EA97009EDF38EC4D401FE6483E07 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_p, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:182>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:182>
 		GameManager_LoadJobSelectSceneClientRpc_m349708C70AD7CA690BC8C962D63273E6598C13E8(__this, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:183>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:183>
 		return;
 	}
 }
-// Method Definition Index: 74588
+// Method Definition Index: 74596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcReader___Server_LoadJobSelectSceneServerRpc___328543758_m0C1E938EB65A16D5F62A39F998A7FD83C9679A07 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___2_conn, const RuntimeMethod* method) 
 {
 	{
@@ -14368,7 +14441,7 @@ IL_000d:
 		return;
 	}
 }
-// Method Definition Index: 74589
+// Method Definition Index: 74597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcWriter___Observers_LoadJobSelectSceneClientRpc___2166136261_mCFF741E93DA08C57AE3A91520E00B1652FE8CA95 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14414,7 +14487,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74590
+// Method Definition Index: 74598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___LoadJobSelectSceneClientRpc___2166136261_m452D7CB67224D2A328ED066099F022EAB490B911 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14425,15 +14498,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___LoadJobSelectScen
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:189>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:190>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:189>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:190>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralD03F0FF465C74FEFC780942A42832943AEF871B4, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:192>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:192>
 		return;
 	}
 }
-// Method Definition Index: 74591
+// Method Definition Index: 74599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcReader___Observers_LoadJobSelectSceneClientRpc___2166136261_mF2E65C7359B93D26BFEA85C742F71044A3184A73 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	{
@@ -14454,7 +14527,7 @@ IL_000d:
 		return;
 	}
 }
-// Method Definition Index: 74592
+// Method Definition Index: 74600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcWriter___Server_UnlockJobSelectServerRpc___328543758_m7865A02A4202BD84AA30898A17F7ED23820E03BA (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_sender, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14500,17 +14573,17 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74593
+// Method Definition Index: 74601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___UnlockJobSelectServerRpc___328543758_m806B9E714333A8FFEC1A7C7E9186888DE3B1AF72 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_p, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:201>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:201>
 		GameManager_UnlockJobSelectClientRpc_mD65A14506287C25CF6077D492865408BD1F6277F(__this, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:202>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:202>
 		return;
 	}
 }
-// Method Definition Index: 74594
+// Method Definition Index: 74602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcReader___Server_UnlockJobSelectServerRpc___328543758_m97F0CC108042EB0E72913D10674CE5082973B8F8 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___2_conn, const RuntimeMethod* method) 
 {
 	{
@@ -14532,7 +14605,7 @@ IL_000d:
 		return;
 	}
 }
-// Method Definition Index: 74595
+// Method Definition Index: 74603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcWriter___Observers_UnlockJobSelectClientRpc___2166136261_mB36122DB20007C5DE0B65FE2D645083B5991FB0B (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14578,7 +14651,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74596
+// Method Definition Index: 74604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___UnlockJobSelectClientRpc___2166136261_mE24ABAEB1FA5897288373A2B42DCDED591D4C310 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14590,7 +14663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcLogic___UnlockJobSelectCl
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B2_0 = NULL;
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:208>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:208>
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_0 = ((MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_StaticFields*)il2cpp_codegen_static_fields_for(MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_il2cpp_TypeInfo_var))->___Instance;
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_1 = L_0;
 		if (L_1)
@@ -14608,11 +14681,11 @@ IL_000a:
 	{
 		NullCheck(G_B2_0);
 		MobileJobSelect_UnlockJobSelect_mEFE9F0621C6FC959F40FBA28DBB962E0E2E8A07F(G_B2_0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:210>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:210>
 		return;
 	}
 }
-// Method Definition Index: 74597
+// Method Definition Index: 74605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RpcReader___Observers_UnlockJobSelectClientRpc___2166136261_mD2C48B4477016CD49411BEC46B3BB398E2EA876A (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	{
@@ -14633,7 +14706,7 @@ IL_000d:
 		return;
 	}
 }
-// Method Definition Index: 74598
+// Method Definition Index: 74606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Awake_UserLogic_GameManager_AssemblyU2DCSharp_dll_m46581E2108E719D70A3B1B718D13AB668BF4E4FA (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14644,7 +14717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Awake_UserLogic_GameManager_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:22>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:22>
 		il2cpp_codegen_runtime_class_init_inline(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var);
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -14656,7 +14729,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Awake_UserLogic_GameManager_
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:22>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:22>
 		il2cpp_codegen_runtime_class_init_inline(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var);
 		((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___Instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___Instance), (void*)__this);
@@ -14664,7 +14737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Awake_UserLogic_GameManager_
 
 IL_0013:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManager.cs:23>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManager.cs:23>
 		return;
 	}
 }
@@ -14676,7 +14749,7 @@ IL_0013:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74599
+// Method Definition Index: 74607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManagerKeeper_Awake_m89B94E8D019B6996D3B97A3AA2948B69C9773CE8 (GameManagerKeeper_t98F8BFC9BAF4C793A737C36FC05864B93C04AE8F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14686,16 +14759,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManagerKeeper_Awake_m89B94E8D019B699
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManagerKeeper.cs:7>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManagerKeeper.cs:7>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/GameManagerKeeper.cs:8>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/GameManagerKeeper.cs:8>
 		return;
 	}
 }
-// Method Definition Index: 74600
+// Method Definition Index: 74608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManagerKeeper__ctor_m11CAB19BC24F8F9647060F314A7A5E3938AF8038 (GameManagerKeeper_t98F8BFC9BAF4C793A737C36FC05864B93C04AE8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14711,7 +14784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManagerKeeper__ctor_m11CAB19BC24F8F9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74601
+// Method Definition Index: 74609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_Awake_m1D77BA2862F634062167D05B95BA8D995613A6E3 (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14721,7 +14794,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_Awake_m1D77BA2862F63406
 		return;
 	}
 }
-// Method Definition Index: 74602
+// Method Definition Index: 74610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_SelectJobServerRpc_m248FA55C6E77F5F4362616F657A6694002B526C0 (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, String_t* ___0_jobName, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___1_sender, const RuntimeMethod* method) 
 {
 	{
@@ -14731,7 +14804,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_SelectJobServerRpc_m248
 		return;
 	}
 }
-// Method Definition Index: 74603
+// Method Definition Index: 74611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_ConfirmJobClientRpc_mFE6F00A7FCBFAB26025360F18D1D82F9E7FE7685 (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, String_t* ___1_jobName, const RuntimeMethod* method) 
 {
 	{
@@ -14741,7 +14814,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_ConfirmJobClientRpc_mFE
 		return;
 	}
 }
-// Method Definition Index: 74604
+// Method Definition Index: 74612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RejectJobClientRpc_mD7C894C0893584FD83CAEFE271E7D2840291BA5F (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, String_t* ___1_jobName, const RuntimeMethod* method) 
 {
 	{
@@ -14751,7 +14824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RejectJobClientRpc_mD7C
 		return;
 	}
 }
-// Method Definition Index: 74605
+// Method Definition Index: 74613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_UpdateJobStatusClientRpc_m95AD5B28C523CE457F62C23944F3779EB8FFDDB8 (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, String_t* ___0_jobName, bool ___1_isTaken, const RuntimeMethod* method) 
 {
 	{
@@ -14761,7 +14834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_UpdateJobStatusClientRp
 		return;
 	}
 }
-// Method Definition Index: 74606
+// Method Definition Index: 74614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper__ctor_m2E6B6D8D6BC57A072AE41E3B52869E4D2729F0AE (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14776,7 +14849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper__ctor_m2E6B6D8D6BC57A07
 		return;
 	}
 }
-// Method Definition Index: 74607
+// Method Definition Index: 74615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_NetworkInitialize___Early_m78287452E2B96FA8ED121E422EFB00C616846910 (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14820,7 +14893,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 74608
+// Method Definition Index: 74616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_NetworkInitialize___Late_m6EE6D6F1BE2642573D7D923A70FF7377DA4D3F05 (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14841,7 +14914,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 74609
+// Method Definition Index: 74617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_NetworkInitializeIfDisabled_m32259C58A806327EB14706537BBC11972E93D0DC (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14850,7 +14923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_NetworkInitializeIfDisa
 		return;
 	}
 }
-// Method Definition Index: 74610
+// Method Definition Index: 74618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcWriter___Server_SelectJobServerRpc___2943234052_m24C4741381B603153B6B730A41E707E71629BE7E (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, String_t* ___0_jobName, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___1_sender, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14900,7 +14973,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74611
+// Method Definition Index: 74619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcLogic___SelectJobServerRpc___2943234052_m87C94DC736DE013F59F643D140208D84EC7D2996 (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, String_t* ___0_p, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___1_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14911,24 +14984,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcLogic___SelectJobSer
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:20>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:20>
 		String_t* L_0 = ___0_p;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralCCF791F6E2514801F3380D259538E7BAA85BE129, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:21>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:21>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_2 = ___1_p;
 		String_t* L_3 = ___0_p;
 		JobNetworkHelper_ConfirmJobClientRpc_mFE6F00A7FCBFAB26025360F18D1D82F9E7FE7685(__this, L_2, L_3, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:22>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:22>
 		String_t* L_4 = ___0_p;
 		JobNetworkHelper_UpdateJobStatusClientRpc_m95AD5B28C523CE457F62C23944F3779EB8FFDDB8(__this, L_4, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:23>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 74612
+// Method Definition Index: 74620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcReader___Server_SelectJobServerRpc___2943234052_mF5E7844AC41F270A2F255427496E659F23349F98 (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___2_conn, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -14957,7 +15030,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 74613
+// Method Definition Index: 74621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcWriter___Target_ConfirmJobClientRpc___2971853958_mC2A183DD37C9E4F24564072C98602E4ABB6CBE3D (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, String_t* ___1_jobName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15008,7 +15081,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74614
+// Method Definition Index: 74622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcLogic___ConfirmJobClientRpc___2971853958_mD387253A7AB48A80817E7D6182BC844688CB2432 (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_p, String_t* ___1_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15020,7 +15093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcLogic___ConfirmJobCl
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B2_0 = NULL;
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:29>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:29>
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_0 = ((MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_StaticFields*)il2cpp_codegen_static_fields_for(MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_il2cpp_TypeInfo_var))->___Instance;
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_1 = L_0;
 		if (L_1)
@@ -15039,11 +15112,11 @@ IL_000a:
 		String_t* L_2 = ___1_p;
 		NullCheck(G_B2_0);
 		MobileJobSelect_OnJobConfirmed_mB71475BCE065E362A0B2D65FF1D7A50A981B3578(G_B2_0, L_2, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:30>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 74615
+// Method Definition Index: 74623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcReader___Target_ConfirmJobClientRpc___2971853958_m5219AA92CD2EB50500A541EFDCCF3D44F341AA6F (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -15073,7 +15146,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 74616
+// Method Definition Index: 74624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcWriter___Target_RejectJobClientRpc___2971853958_mF2D9F12BE001AE0772E5CCCB758C811631930FE9 (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, String_t* ___1_jobName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15124,7 +15197,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74617
+// Method Definition Index: 74625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcLogic___RejectJobClientRpc___2971853958_mF88E6571EA58E2AEA1729CE7F6451CD9EF7A53E3 (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_p, String_t* ___1_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15136,7 +15209,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcLogic___RejectJobCli
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B2_0 = NULL;
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:36>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:36>
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_0 = ((MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_StaticFields*)il2cpp_codegen_static_fields_for(MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_il2cpp_TypeInfo_var))->___Instance;
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_1 = L_0;
 		if (L_1)
@@ -15155,11 +15228,11 @@ IL_000a:
 		String_t* L_2 = ___1_p;
 		NullCheck(G_B2_0);
 		MobileJobSelect_OnJobRejected_mD692BFC7D1C1B1567E946E2AE7868972B445CA9E(G_B2_0, L_2, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:37>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 74618
+// Method Definition Index: 74626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcReader___Target_RejectJobClientRpc___2971853958_m55B463654387873931B45B08B81910C4374ED68A (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -15189,7 +15262,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 74619
+// Method Definition Index: 74627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcWriter___Observers_UpdateJobStatusClientRpc___310431262_mD65EDD4B084ABDC6F0A7C6094CBBF03CB284D860 (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, String_t* ___0_jobName, bool ___1_isTaken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15243,7 +15316,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 74620
+// Method Definition Index: 74628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcLogic___UpdateJobStatusClientRpc___310431262_m38CF818A5EA27BB4745C4C4341B933EF6B41E964 (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, String_t* ___0_p, bool ___1_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15255,7 +15328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcLogic___UpdateJobSta
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B2_0 = NULL;
 	MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:43>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:43>
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_0 = ((MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_StaticFields*)il2cpp_codegen_static_fields_for(MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_il2cpp_TypeInfo_var))->___Instance;
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_1 = L_0;
 		if (L_1)
@@ -15275,11 +15348,11 @@ IL_000a:
 		bool L_3 = ___1_p;
 		NullCheck(G_B2_0);
 		MobileJobSelect_OnJobStatusUpdated_mE5D0B7662FCAB01B8DC0583AB1C9122EBC3A7A41(G_B2_0, L_2, L_3, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:44>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:44>
 		return;
 	}
 }
-// Method Definition Index: 74621
+// Method Definition Index: 74629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_RpcReader___Observers_UpdateJobStatusClientRpc___310431262_mBA19C945DDC5B824A8EA76ADE3F2FAE7F04BBFA9 (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -15314,7 +15387,7 @@ IL_0027:
 		return;
 	}
 }
-// Method Definition Index: 74622
+// Method Definition Index: 74630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_Awake_UserLogic_JobNetworkHelper_AssemblyU2DCSharp_dll_m2A94D1B134E1AC4F6E38701FA07BB302AA89BC6D (JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15325,7 +15398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_Awake_UserLogic_JobNetw
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:12>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:12>
 		JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021* L_0 = ((JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021_StaticFields*)il2cpp_codegen_static_fields_for(JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -15336,14 +15409,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobNetworkHelper_Awake_UserLogic_JobNetw
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:12>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:12>
 		((JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021_StaticFields*)il2cpp_codegen_static_fields_for(JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021_il2cpp_TypeInfo_var))->___Instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021_StaticFields*)il2cpp_codegen_static_fields_for(JobNetworkHelper_tB732F234D4AFEDE415B29FFD11AB12913113D021_il2cpp_TypeInfo_var))->___Instance), (void*)__this);
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:13>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/JobNetworkHelper.cs:13>
 		return;
 	}
 }
@@ -15355,7 +15428,7 @@ IL_0013:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74623
+// Method Definition Index: 74631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_Start_m75F394DBF68473ECE4A609119D5EC1A1C5616188 (MobileClientUI_t22A7F846A1CB9375DF89ED8F342309219079B57B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15369,7 +15442,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_Start_m75F394DBF68473ECE4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:17>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:17>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_0;
 		L_0 = InstanceFinder_get_NetworkManager_m6B47BBD6E0F75FF5798CA210DD19F6B0868554E7(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -15381,7 +15454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_Start_m75F394DBF68473ECE4
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:18>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:18>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_2;
 		L_2 = InstanceFinder_get_NetworkManager_m6B47BBD6E0F75FF5798CA210DD19F6B0868554E7(NULL);
 		NullCheck(L_2);
@@ -15393,7 +15466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_Start_m75F394DBF68473ECE4
 
 IL_001c:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:20>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:20>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___connectButton;
 		NullCheck(L_4);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_5;
@@ -15402,18 +15475,18 @@ IL_001c:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_6, __this, (intptr_t)((void*)MobileClientUI_OnConnectClicked_m1F4812DA7970F3AC538CBF19D792AB55077CBFE8_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_5, L_6, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:21>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:21>
 		ClientManager_t4C708A22F4C0BD3CB5EB1E131909D787D5198FA4* L_7;
 		L_7 = InstanceFinder_get_ClientManager_m6881AFF02CB5053075C0B5DBF59DF895372EF1E2(NULL);
 		Action_1_tA27AB252E46E34F0C10009EDA6F593E45D7DC3DD* L_8 = (Action_1_tA27AB252E46E34F0C10009EDA6F593E45D7DC3DD*)il2cpp_codegen_object_new(Action_1_tA27AB252E46E34F0C10009EDA6F593E45D7DC3DD_il2cpp_TypeInfo_var);
 		Action_1__ctor_mF6E47E991B0A64C730507127FB96AF69E6CBE84E(L_8, __this, (intptr_t)((void*)MobileClientUI_OnConnectionState_mB1C01A6E25781C89AADB510116922EB45DF213D0_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
 		ClientManager_add_OnClientConnectionState_m11B448872D7AF07AA2350590DE7C7792B2A01AA3(L_7, L_8, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:22>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 74624
+// Method Definition Index: 74632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_OnConnectClicked_m1F4812DA7970F3AC538CBF19D792AB55077CBFE8 (MobileClientUI_t22A7F846A1CB9375DF89ED8F342309219079B57B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15426,7 +15499,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_OnConnectClicked_m1F4812D
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:26>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:26>
 		TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* L_0 = __this->___ipInputField;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -15435,7 +15508,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_OnConnectClicked_m1F4812D
 		String_t* L_2;
 		L_2 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:27>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:27>
 		String_t* L_3 = V_0;
 		bool L_4;
 		L_4 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_3, NULL);
@@ -15445,49 +15518,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_OnConnectClicked_m1F4812D
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:29>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:29>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5 = __this->___statusText;
 		NullCheck(L_5);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, _stringLiteralA966A33800D49F6A6CE818D66BA4B5493C8D1CDB);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:30>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:30>
 		return;
 	}
 
 IL_002a:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:33>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:33>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_6;
 		L_6 = InstanceFinder_get_NetworkManager_m6B47BBD6E0F75FF5798CA210DD19F6B0868554E7(NULL);
 		NullCheck(L_6);
 		Tugboat_tEBB2C1C3DC626DC6792FF52014F8FC13A6D9CF49* L_7;
 		L_7 = Component_GetComponent_TisTugboat_tEBB2C1C3DC626DC6792FF52014F8FC13A6D9CF49_mCFA3EAF529C3B1085B3CC7D4D8287B981FC0278C(L_6, Component_GetComponent_TisTugboat_tEBB2C1C3DC626DC6792FF52014F8FC13A6D9CF49_mCFA3EAF529C3B1085B3CC7D4D8287B981FC0278C_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:34>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:34>
 		Tugboat_tEBB2C1C3DC626DC6792FF52014F8FC13A6D9CF49* L_8 = L_7;
 		String_t* L_9 = V_0;
 		NullCheck(L_8);
 		VirtualActionInvoker1< String_t* >::Invoke(33, L_8, L_9);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:35>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:35>
 		NullCheck(L_8);
 		VirtualActionInvoker1< uint16_t >::Invoke(37, L_8, (uint16_t)((int32_t)7777));
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:38>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:38>
 		ClientManager_t4C708A22F4C0BD3CB5EB1E131909D787D5198FA4* L_10;
 		L_10 = InstanceFinder_get_ClientManager_m6881AFF02CB5053075C0B5DBF59DF895372EF1E2(NULL);
 		NullCheck(L_10);
 		bool L_11;
 		L_11 = ClientManager_StartConnection_mA7E97777100292E18FC542947F63134E570F42C4(L_10, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:40>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:40>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_12 = __this->___connectButton;
 		NullCheck(L_12);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_12, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:41>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:41>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_13 = __this->___statusText;
 		NullCheck(L_13);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, _stringLiteralAEBBAD76B8F1B514C936ECFF6181A7B969D2E6B3);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:42>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:42>
 		return;
 	}
 }
-// Method Definition Index: 74625
+// Method Definition Index: 74633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_OnConnectionState_mB1C01A6E25781C89AADB510116922EB45DF213D0 (MobileClientUI_t22A7F846A1CB9375DF89ED8F342309219079B57B* __this, ClientConnectionStateArgs_tD41B01C830E5D6189B4B8BD680F3FFB2A669C40B ___0_args, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15498,7 +15571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_OnConnectionState_mB1C01A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:46>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:46>
 		ClientConnectionStateArgs_tD41B01C830E5D6189B4B8BD680F3FFB2A669C40B L_0 = ___0_args;
 		int32_t L_1 = L_0.___ConnectionState;
 		if ((!(((uint32_t)L_1) == ((uint32_t)8))))
@@ -15507,7 +15580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_OnConnectionState_mB1C01A
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:48>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:48>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___statusText;
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, _stringLiteralF51083CBB3357A473BE67946193F5F6F5A9071C8);
@@ -15516,7 +15589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_OnConnectionState_mB1C01A
 
 IL_001a:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:52>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:52>
 		ClientConnectionStateArgs_tD41B01C830E5D6189B4B8BD680F3FFB2A669C40B L_3 = ___0_args;
 		int32_t L_4 = L_3.___ConnectionState;
 		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
@@ -15525,11 +15598,11 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:54>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:54>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5 = __this->___statusText;
 		NullCheck(L_5);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, _stringLiteral6A1A45D9663AAC3FF02B6F31C2F05CCFDEFE6E56);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:55>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:55>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___connectButton;
 		NullCheck(L_6);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_6, (bool)1, NULL);
@@ -15537,11 +15610,11 @@ IL_001a:
 
 IL_003f:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:57>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 74626
+// Method Definition Index: 74634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_OnDestroy_mFEC3AC4282DFD6B681D11EC3D80235BB2C15EB8C (MobileClientUI_t22A7F846A1CB9375DF89ED8F342309219079B57B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15553,7 +15626,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_OnDestroy_mFEC3AC4282DFD6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:61>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:61>
 		ClientManager_t4C708A22F4C0BD3CB5EB1E131909D787D5198FA4* L_0;
 		L_0 = InstanceFinder_get_ClientManager_m6881AFF02CB5053075C0B5DBF59DF895372EF1E2(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -15565,7 +15638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_OnDestroy_mFEC3AC4282DFD6
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:62>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:62>
 		ClientManager_t4C708A22F4C0BD3CB5EB1E131909D787D5198FA4* L_2;
 		L_2 = InstanceFinder_get_ClientManager_m6881AFF02CB5053075C0B5DBF59DF895372EF1E2(NULL);
 		Action_1_tA27AB252E46E34F0C10009EDA6F593E45D7DC3DD* L_3 = (Action_1_tA27AB252E46E34F0C10009EDA6F593E45D7DC3DD*)il2cpp_codegen_object_new(Action_1_tA27AB252E46E34F0C10009EDA6F593E45D7DC3DD_il2cpp_TypeInfo_var);
@@ -15576,11 +15649,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI_OnDestroy_mFEC3AC4282DFD6
 
 IL_0023:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:63>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileClientUI.cs:63>
 		return;
 	}
 }
-// Method Definition Index: 74627
+// Method Definition Index: 74635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI__ctor_m70D005D85FD9BF278B6AC7C425F42D5FE4B46876 (MobileClientUI_t22A7F846A1CB9375DF89ED8F342309219079B57B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15596,7 +15669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileClientUI__ctor_m70D005D85FD9BF278B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74628
+// Method Definition Index: 74636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Awake_mA1E78B13DD0BE0BD3A7FE7406C0E45A5E53460EA (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15607,7 +15680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Awake_mA1E78B13DD0BE0BD3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:88>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:88>
 		MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* L_0 = ((MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_StaticFields*)il2cpp_codegen_static_fields_for(MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -15618,18 +15691,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Awake_mA1E78B13DD0BE0BD3
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:88>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:88>
 		((MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_StaticFields*)il2cpp_codegen_static_fields_for(MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_il2cpp_TypeInfo_var))->___Instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_StaticFields*)il2cpp_codegen_static_fields_for(MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7_il2cpp_TypeInfo_var))->___Instance), (void*)__this);
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:89>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:89>
 		return;
 	}
 }
-// Method Definition Index: 74629
+// Method Definition Index: 74637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Start_mECF3C10ACBF14DBE7054C242F46DC862164F6A9B (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15657,36 +15730,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Start_mECF3C10ACBF14DBE7
 	GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* G_B2_0 = NULL;
 	GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:93>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:93>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___jobPopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:94>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:94>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1 = __this->___statusText;
 		NullCheck(L_1);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, _stringLiteral304A04163B5D099CE8CE971AFA86126B1E0A70A1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:96>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:96>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_2 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = DataManager_get_MaxPlayers_mFEA5CEB3E39414E083717C0D331FAAA040A6D9A0_inline(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:97>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:97>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___jobGrid2;
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)((((int32_t)L_5) == ((int32_t)2))? 1 : 0), NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:98>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:98>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___jobGrid3;
 		int32_t L_7 = V_0;
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)((((int32_t)L_7) == ((int32_t)3))? 1 : 0), NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:99>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:99>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___jobGrid4;
 		int32_t L_9 = V_0;
 		NullCheck(L_8);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)((((int32_t)L_9) == ((int32_t)4))? 1 : 0), NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:101>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:101>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_10 = __this->___jobCard2_1;
 		NullCheck(L_10);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_11;
@@ -15695,7 +15768,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Start_mECF3C10ACBF14DBE7
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_12, __this, (intptr_t)((void*)MobileJobSelect_U3CStartU3Eb__33_0_m1427000A1CBB5E5CC98523278F846151702086B1_RuntimeMethod_var), NULL);
 		NullCheck(L_11);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_11, L_12, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:102>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:102>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_13 = __this->___jobCard2_2;
 		NullCheck(L_13);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_14;
@@ -15704,7 +15777,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Start_mECF3C10ACBF14DBE7
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_15, __this, (intptr_t)((void*)MobileJobSelect_U3CStartU3Eb__33_1_m128EA2CDCA4ACF00DE4587506F04A39B959B3530_RuntimeMethod_var), NULL);
 		NullCheck(L_14);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_14, L_15, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:104>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:104>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_16 = __this->___jobCard3_1;
 		NullCheck(L_16);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_17;
@@ -15713,7 +15786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Start_mECF3C10ACBF14DBE7
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_18, __this, (intptr_t)((void*)MobileJobSelect_U3CStartU3Eb__33_2_m56B00FDD5D9BD401C511C538AA65A9222313D117_RuntimeMethod_var), NULL);
 		NullCheck(L_17);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_17, L_18, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:105>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:105>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_19 = __this->___jobCard3_2;
 		NullCheck(L_19);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_20;
@@ -15722,7 +15795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Start_mECF3C10ACBF14DBE7
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_21, __this, (intptr_t)((void*)MobileJobSelect_U3CStartU3Eb__33_3_m2115B4523BD715106EF0B2185B083BC5F5CAA694_RuntimeMethod_var), NULL);
 		NullCheck(L_20);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_20, L_21, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:106>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:106>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_22 = __this->___jobCard3_3;
 		NullCheck(L_22);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_23;
@@ -15731,7 +15804,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Start_mECF3C10ACBF14DBE7
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_24, __this, (intptr_t)((void*)MobileJobSelect_U3CStartU3Eb__33_4_m4B195891E15A31F2AC7343A1B70F1FF07D3FD1ED_RuntimeMethod_var), NULL);
 		NullCheck(L_23);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_23, L_24, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:108>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:108>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_25 = __this->___jobCard4_1;
 		NullCheck(L_25);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_26;
@@ -15740,7 +15813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Start_mECF3C10ACBF14DBE7
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_27, __this, (intptr_t)((void*)MobileJobSelect_U3CStartU3Eb__33_5_m339ACBD5338CB6811F919623FE99F3A1ECA78E8B_RuntimeMethod_var), NULL);
 		NullCheck(L_26);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_26, L_27, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:109>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:109>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_28 = __this->___jobCard4_2;
 		NullCheck(L_28);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_29;
@@ -15749,7 +15822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Start_mECF3C10ACBF14DBE7
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_30, __this, (intptr_t)((void*)MobileJobSelect_U3CStartU3Eb__33_6_m7E21B2197007CACC6E8AC7B23B94F9F6DB68C52D_RuntimeMethod_var), NULL);
 		NullCheck(L_29);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_29, L_30, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:110>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:110>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_31 = __this->___jobCard4_3;
 		NullCheck(L_31);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_32;
@@ -15758,7 +15831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Start_mECF3C10ACBF14DBE7
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_33, __this, (intptr_t)((void*)MobileJobSelect_U3CStartU3Eb__33_7_m7B9506AE266166AA1C4AA949AECA17943A437593_RuntimeMethod_var), NULL);
 		NullCheck(L_32);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_32, L_33, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:111>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:111>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_34 = __this->___jobCard4_4;
 		NullCheck(L_34);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_35;
@@ -15767,7 +15840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Start_mECF3C10ACBF14DBE7
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_36, __this, (intptr_t)((void*)MobileJobSelect_U3CStartU3Eb__33_8_mAB5C3F3504D95F4D06E366CD2E62F07D5AB7EED4_RuntimeMethod_var), NULL);
 		NullCheck(L_35);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_35, L_36, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:113>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:113>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_37 = __this->___selectButton;
 		NullCheck(L_37);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_38;
@@ -15776,11 +15849,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Start_mECF3C10ACBF14DBE7
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_39, __this, (intptr_t)((void*)MobileJobSelect_OnSelectClicked_m7EB7BFF1F7389356BB3745FBF839B34F93D42224_RuntimeMethod_var), NULL);
 		NullCheck(L_38);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_38, L_39, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:115>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:116>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:117>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:118>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:119>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:115>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:116>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:117>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:118>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:119>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_40 = __this->___closeButton;
 		NullCheck(L_40);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_41;
@@ -15789,11 +15862,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_Start_mECF3C10ACBF14DBE7
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_42, __this, (intptr_t)((void*)MobileJobSelect_U3CStartU3Eb__33_9_m31C9D9267B712772F8A6126AEC6B2F31C9DE28F8_RuntimeMethod_var), NULL);
 		NullCheck(L_41);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_41, L_42, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:121>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:121>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_43;
 		L_43 = Object_FindFirstObjectByType_TisGameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_mF766559530B489C0F2CD36609162D1A663352C63(Object_FindFirstObjectByType_TisGameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_mF766559530B489C0F2CD36609162D1A663352C63_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:122>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:122>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_44 = L_43;
 		if (L_44)
 		{
@@ -15810,11 +15883,11 @@ IL_0192:
 	{
 		NullCheck(G_B2_0);
 		GameManager_RequestJobStatusServerRpc_m84299C16104E29204AC2D1B66D26A72906E287A2(G_B2_0, (NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C*)NULL, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:123>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:123>
 		return;
 	}
 }
-// Method Definition Index: 74630
+// Method Definition Index: 74638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnJobCardClicked_mA2AF6DBFD2BBEAE2BFF30EF24DB5401BD77329A2 (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, String_t* ___0_jobName, String_t* ___1_desc, String_t* ___2_imagePath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15828,7 +15901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnJobCardClicked_mA2AF6D
 	}
 	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* V_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:127>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:127>
 		bool L_0 = __this->___isLocked;
 		if (!L_0)
 		{
@@ -15836,17 +15909,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnJobCardClicked_mA2AF6D
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:129>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:129>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1 = __this->___statusText;
 		NullCheck(L_1);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, _stringLiteral304A04163B5D099CE8CE971AFA86126B1E0A70A1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:130>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:130>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:133>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:133>
 		String_t* L_2 = __this->___selectedJob;
 		bool L_3;
 		L_3 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_2, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -15856,32 +15929,32 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:133>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:133>
 		return;
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:135>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:135>
 		String_t* L_4 = ___0_jobName;
 		__this->___pendingJob = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pendingJob), (void*)L_4);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:137>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:137>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5 = __this->___popupJobName;
 		String_t* L_6 = ___0_jobName;
 		NullCheck(L_5);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, L_6);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:138>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:138>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_7 = __this->___popupJobDesc;
 		String_t* L_8 = ___1_desc;
 		NullCheck(L_7);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_7, L_8);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:140>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:140>
 		String_t* L_9 = ___2_imagePath;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_10;
 		L_10 = Resources_Load_TisTexture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_mBEC87DD291ED9662B46356519E0723C0ABB12877(L_9, Resources_Load_TisTexture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_mBEC87DD291ED9662B46356519E0723C0ABB12877_RuntimeMethod_var);
 		V_0 = L_10;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:141>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:141>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_11 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -15902,7 +15975,7 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:142>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:142>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_15 = __this->___popupJobImage;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_16 = V_0;
 		NullCheck(L_15);
@@ -15911,15 +15984,15 @@ IL_002c:
 
 IL_0075:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:144>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:144>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___jobPopup;
 		NullCheck(L_17);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:145>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:145>
 		return;
 	}
 }
-// Method Definition Index: 74631
+// Method Definition Index: 74639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnSelectClicked_m7EB7BFF1F7389356BB3745FBF839B34F93D42224 (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15934,7 +16007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnSelectClicked_m7EB7BFF
 	}
 	GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* V_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:149>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:149>
 		String_t* L_0 = __this->___pendingJob;
 		bool L_1;
 		L_1 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_0, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -15944,29 +16017,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnSelectClicked_m7EB7BFF
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:149>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:149>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:151>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:151>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___jobPopup;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:152>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:152>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_3 = __this->___statusText;
 		String_t* L_4 = __this->___pendingJob;
 		String_t* L_5;
 		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_4, _stringLiteral2597B2F4895F5E535658299A561F3E952BA38F96, NULL);
 		NullCheck(L_3);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_3, L_5);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:154>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:154>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_6;
 		L_6 = Object_FindFirstObjectByType_TisGameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_mF766559530B489C0F2CD36609162D1A663352C63(Object_FindFirstObjectByType_TisGameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_mF766559530B489C0F2CD36609162D1A663352C63_RuntimeMethod_var);
 		V_0 = L_6;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:155>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:155>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_7 = V_0;
 		bool L_8;
 		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -15976,7 +16049,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:156>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:156>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_9 = V_0;
 		String_t* L_10 = __this->___pendingJob;
 		NullCheck(L_9);
@@ -15986,15 +16059,15 @@ IL_0013:
 
 IL_0057:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:158>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:158>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_11 = __this->___statusText;
 		NullCheck(L_11);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_11, _stringLiteralF39271D85E63AAB9744AF17D98A4003FA536AFB6);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:159>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:159>
 		return;
 	}
 }
-// Method Definition Index: 74632
+// Method Definition Index: 74640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_UnlockJobSelect_mEFE9F0621C6FC959F40FBA28DBB962E0E2E8A07F (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16004,17 +16077,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_UnlockJobSelect_mEFE9F06
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:163>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:163>
 		__this->___isLocked = (bool)0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:164>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:164>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___statusText;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, _stringLiteralD7723EB7BA2C6E5404829E60DEA648FA09D190B2);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:165>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:165>
 		return;
 	}
 }
-// Method Definition Index: 74633
+// Method Definition Index: 74641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnJobConfirmed_mB71475BCE065E362A0B2D65FF1D7A50A981B3578 (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, String_t* ___0_jobName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16027,30 +16100,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnJobConfirmed_mB71475BC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:169>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:169>
 		String_t* L_0 = ___0_jobName;
 		__this->___selectedJob = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___selectedJob), (void*)L_0);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:170>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:170>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1 = __this->___statusText;
 		String_t* L_2 = ___0_jobName;
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_2, _stringLiteralE11725803C10454740C99825A600CE47A576917C, NULL);
 		NullCheck(L_1);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, L_3);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:171>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:171>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_4 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		String_t* L_5 = ___0_jobName;
 		NullCheck(L_4);
 		DataManager_set_SelectedJob_mE604590438B074710D7152E8FFA7AF315C1AB99B_inline(L_4, L_5, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:172>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:172>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB683C057E8DA801FA01FD23F5A07DAEFB5C796EA, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:173>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:173>
 		return;
 	}
 }
-// Method Definition Index: 74634
+// Method Definition Index: 74642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnJobRejected_mD692BFC7D1C1B1567E946E2AE7868972B445CA9E (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, String_t* ___0_jobName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16061,25 +16134,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnJobRejected_mD692BFC7D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:177>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:177>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___jobPopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:178>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:178>
 		__this->___pendingJob = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pendingJob), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:179>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:179>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1 = __this->___statusText;
 		String_t* L_2 = ___0_jobName;
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_2, _stringLiteral5F99812F31ABF58C63B896E1FC06704D99BE2A3A, NULL);
 		NullCheck(L_1);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, L_3);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:180>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:180>
 		return;
 	}
 }
-// Method Definition Index: 74635
+// Method Definition Index: 74643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnJobStatusUpdated_mE5D0B7662FCAB01B8DC0583AB1C9122EBC3A7A41 (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, String_t* ___0_jobName, bool ___1_isTaken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16092,15 +16165,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnJobStatusUpdated_mE5D0
 	int32_t V_0 = 0;
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* V_1 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:184>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:184>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_0 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = DataManager_get_MaxPlayers_mFEA5CEB3E39414E083717C0D331FAAA040A6D9A0_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:185>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:185>
 		V_1 = (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098*)NULL;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:187>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:187>
 		int32_t L_2 = V_0;
 		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
 		{
@@ -16108,7 +16181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnJobStatusUpdated_mE5D0
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:189>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:189>
 		String_t* L_3 = ___0_jobName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = __this->___jobs2;
 		NullCheck(L_4);
@@ -16122,7 +16195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnJobStatusUpdated_mE5D0
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:189>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:189>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_8 = __this->___jobCard2_1;
 		V_1 = L_8;
 		goto IL_0100;
@@ -16130,7 +16203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_OnJobStatusUpdated_mE5D0
 
 IL_002d:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:190>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:190>
 		String_t* L_9 = ___0_jobName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = __this->___jobs2;
 		NullCheck(L_10);
@@ -16144,7 +16217,7 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:190>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:190>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_14 = __this->___jobCard2_2;
 		V_1 = L_14;
 		goto IL_0100;
@@ -16152,7 +16225,7 @@ IL_002d:
 
 IL_004c:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:192>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:192>
 		int32_t L_15 = V_0;
 		if ((!(((uint32_t)L_15) == ((uint32_t)3))))
 		{
@@ -16160,7 +16233,7 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:194>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:194>
 		String_t* L_16 = ___0_jobName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = __this->___jobs3;
 		NullCheck(L_17);
@@ -16174,7 +16247,7 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:194>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:194>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_21 = __this->___jobCard3_1;
 		V_1 = L_21;
 		goto IL_0100;
@@ -16182,7 +16255,7 @@ IL_004c:
 
 IL_006c:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:195>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:195>
 		String_t* L_22 = ___0_jobName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_23 = __this->___jobs3;
 		NullCheck(L_23);
@@ -16196,7 +16269,7 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:195>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:195>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_27 = __this->___jobCard3_2;
 		V_1 = L_27;
 		goto IL_0100;
@@ -16204,7 +16277,7 @@ IL_006c:
 
 IL_0085:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:196>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:196>
 		String_t* L_28 = ___0_jobName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_29 = __this->___jobs3;
 		NullCheck(L_29);
@@ -16218,7 +16291,7 @@ IL_0085:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:196>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:196>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_33 = __this->___jobCard3_3;
 		V_1 = L_33;
 		goto IL_0100;
@@ -16226,7 +16299,7 @@ IL_0085:
 
 IL_009e:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:200>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:200>
 		String_t* L_34 = ___0_jobName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_35 = __this->___jobs4;
 		NullCheck(L_35);
@@ -16240,7 +16313,7 @@ IL_009e:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:200>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:200>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_39 = __this->___jobCard4_1;
 		V_1 = L_39;
 		goto IL_0100;
@@ -16248,7 +16321,7 @@ IL_009e:
 
 IL_00b7:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:201>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:201>
 		String_t* L_40 = ___0_jobName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_41 = __this->___jobs4;
 		NullCheck(L_41);
@@ -16262,7 +16335,7 @@ IL_00b7:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:201>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:201>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_45 = __this->___jobCard4_2;
 		V_1 = L_45;
 		goto IL_0100;
@@ -16270,7 +16343,7 @@ IL_00b7:
 
 IL_00d0:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:202>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:202>
 		String_t* L_46 = ___0_jobName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_47 = __this->___jobs4;
 		NullCheck(L_47);
@@ -16284,7 +16357,7 @@ IL_00d0:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:202>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:202>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_51 = __this->___jobCard4_3;
 		V_1 = L_51;
 		goto IL_0100;
@@ -16292,7 +16365,7 @@ IL_00d0:
 
 IL_00e9:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:203>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:203>
 		String_t* L_52 = ___0_jobName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_53 = __this->___jobs4;
 		NullCheck(L_53);
@@ -16306,14 +16379,14 @@ IL_00e9:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:203>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:203>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_57 = __this->___jobCard4_4;
 		V_1 = L_57;
 	}
 
 IL_0100:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:206>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:206>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_58 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_59;
@@ -16324,7 +16397,7 @@ IL_0100:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:207>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:207>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_60 = V_1;
 		bool L_61 = ___1_isTaken;
 		NullCheck(L_60);
@@ -16333,11 +16406,11 @@ IL_0100:
 
 IL_0113:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:208>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:208>
 		return;
 	}
 }
-// Method Definition Index: 74636
+// Method Definition Index: 74644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect__ctor_m4094D6D9E595D89A74E7E6611A9637065434EE01 (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16370,15 +16443,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect__ctor_m4094D6D9E595D89A7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:58>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:58>
 		__this->___selectedJob = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___selectedJob), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:59>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:59>
 		__this->___pendingJob = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pendingJob), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:60>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:60>
 		__this->___isLocked = (bool)1;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:62>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:62>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)2);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -16388,7 +16461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect__ctor_m4094D6D9E595D89A7
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral8DF93CD28478DBCBBCE754C94EDC938751DEAEC0);
 		__this->___jobs2 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___jobs2), (void*)L_2);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:63>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:63>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
 		NullCheck(L_4);
@@ -16401,7 +16474,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect__ctor_m4094D6D9E595D89A7
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral6D771E9CB61DBBBCDDEDE372E96CFCADB2388E77);
 		__this->___jobs3 = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___jobs3), (void*)L_6);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:64>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:64>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = L_7;
 		NullCheck(L_8);
@@ -16417,10 +16490,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect__ctor_m4094D6D9E595D89A7
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteralBC59B9D137425560599E94617F03E9C00A713B21);
 		__this->___jobs4 = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___jobs4), (void*)L_11);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:66>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:67>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:68>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:69>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:66>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:67>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:68>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:69>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)2);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = L_12;
 		NullCheck(L_13);
@@ -16430,11 +16503,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect__ctor_m4094D6D9E595D89A7
 		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral4BFD4121414256FF6911FDD78161D42300F1C0A3);
 		__this->___desc2 = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___desc2), (void*)L_14);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:70>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:71>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:72>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:73>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:74>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:70>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:71>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:72>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:73>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:74>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_15;
 		NullCheck(L_16);
@@ -16447,12 +16520,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect__ctor_m4094D6D9E595D89A7
 		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral175AC2734DDB362F486637FCBD790F0908F4B834);
 		__this->___desc3 = L_18;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___desc3), (void*)L_18);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:75>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:76>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:77>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:78>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:79>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:80>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:75>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:76>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:77>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:78>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:79>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:80>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20 = L_19;
 		NullCheck(L_20);
@@ -16468,7 +16541,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect__ctor_m4094D6D9E595D89A7
 		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral13DA7C97D45A385284FD21273DAC8F6AF95F795C);
 		__this->___desc4 = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___desc4), (void*)L_23);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:82>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:82>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)2);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_25 = L_24;
 		NullCheck(L_25);
@@ -16478,7 +16551,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect__ctor_m4094D6D9E595D89A7
 		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralBED8D454EDAF0F89D3D24BF9A511EDC163E1B73E);
 		__this->___images2 = L_26;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___images2), (void*)L_26);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:83>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:83>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_27 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_28 = L_27;
 		NullCheck(L_28);
@@ -16491,7 +16564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect__ctor_m4094D6D9E595D89A7
 		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral009E8EEB57AE4F37CBC57DB5C7A88FCB38C14022);
 		__this->___images3 = L_30;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___images3), (void*)L_30);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:84>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:84>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_31 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_32 = L_31;
 		NullCheck(L_32);
@@ -16511,11 +16584,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect__ctor_m4094D6D9E595D89A7
 		return;
 	}
 }
-// Method Definition Index: 74637
+// Method Definition Index: 74645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_0_m1427000A1CBB5E5CC98523278F846151702086B1 (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:101>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:101>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___jobs2;
 		NullCheck(L_0);
 		int32_t L_1 = 0;
@@ -16532,11 +16605,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_0_m1427
 		return;
 	}
 }
-// Method Definition Index: 74638
+// Method Definition Index: 74646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_1_m128EA2CDCA4ACF00DE4587506F04A39B959B3530 (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:102>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:102>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___jobs2;
 		NullCheck(L_0);
 		int32_t L_1 = 1;
@@ -16553,11 +16626,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_1_m128E
 		return;
 	}
 }
-// Method Definition Index: 74639
+// Method Definition Index: 74647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_2_m56B00FDD5D9BD401C511C538AA65A9222313D117 (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:104>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:104>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___jobs3;
 		NullCheck(L_0);
 		int32_t L_1 = 0;
@@ -16574,11 +16647,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_2_m56B0
 		return;
 	}
 }
-// Method Definition Index: 74640
+// Method Definition Index: 74648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_3_m2115B4523BD715106EF0B2185B083BC5F5CAA694 (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:105>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:105>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___jobs3;
 		NullCheck(L_0);
 		int32_t L_1 = 1;
@@ -16595,11 +16668,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_3_m2115
 		return;
 	}
 }
-// Method Definition Index: 74641
+// Method Definition Index: 74649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_4_m4B195891E15A31F2AC7343A1B70F1FF07D3FD1ED (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:106>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:106>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___jobs3;
 		NullCheck(L_0);
 		int32_t L_1 = 2;
@@ -16616,11 +16689,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_4_m4B19
 		return;
 	}
 }
-// Method Definition Index: 74642
+// Method Definition Index: 74650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_5_m339ACBD5338CB6811F919623FE99F3A1ECA78E8B (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:108>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:108>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___jobs4;
 		NullCheck(L_0);
 		int32_t L_1 = 0;
@@ -16637,11 +16710,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_5_m339A
 		return;
 	}
 }
-// Method Definition Index: 74643
+// Method Definition Index: 74651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_6_m7E21B2197007CACC6E8AC7B23B94F9F6DB68C52D (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:109>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:109>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___jobs4;
 		NullCheck(L_0);
 		int32_t L_1 = 1;
@@ -16658,11 +16731,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_6_m7E21
 		return;
 	}
 }
-// Method Definition Index: 74644
+// Method Definition Index: 74652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_7_m7B9506AE266166AA1C4AA949AECA17943A437593 (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:110>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:110>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___jobs4;
 		NullCheck(L_0);
 		int32_t L_1 = 2;
@@ -16679,11 +16752,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_7_m7B95
 		return;
 	}
 }
-// Method Definition Index: 74645
+// Method Definition Index: 74653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_8_mAB5C3F3504D95F4D06E366CD2E62F07D5AB7EED4 (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:111>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:111>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___jobs4;
 		NullCheck(L_0);
 		int32_t L_1 = 3;
@@ -16700,7 +16773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_8_mAB5C
 		return;
 	}
 }
-// Method Definition Index: 74646
+// Method Definition Index: 74654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_9_m31C9D9267B712772F8A6126AEC6B2F31C9DE28F8 (MobileJobSelect_t9A37E7CB03720427C24BA2ECF52A438EDA87F4A7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16710,14 +16783,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_9_m31C9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:117>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:117>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___jobPopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:118>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:118>
 		__this->___pendingJob = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pendingJob), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:119>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileJobSelect.cs:119>
 		return;
 	}
 }
@@ -16729,7 +16802,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJobSelect_U3CStartU3Eb__33_9_m31C9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74647
+// Method Definition Index: 74655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileLobbyUI_Start_m23961962753368C2577BE1BEB6C547A47BC8DF4F (MobileLobbyUI_t2C7C373EBA9513BBB827C2E84984178F6D78D273* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16747,28 +16820,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileLobbyUI_Start_m23961962753368C2577
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:28>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:28>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_0 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = DataManager_get_SelectedJob_m59F41D4462E9743FCB4B37795170FBE6936187FF_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:29>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:29>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___jobText;
 		String_t* L_3 = V_0;
 		String_t* L_4;
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralEAB5E0E0797AC461DB152005B9E0AA4233318FF4, L_3, NULL);
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, L_4);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:32>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:32>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___evidencePopup;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:33>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:33>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___evidenceItemTemplate;
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:35>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:35>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_7 = __this->___sendStatusText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -16779,7 +16852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileLobbyUI_Start_m23961962753368C2577
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:36>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:36>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = __this->___sendStatusText;
 		NullCheck(L_9);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_9, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -16787,7 +16860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileLobbyUI_Start_m23961962753368C2577
 
 IL_0057:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:39>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:39>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_10 = __this->___evidenceButton;
 		NullCheck(L_10);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_11;
@@ -16796,7 +16869,7 @@ IL_0057:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_12, __this, (intptr_t)((void*)MobileLobbyUI_OpenEvidencePopup_mFF91D1B3700AFDD9FD72D06746AA0AC0BE3CF3F7_RuntimeMethod_var), NULL);
 		NullCheck(L_11);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_11, L_12, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:40>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:40>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_13 = __this->___sendButton;
 		NullCheck(L_13);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_14;
@@ -16805,7 +16878,7 @@ IL_0057:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_15, __this, (intptr_t)((void*)MobileLobbyUI_OnSendClicked_m381D3975DEFCB4C84B91BBC818A9A203709DC78D_RuntimeMethod_var), NULL);
 		NullCheck(L_14);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_14, L_15, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:41>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:41>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_16 = __this->___closeButton;
 		NullCheck(L_16);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_17;
@@ -16814,11 +16887,11 @@ IL_0057:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_18, __this, (intptr_t)((void*)MobileLobbyUI_CloseEvidencePopup_m01E66E156FE1D2CDA9EFAAAF4511690E0A2395DA_RuntimeMethod_var), NULL);
 		NullCheck(L_17);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_17, L_18, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:44>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:44>
 		return;
 	}
 }
-// Method Definition Index: 74648
+// Method Definition Index: 74656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileLobbyUI_OpenEvidencePopup_mFF91D1B3700AFDD9FD72D06746AA0AC0BE3CF3F7 (MobileLobbyUI_t2C7C373EBA9513BBB827C2E84984178F6D78D273* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16849,7 +16922,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileLobbyUI_OpenEvidencePopup_mFF91D1B
 	memset((&V_4), 0, sizeof(V_4));
 	String_t* V_5 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:51>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:51>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___evidenceContent;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -16891,13 +16964,13 @@ IL_0052:
 
 IL_000e_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:51>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:51>
 				RuntimeObject* L_5 = V_1;
 				NullCheck(L_5);
 				RuntimeObject* L_6;
 				L_6 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_5);
 				V_2 = ((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_6, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var));
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:53>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:53>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = V_2;
 				NullCheck(L_7);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
@@ -16912,7 +16985,7 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:54>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:54>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = V_2;
 				NullCheck(L_11);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
@@ -16923,7 +16996,7 @@ IL_000e_1:
 
 IL_0038_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:51>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:51>
 				RuntimeObject* L_13 = V_1;
 				NullCheck(L_13);
 				bool L_14;
@@ -16945,7 +17018,7 @@ IL_0038_1:
 
 IL_0053:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:57>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:57>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_15 = __this->___sendStatusText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -16956,7 +17029,7 @@ IL_0053:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:58>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:58>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_17 = __this->___sendStatusText;
 		NullCheck(L_17);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_17, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -16964,13 +17037,13 @@ IL_0053:
 
 IL_0071:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:60>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:60>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_18 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_18);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_19;
 		L_19 = DataManager_get_CollectedEvidences_mA86F29F97E532447C6B3B249DB5243E2CD638F16_inline(L_18, NULL);
 		V_0 = L_19;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:62>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:62>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_20 = V_0;
 		NullCheck(L_20);
 		int32_t L_21;
@@ -16981,24 +17054,24 @@ IL_0071:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:64>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:64>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___evidenceItemTemplate;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23 = __this->___evidenceContent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
 		L_24 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_22, L_23, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:65>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:65>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = L_24;
 		NullCheck(L_25);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_25, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:66>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:66>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = L_25;
 		NullCheck(L_26);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_27;
 		L_27 = GameObject_GetComponentInChildren_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_m58413DB121C1F732459A1F2B911AB85B1BF21AFB(L_26, GameObject_GetComponentInChildren_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_m58413DB121C1F732459A1F2B911AB85B1BF21AFB_RuntimeMethod_var);
 		NullCheck(L_27);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_27, _stringLiteral81F627BCB2B22E7E9D26D3B0C719DCB105B01956);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:67>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:67>
 		NullCheck(L_26);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_28;
 		L_28 = GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290(L_26, GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290_RuntimeMethod_var);
@@ -17009,7 +17082,7 @@ IL_0071:
 
 IL_00b9:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:71>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:71>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_29 = V_0;
 		NullCheck(L_29);
 		Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 L_30;
@@ -17034,21 +17107,21 @@ FINALLY_0107:
 
 IL_00c3_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:71>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:71>
 				String_t* L_31;
 				L_31 = Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_inline((&V_4), Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_RuntimeMethod_var);
 				V_5 = L_31;
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:73>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:73>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = __this->___evidenceItemTemplate;
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33 = __this->___evidenceContent;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34;
 				L_34 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_32, L_33, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:74>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:74>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = L_34;
 				NullCheck(L_35);
 				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_35, (bool)1, NULL);
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:75>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:75>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = L_35;
 				NullCheck(L_36);
 				TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_37;
@@ -17056,7 +17129,7 @@ IL_00c3_1:
 				String_t* L_38 = V_5;
 				NullCheck(L_37);
 				VirtualActionInvoker1< String_t* >::Invoke(66, L_37, L_38);
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:76>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:76>
 				NullCheck(L_36);
 				Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_39;
 				L_39 = GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290(L_36, GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290_RuntimeMethod_var);
@@ -17066,7 +17139,7 @@ IL_00c3_1:
 
 IL_00fc_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:71>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:71>
 				bool L_40;
 				L_40 = Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED((&V_4), Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED_RuntimeMethod_var);
 				if (L_40)
@@ -17086,15 +17159,15 @@ IL_00fc_1:
 
 IL_0115:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:80>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:80>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = __this->___evidencePopup;
 		NullCheck(L_41);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_41, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:81>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 74649
+// Method Definition Index: 74657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileLobbyUI_OnSendClicked_m381D3975DEFCB4C84B91BBC818A9A203709DC78D (MobileLobbyUI_t2C7C373EBA9513BBB827C2E84984178F6D78D273* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17113,13 +17186,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileLobbyUI_OnSendClicked_m381D3975DEF
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* V_0 = NULL;
 	GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* V_1 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:88>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:88>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_0 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_0);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1;
 		L_1 = DataManager_get_CollectedEvidences_mA86F29F97E532447C6B3B249DB5243E2CD638F16_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:90>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:90>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3;
@@ -17130,7 +17203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileLobbyUI_OnSendClicked_m381D3975DEF
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:92>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:92>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4 = __this->___sendStatusText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -17141,7 +17214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileLobbyUI_OnSendClicked_m381D3975DEF
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:93>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:93>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_6 = __this->___sendStatusText;
 		NullCheck(L_6);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, _stringLiteral2116BA4AB754498EB2250B3A88110187BD312FE6);
@@ -17149,18 +17222,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileLobbyUI_OnSendClicked_m381D3975DEF
 
 IL_0031:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:94>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:94>
 		return;
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:97>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:97>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_7;
 		L_7 = Object_FindFirstObjectByType_TisGameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_mF766559530B489C0F2CD36609162D1A663352C63(Object_FindFirstObjectByType_TisGameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_mF766559530B489C0F2CD36609162D1A663352C63_RuntimeMethod_var);
 		V_1 = L_7;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:98>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:98>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_8 = V_1;
 		bool L_9;
 		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -17170,7 +17243,7 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:100>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:100>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_10 = V_1;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_11 = V_0;
 		NullCheck(L_11);
@@ -17178,7 +17251,7 @@ IL_0032:
 		L_12 = List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A(L_11, List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A_RuntimeMethod_var);
 		NullCheck(L_10);
 		GameManager_ShareEvidencesServerRpc_mC1A7BC2A3FA00BC2DAA08708149C4E4454DDA2FC(L_10, L_12, (NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C*)NULL, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:102>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:102>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_13 = __this->___sendStatusText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -17189,7 +17262,7 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:103>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:103>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_15 = __this->___sendStatusText;
 		NullCheck(L_15);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, _stringLiteral11791F9755C865F735E223DE378CAE9B98DF244B);
@@ -17197,7 +17270,7 @@ IL_0032:
 
 IL_006c:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:105>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:105>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_16 = __this->___sendButton;
 		NullCheck(L_16);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_16, (bool)0, NULL);
@@ -17206,7 +17279,7 @@ IL_006c:
 
 IL_0079:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:109>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:109>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_17 = __this->___sendStatusText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -17217,7 +17290,7 @@ IL_0079:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:110>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:110>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_19 = __this->___sendStatusText;
 		NullCheck(L_19);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_19, _stringLiteralB92349C7AC647729697242AC6253E778734542EB);
@@ -17225,23 +17298,23 @@ IL_0079:
 
 IL_0097:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:112>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:112>
 		return;
 	}
 }
-// Method Definition Index: 74650
+// Method Definition Index: 74658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileLobbyUI_CloseEvidencePopup_m01E66E156FE1D2CDA9EFAAAF4511690E0A2395DA (MobileLobbyUI_t2C7C373EBA9513BBB827C2E84984178F6D78D273* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:119>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:119>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___evidencePopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:120>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/MobileLobbyUI.cs:120>
 		return;
 	}
 }
-// Method Definition Index: 74651
+// Method Definition Index: 74659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileLobbyUI__ctor_mDEC2145AD2322F01D143364A6936B14B53340149 (MobileLobbyUI_t2C7C373EBA9513BBB827C2E84984178F6D78D273* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17257,7 +17330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileLobbyUI__ctor_mDEC2145AD2322F01D14
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74652
+// Method Definition Index: 74660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager_Start_mA4182C5977ADF30BD92C0716B9736572AD85D65F (NFCManager_t7D2DEDA3E49AB35BD0D53650871938FC4D7B9A0F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17271,7 +17344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager_Start_mA4182C5977ADF30BD92C07
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:27>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:27>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -17279,28 +17352,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager_Start_mA4182C5977ADF30BD92C07
 		L_1 = GameObject_AddComponent_TisAndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74_mE2283BB176C7EBDCBBDE61D898130445EB40A4E0(L_0, GameObject_AddComponent_TisAndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74_mE2283BB176C7EBDCBBDE61D898130445EB40A4E0_RuntimeMethod_var);
 		__this->___nativeNFC = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___nativeNFC), (void*)L_1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:28>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:28>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_2 = __this->___nativeNFC;
 		NullCheck(L_2);
 		VirtualActionInvoker0::Invoke(8, L_2);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:29>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:29>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_3 = __this->___nativeNFC;
 		OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* L_4 = (OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67*)il2cpp_codegen_object_new(OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67_il2cpp_TypeInfo_var);
 		OnNFCTagDetected__ctor_m682F213C951185476EDB25362C3A3D9B09D0C850(L_4, __this, (intptr_t)((void*)NFCManager_HandleNFCTag_m937E3AB589FD5D67B488DD780CCF8ED9800647BD_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		NativeNFC_add_NFCTagDetected_m2DAA419C96B912511F9130BB99C42BD431EF745D(L_3, L_4, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:30>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:30>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_5 = __this->___nativeNFC;
 		NullCheck(L_5);
 		VirtualActionInvoker0::Invoke(16, L_5);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:32>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:32>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral3223E67D8FEDBAF0D7D68196F4C66988E412867D, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:35>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 74653
+// Method Definition Index: 74661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager_HandleNFCTag_m937E3AB589FD5D67B488DD780CCF8ED9800647BD (NFCManager_t7D2DEDA3E49AB35BD0D53650871938FC4D7B9A0F* __this, NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* ___0_tag, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17328,13 +17401,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager_HandleNFCTag_m937E3AB589FD5D6
 	String_t* G_B8_0 = NULL;
 	String_t* G_B7_0 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:42>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:42>
 		NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* L_0 = ___0_tag;
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = NFCTag_get_ID_mE1F17ABE3AB40B5F405596ACD67AE769F7EE2146_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:43>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:43>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_2 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_3 = L_2;
 		if (L_3)
@@ -17360,7 +17433,7 @@ IL_0013:
 IL_0018:
 	{
 		V_1 = G_B3_0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:44>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:44>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_5 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_6 = L_5;
 		if (L_6)
@@ -17400,7 +17473,7 @@ IL_002a:
 IL_0033:
 	{
 		V_2 = G_B8_0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:45>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:45>
 		String_t* L_9 = V_0;
 		int32_t L_10 = V_1;
 		int32_t L_11 = L_10;
@@ -17410,13 +17483,13 @@ IL_0033:
 		L_14 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral177E24BC1188C8D4DEE29C2E55FA4DB8060A7CDF, L_9, L_12, L_13, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_14, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:47>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:47>
 		String_t* L_15 = V_0;
 		int32_t L_16 = V_1;
 		String_t* L_17;
 		L_17 = NFCManager_GetTargetScene_m842EF0B63A3873E0091619BDFE0AD2B4007DD942(__this, L_15, L_16, NULL);
 		V_3 = L_17;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:49>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:49>
 		String_t* L_18 = V_3;
 		if (L_18)
 		{
@@ -17424,16 +17497,16 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:51>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:51>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral6005106FA22775F19212F94A8FBB59A7FE8C89F8, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:52>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:52>
 		return;
 	}
 
 IL_0062:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:56>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:56>
 		String_t* L_19 = V_0;
 		String_t* L_20 = V_2;
 		int32_t L_21 = V_1;
@@ -17445,26 +17518,26 @@ IL_0062:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:58>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:58>
 		String_t* L_23 = V_2;
 		String_t* L_24;
 		L_24 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral68119B2B0D17D807D302394003CB493F22A1FC59, L_23, _stringLiteralC53B4CE8568E34B74E22D1BDFC9636417506A8B8, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_24, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:59>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:59>
 		return;
 	}
 
 IL_0083:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:62>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:62>
 		String_t* L_25 = V_3;
 		NFCManager_LoadScene_mD1CB0B977AD7E96D88F53413283612CAA010F07A(__this, L_25, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:63>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:63>
 		return;
 	}
 }
-// Method Definition Index: 74654
+// Method Definition Index: 74662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NFCManager_IsAllowedForJob_m2E6F1C6437114806EFFEC2F4B9D89FAF19919969 (NFCManager_t7D2DEDA3E49AB35BD0D53650871938FC4D7B9A0F* __this, String_t* ___0_tagId, String_t* ___1_myJob, int32_t ___2_maxPlayers, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17484,7 +17557,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NFCManager_IsAllowedForJob_m2E6F1C643711
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:70>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:70>
 		int32_t L_0 = ___2_maxPlayers;
 		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
 		{
@@ -17492,7 +17565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NFCManager_IsAllowedForJob_m2E6F1C643711
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:74>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:74>
 		String_t* L_1 = ___1_myJob;
 		bool L_2;
 		L_2 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_1, _stringLiteral7EEFAE531F1C7114B9DDAB60EAB1044A3FE1EB74, NULL);
@@ -17502,7 +17575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NFCManager_IsAllowedForJob_m2E6F1C643711
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:75>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:75>
 		String_t* L_3 = ___0_tagId;
 		bool L_4;
 		L_4 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_3, _stringLiteral7B237E28EDA26AB25FE270F8EBFE286B2B362378, NULL);
@@ -17525,7 +17598,7 @@ IL_002a:
 
 IL_002c:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:76>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:76>
 		String_t* L_7 = ___1_myJob;
 		bool L_8;
 		L_8 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_7, _stringLiteral8DF93CD28478DBCBBCE754C94EDC938751DEAEC0, NULL);
@@ -17535,7 +17608,7 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:77>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:77>
 		String_t* L_9 = ___0_tagId;
 		bool L_10;
 		L_10 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_9, _stringLiteral922F314AC37E80A0E86EBC7B9BEB9A45266FB5A8, NULL);
@@ -17558,7 +17631,7 @@ IL_0055:
 
 IL_0057:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:79>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:79>
 		int32_t L_13 = ___2_maxPlayers;
 		if ((!(((uint32_t)L_13) == ((uint32_t)3))))
 		{
@@ -17566,7 +17639,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:82>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:82>
 		String_t* L_14 = ___1_myJob;
 		bool L_15;
 		L_15 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_14, _stringLiteral7EEFAE531F1C7114B9DDAB60EAB1044A3FE1EB74, NULL);
@@ -17576,7 +17649,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:83>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:83>
 		String_t* L_16 = ___0_tagId;
 		bool L_17;
 		L_17 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_16, _stringLiteral7B237E28EDA26AB25FE270F8EBFE286B2B362378, NULL);
@@ -17599,7 +17672,7 @@ IL_0081:
 
 IL_0083:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:84>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:84>
 		String_t* L_20 = ___1_myJob;
 		bool L_21;
 		L_21 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_20, _stringLiteral8DF93CD28478DBCBBCE754C94EDC938751DEAEC0, NULL);
@@ -17609,7 +17682,7 @@ IL_0083:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:85>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:85>
 		String_t* L_22 = ___0_tagId;
 		bool L_23;
 		L_23 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_22, _stringLiteralBD6FD2B23A4A920E9096A895AC2D7A96B0192CCC, NULL);
@@ -17632,7 +17705,7 @@ IL_00a9:
 
 IL_00ab:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:86>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:86>
 		String_t* L_26 = ___1_myJob;
 		bool L_27;
 		L_27 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_26, _stringLiteral6D771E9CB61DBBBCDDEDE372E96CFCADB2388E77, NULL);
@@ -17642,7 +17715,7 @@ IL_00ab:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:87>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:87>
 		String_t* L_28 = ___0_tagId;
 		bool L_29;
 		L_29 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_28, _stringLiteral922F314AC37E80A0E86EBC7B9BEB9A45266FB5A8, NULL);
@@ -17665,7 +17738,7 @@ IL_00d1:
 
 IL_00d3:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:92>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:92>
 		String_t* L_32 = ___1_myJob;
 		bool L_33;
 		L_33 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_32, _stringLiteralCCBD32B284260997322A867A54AA72BA237C800F, NULL);
@@ -17675,7 +17748,7 @@ IL_00d3:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:92>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:92>
 		String_t* L_34 = ___0_tagId;
 		bool L_35;
 		L_35 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_34, _stringLiteral7B237E28EDA26AB25FE270F8EBFE286B2B362378, NULL);
@@ -17684,7 +17757,7 @@ IL_00d3:
 
 IL_00ec:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:93>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:93>
 		String_t* L_36 = ___1_myJob;
 		bool L_37;
 		L_37 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_36, _stringLiteral5CBEC15F5293FCD4FCB0297048CE3BAF55378D7C, NULL);
@@ -17694,7 +17767,7 @@ IL_00ec:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:93>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:93>
 		String_t* L_38 = ___0_tagId;
 		bool L_39;
 		L_39 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_38, _stringLiteralBD6FD2B23A4A920E9096A895AC2D7A96B0192CCC, NULL);
@@ -17703,7 +17776,7 @@ IL_00ec:
 
 IL_0105:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:94>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:94>
 		String_t* L_40 = ___1_myJob;
 		bool L_41;
 		L_41 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_40, _stringLiteral718EC9D250830B3F81427EA4DF222DCE1C16DC86, NULL);
@@ -17713,7 +17786,7 @@ IL_0105:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:94>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:94>
 		String_t* L_42 = ___0_tagId;
 		bool L_43;
 		L_43 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_42, _stringLiteral922F314AC37E80A0E86EBC7B9BEB9A45266FB5A8, NULL);
@@ -17722,7 +17795,7 @@ IL_0105:
 
 IL_011e:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:95>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:95>
 		String_t* L_44 = ___1_myJob;
 		bool L_45;
 		L_45 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_44, _stringLiteralBC59B9D137425560599E94617F03E9C00A713B21, NULL);
@@ -17732,7 +17805,7 @@ IL_011e:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:95>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:95>
 		String_t* L_46 = ___0_tagId;
 		bool L_47;
 		L_47 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_46, _stringLiteralC26FA6D3C19C4231E8AE75C85D6382311E77155B, NULL);
@@ -17741,11 +17814,11 @@ IL_011e:
 
 IL_0137:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:98>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:98>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74655
+// Method Definition Index: 74663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NFCManager_GetTargetScene_m842EF0B63A3873E0091619BDFE0AD2B4007DD942 (NFCManager_t7D2DEDA3E49AB35BD0D53650871938FC4D7B9A0F* __this, String_t* ___0_tagId, int32_t ___1_maxPlayers, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17762,7 +17835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NFCManager_GetTargetScene_m842EF0B6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:106>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:106>
 		int32_t L_0 = ___1_maxPlayers;
 		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
 		{
@@ -17770,7 +17843,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NFCManager_GetTargetScene_m842EF0B6
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:110>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:110>
 		String_t* L_1 = ___0_tagId;
 		bool L_2;
 		L_2 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_1, _stringLiteral7B237E28EDA26AB25FE270F8EBFE286B2B362378, NULL);
@@ -17780,13 +17853,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NFCManager_GetTargetScene_m842EF0B6
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:110>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:110>
 		return _stringLiteral4E5C686E2BDA39FE787C18ADBF1B19686AAD1E06;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:111>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:111>
 		String_t* L_3 = ___0_tagId;
 		bool L_4;
 		L_4 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_3, _stringLiteralBD6FD2B23A4A920E9096A895AC2D7A96B0192CCC, NULL);
@@ -17796,13 +17869,13 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:111>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:111>
 		return _stringLiteral93A18F36E5385943AA2717822698A9CA8E3C145B;
 	}
 
 IL_002a:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:112>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:112>
 		String_t* L_5 = ___0_tagId;
 		bool L_6;
 		L_6 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_5, _stringLiteral922F314AC37E80A0E86EBC7B9BEB9A45266FB5A8, NULL);
@@ -17812,13 +17885,13 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:112>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:112>
 		return _stringLiteralBB55B48CDCC527AB87ABF9679D1E6F68BA6A1108;
 	}
 
 IL_003d:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:113>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:113>
 		String_t* L_7 = ___0_tagId;
 		bool L_8;
 		L_8 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_7, _stringLiteralC26FA6D3C19C4231E8AE75C85D6382311E77155B, NULL);
@@ -17828,13 +17901,13 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:113>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:113>
 		return _stringLiteralCCA5D2CE6E91D0F8DBE74E16D6FF19D13F42B508;
 	}
 
 IL_0053:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:115>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:115>
 		int32_t L_9 = ___1_maxPlayers;
 		if ((!(((uint32_t)L_9) == ((uint32_t)3))))
 		{
@@ -17842,7 +17915,7 @@ IL_0053:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:121>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:121>
 		String_t* L_10 = ___0_tagId;
 		bool L_11;
 		L_11 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_10, _stringLiteral7B237E28EDA26AB25FE270F8EBFE286B2B362378, NULL);
@@ -17852,13 +17925,13 @@ IL_0053:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:121>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:121>
 		return _stringLiteral4E5C686E2BDA39FE787C18ADBF1B19686AAD1E06;
 	}
 
 IL_006a:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:122>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:122>
 		String_t* L_12 = ___0_tagId;
 		bool L_13;
 		L_13 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_12, _stringLiteralBD6FD2B23A4A920E9096A895AC2D7A96B0192CCC, NULL);
@@ -17868,13 +17941,13 @@ IL_006a:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:122>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:122>
 		return _stringLiteral93A18F36E5385943AA2717822698A9CA8E3C145B;
 	}
 
 IL_007d:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:123>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:123>
 		String_t* L_14 = ___0_tagId;
 		bool L_15;
 		L_15 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_14, _stringLiteral922F314AC37E80A0E86EBC7B9BEB9A45266FB5A8, NULL);
@@ -17884,13 +17957,13 @@ IL_007d:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:123>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:123>
 		return _stringLiteralBB55B48CDCC527AB87ABF9679D1E6F68BA6A1108;
 	}
 
 IL_0090:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:124>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:124>
 		String_t* L_16 = ___0_tagId;
 		bool L_17;
 		L_17 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_16, _stringLiteralC26FA6D3C19C4231E8AE75C85D6382311E77155B, NULL);
@@ -17900,13 +17973,13 @@ IL_0090:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:124>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:124>
 		return _stringLiteralCCA5D2CE6E91D0F8DBE74E16D6FF19D13F42B508;
 	}
 
 IL_00a3:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:132>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:132>
 		String_t* L_18 = ___0_tagId;
 		bool L_19;
 		L_19 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_18, _stringLiteral7B237E28EDA26AB25FE270F8EBFE286B2B362378, NULL);
@@ -17916,13 +17989,13 @@ IL_00a3:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:132>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:132>
 		return _stringLiteral4E5C686E2BDA39FE787C18ADBF1B19686AAD1E06;
 	}
 
 IL_00b6:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:133>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:133>
 		String_t* L_20 = ___0_tagId;
 		bool L_21;
 		L_21 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_20, _stringLiteralBD6FD2B23A4A920E9096A895AC2D7A96B0192CCC, NULL);
@@ -17932,13 +18005,13 @@ IL_00b6:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:133>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:133>
 		return _stringLiteral93A18F36E5385943AA2717822698A9CA8E3C145B;
 	}
 
 IL_00c9:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:134>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:134>
 		String_t* L_22 = ___0_tagId;
 		bool L_23;
 		L_23 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_22, _stringLiteral922F314AC37E80A0E86EBC7B9BEB9A45266FB5A8, NULL);
@@ -17948,13 +18021,13 @@ IL_00c9:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:134>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:134>
 		return _stringLiteralBB55B48CDCC527AB87ABF9679D1E6F68BA6A1108;
 	}
 
 IL_00dc:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:135>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:135>
 		String_t* L_24 = ___0_tagId;
 		bool L_25;
 		L_25 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_24, _stringLiteralC26FA6D3C19C4231E8AE75C85D6382311E77155B, NULL);
@@ -17964,17 +18037,17 @@ IL_00dc:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:135>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:135>
 		return _stringLiteralCCA5D2CE6E91D0F8DBE74E16D6FF19D13F42B508;
 	}
 
 IL_00ef:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:138>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:138>
 		return (String_t*)NULL;
 	}
 }
-// Method Definition Index: 74656
+// Method Definition Index: 74664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager_LoadScene_mD1CB0B977AD7E96D88F53413283612CAA010F07A (NFCManager_t7D2DEDA3E49AB35BD0D53650871938FC4D7B9A0F* __this, String_t* ___0_sceneName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17987,7 +18060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager_LoadScene_mD1CB0B977AD7E96D88
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:147>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:147>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_0 = __this->___nativeNFC;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -17998,13 +18071,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager_LoadScene_mD1CB0B977AD7E96D88
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:149>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:149>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_2 = __this->___nativeNFC;
 		OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* L_3 = (OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67*)il2cpp_codegen_object_new(OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67_il2cpp_TypeInfo_var);
 		OnNFCTagDetected__ctor_m682F213C951185476EDB25362C3A3D9B09D0C850(L_3, __this, (intptr_t)((void*)NFCManager_HandleNFCTag_m937E3AB589FD5D67B488DD780CCF8ED9800647BD_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		NativeNFC_remove_NFCTagDetected_mD3305BDB653CB1C52D8855C9ABD755AD3D51A456(L_2, L_3, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:150>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:150>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_4 = __this->___nativeNFC;
 		NullCheck(L_4);
 		VirtualActionInvoker0::Invoke(17, L_4);
@@ -18012,15 +18085,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager_LoadScene_mD1CB0B977AD7E96D88
 
 IL_0030:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:153>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:153>
 		String_t* L_5 = ___0_sceneName;
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(L_5, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:154>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:154>
 		return;
 	}
 }
-// Method Definition Index: 74657
+// Method Definition Index: 74665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager_OnDestroy_mE5445E5858C0F0EDE56607DBC472221C96395F4A (NFCManager_t7D2DEDA3E49AB35BD0D53650871938FC4D7B9A0F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18032,7 +18105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager_OnDestroy_mE5445E5858C0F0EDE5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:161>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:161>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_0 = __this->___nativeNFC;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -18043,13 +18116,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager_OnDestroy_mE5445E5858C0F0EDE5
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:163>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:163>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_2 = __this->___nativeNFC;
 		OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* L_3 = (OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67*)il2cpp_codegen_object_new(OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67_il2cpp_TypeInfo_var);
 		OnNFCTagDetected__ctor_m682F213C951185476EDB25362C3A3D9B09D0C850(L_3, __this, (intptr_t)((void*)NFCManager_HandleNFCTag_m937E3AB589FD5D67B488DD780CCF8ED9800647BD_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		NativeNFC_remove_NFCTagDetected_mD3305BDB653CB1C52D8855C9ABD755AD3D51A456(L_2, L_3, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:164>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:164>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_4 = __this->___nativeNFC;
 		NullCheck(L_4);
 		VirtualActionInvoker0::Invoke(17, L_4);
@@ -18057,11 +18130,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager_OnDestroy_mE5445E5858C0F0EDE5
 
 IL_0030:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:166>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/NFCManager.cs:166>
 		return;
 	}
 }
-// Method Definition Index: 74658
+// Method Definition Index: 74666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager__ctor_m61FF5C9975BAA3808EC599098995435C459EFFA5 (NFCManager_t7D2DEDA3E49AB35BD0D53650871938FC4D7B9A0F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18077,7 +18150,213 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCManager__ctor_m61FF5C9975BAA3808EC599
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74659
+// Method Definition Index: 74667
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchEffect_Update_mAD737E3565B425789331DBB8A7E932B3E458DE3D (TouchEffect_t75E39FD07E76C00135E660D3B8096D8D271260CC* __this, const RuntimeMethod* method) 
+{
+	TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* V_0 = NULL;
+	int32_t V_1 = 0;
+	Touch_t03E51455ED508492B3F278903A0114FA0E87B417 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:17>
+		int32_t L_0;
+		L_0 = Input_get_touchCount_m057388BFC67A0F4CA53764B1022867ED81D01E39(NULL);
+		if ((((int32_t)L_0) <= ((int32_t)0)))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:19>
+		TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* L_1;
+		L_1 = Input_get_touches_m7CFDF6848F3EC3A8FE458436B2B8BD14B5C65CEF(NULL);
+		V_0 = L_1;
+		V_1 = 0;
+		goto IL_0034;
+	}
+
+IL_0012:
+	{
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:19>
+		TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* L_2 = V_0;
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_2 = L_5;
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:21>
+		int32_t L_6;
+		L_6 = Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0((&V_2), NULL);
+		if (L_6)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:23>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
+		L_7 = Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A((&V_2), NULL);
+		TouchEffect_SpawnEffect_m6902EEA028F59A2FE6588564E9D8668684686F42(__this, L_7, NULL);
+	}
+
+IL_0030:
+	{
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_8, 1));
+	}
+
+IL_0034:
+	{
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:19>
+		int32_t L_9 = V_1;
+		TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* L_10 = V_0;
+		NullCheck(L_10);
+		if ((((int32_t)L_9) < ((int32_t)((int32_t)(((RuntimeArray*)L_10)->max_length)))))
+		{
+			goto IL_0012;
+		}
+	}
+
+IL_003a:
+	{
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:33>
+		return;
+	}
+}
+// Method Definition Index: 74668
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchEffect_SpawnEffect_m6902EEA028F59A2FE6588564E9D8668684686F42 (TouchEffect_t75E39FD07E76C00135E660D3B8096D8D271260CC* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_screenPos, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* V_0 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* G_B5_0 = NULL;
+	{
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:37>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___effectPrefab;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:37>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:39>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = __this->___targetCamera;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_3)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_4;
+		L_4 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		G_B5_0 = L_4;
+		goto IL_002a;
+	}
+
+IL_0024:
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_5 = __this->___targetCamera;
+		G_B5_0 = L_5;
+	}
+
+IL_002a:
+	{
+		V_0 = G_B5_0;
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:40>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_6 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:40>
+		return;
+	}
+
+IL_0035:
+	{
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:42>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:43>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8 = V_0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = ___0_screenPos;
+		float L_10 = L_9.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = ___0_screenPos;
+		float L_12 = L_11.___y;
+		float L_13 = __this->___distanceFromCamera;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		memset((&L_14), 0, sizeof(L_14));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_14), L_10, L_12, L_13, NULL);
+		NullCheck(L_8);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Camera_ScreenToWorldPoint_m5EA3148F070985EC72127AAC3448D8D6ABE6E7E5(L_8, L_14, NULL);
+		V_1 = L_15;
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:45>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___effectPrefab;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18;
+		L_18 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19;
+		L_19 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_16, L_17, L_18, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:48>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = L_19;
+		NullCheck(L_20);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
+		L_21 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_20, NULL);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_22 = V_0;
+		NullCheck(L_22);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
+		L_23 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_22, NULL);
+		NullCheck(L_21);
+		Transform_LookAt_mA8567593181FD78BBDC2AF29AD99F93BDB2976B2(L_21, L_23, NULL);
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:50>
+		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_20, (2.0f), NULL);
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:51>
+		return;
+	}
+}
+// Method Definition Index: 74669
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchEffect__ctor_m5676BA034B6DF8B35B913249B8D482435734E056 (TouchEffect_t75E39FD07E76C00135E660D3B8096D8D271260CC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/TouchEffect.cs:12>
+		__this->___distanceFromCamera = (5.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 74670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_Start_m0BB4146D5CEF96877596E92F4CD84557E8AE1ACB (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18101,27 +18380,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_Start_m0BB4146D5CEF96877596E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:116>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:116>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___guidePopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:117>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:117>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___statementPopup;
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:118>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:118>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___reportPopup;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:119>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:119>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___clearTitleText;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:120>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:120>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___clearDescText;
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:121>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:121>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5 = __this->___countdownText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -18132,7 +18411,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_Start_m0BB4146D5CEF96877596E
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:122>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:122>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_7 = __this->___countdownText;
 		NullCheck(L_7);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
@@ -18143,35 +18422,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_Start_m0BB4146D5CEF96877596E
 
 IL_005b:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:125>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:125>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->___witnessBtn1;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
 		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:126>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:126>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_11 = __this->___witnessBtn2;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:127>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:127>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_13 = __this->___witnessBtn3;
 		NullCheck(L_13);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_13, NULL);
 		NullCheck(L_14);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:130>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:130>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_15 = __this->___reportButton;
 		NullCheck(L_15);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
 		L_16 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_15, NULL);
 		NullCheck(L_16);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:133>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:133>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_17 = __this->___suspectStatement1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = __this->___suspectNames;
 		NullCheck(L_18);
@@ -18185,7 +18464,7 @@ IL_005b:
 		L_24 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1, L_20, _stringLiteral482A4C4330185F51A24A753ED387A6AA86879791, L_23, NULL);
 		NullCheck(L_17);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_17, L_24);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:134>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:134>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_25 = __this->___suspectStatement2;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_26 = __this->___suspectNames;
 		NullCheck(L_26);
@@ -18199,7 +18478,7 @@ IL_005b:
 		L_32 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1, L_28, _stringLiteral482A4C4330185F51A24A753ED387A6AA86879791, L_31, NULL);
 		NullCheck(L_25);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, L_32);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:135>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:135>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_33 = __this->___suspectStatement3;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_34 = __this->___suspectNames;
 		NullCheck(L_34);
@@ -18213,7 +18492,7 @@ IL_005b:
 		L_40 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1, L_36, _stringLiteral482A4C4330185F51A24A753ED387A6AA86879791, L_39, NULL);
 		NullCheck(L_33);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_33, L_40);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:136>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:136>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_41 = __this->___suspectStatement4;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_42 = __this->___suspectNames;
 		NullCheck(L_42);
@@ -18227,7 +18506,7 @@ IL_005b:
 		L_48 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1, L_44, _stringLiteral482A4C4330185F51A24A753ED387A6AA86879791, L_47, NULL);
 		NullCheck(L_41);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_41, L_48);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:139>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:139>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_49 = __this->___startButton;
 		NullCheck(L_49);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_50;
@@ -18236,7 +18515,7 @@ IL_005b:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_51, __this, (intptr_t)((void*)WitnessGame_OnStartClicked_mFA896642BE9639568954E99F845D2C5C7C2058E7_RuntimeMethod_var), NULL);
 		NullCheck(L_50);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_50, L_51, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:140>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:140>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_52 = __this->___reportButton;
 		NullCheck(L_52);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_53;
@@ -18245,7 +18524,7 @@ IL_005b:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_54, __this, (intptr_t)((void*)WitnessGame_OnReportClicked_m324B63986AB2BE932463682C3EC212199BFD22DA_RuntimeMethod_var), NULL);
 		NullCheck(L_53);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_53, L_54, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:141>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:141>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_55 = __this->___closeReportButton;
 		NullCheck(L_55);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_56;
@@ -18254,7 +18533,7 @@ IL_005b:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_57, __this, (intptr_t)((void*)WitnessGame_U3CStartU3Eb__35_0_mDE14EACBB8DD0292CC17B19CF650735CD3F9F7E2_RuntimeMethod_var), NULL);
 		NullCheck(L_56);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_56, L_57, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:142>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:142>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_58 = __this->___closePopupButton;
 		NullCheck(L_58);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_59;
@@ -18263,7 +18542,7 @@ IL_005b:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_60, __this, (intptr_t)((void*)WitnessGame_OnClosePopup_m292D0C0A5771EF89A267EE87CF888C04766281C7_RuntimeMethod_var), NULL);
 		NullCheck(L_59);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_59, L_60, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:144>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:144>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_61 = __this->___witnessBtn1;
 		NullCheck(L_61);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_62;
@@ -18272,7 +18551,7 @@ IL_005b:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_63, __this, (intptr_t)((void*)WitnessGame_U3CStartU3Eb__35_1_mE4A8BC1ADB5D512AA2C2AFC996C1591D1C9A6454_RuntimeMethod_var), NULL);
 		NullCheck(L_62);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_62, L_63, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:145>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:145>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_64 = __this->___witnessBtn2;
 		NullCheck(L_64);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_65;
@@ -18281,7 +18560,7 @@ IL_005b:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_66, __this, (intptr_t)((void*)WitnessGame_U3CStartU3Eb__35_2_m31B1FAB91281F97CCEB70581DEEABEDDE0E5FDB9_RuntimeMethod_var), NULL);
 		NullCheck(L_65);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_65, L_66, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:146>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:146>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_67 = __this->___witnessBtn3;
 		NullCheck(L_67);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_68;
@@ -18290,7 +18569,7 @@ IL_005b:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_69, __this, (intptr_t)((void*)WitnessGame_U3CStartU3Eb__35_3_mBE766E0283BAB6CAD06B02EAAF219B43F9B96073_RuntimeMethod_var), NULL);
 		NullCheck(L_68);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_68, L_69, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:148>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:148>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_70 = __this->___suspectCard1;
 		NullCheck(L_70);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_71;
@@ -18299,7 +18578,7 @@ IL_005b:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_72, __this, (intptr_t)((void*)WitnessGame_U3CStartU3Eb__35_4_m6CF2F31263D52E7C7C64594BEFC6470D9C7E3CF1_RuntimeMethod_var), NULL);
 		NullCheck(L_71);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_71, L_72, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:149>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:149>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_73 = __this->___suspectCard2;
 		NullCheck(L_73);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_74;
@@ -18308,7 +18587,7 @@ IL_005b:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_75, __this, (intptr_t)((void*)WitnessGame_U3CStartU3Eb__35_5_mC40B7FFE0848D6A274148E03A3A4364649394EB4_RuntimeMethod_var), NULL);
 		NullCheck(L_74);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_74, L_75, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:150>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:150>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_76 = __this->___suspectCard3;
 		NullCheck(L_76);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_77;
@@ -18317,7 +18596,7 @@ IL_005b:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_78, __this, (intptr_t)((void*)WitnessGame_U3CStartU3Eb__35_6_m33A2F757365B91EBBCFBE386E915956B54E30217_RuntimeMethod_var), NULL);
 		NullCheck(L_77);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_77, L_78, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:151>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:151>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_79 = __this->___suspectCard4;
 		NullCheck(L_79);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_80;
@@ -18326,51 +18605,51 @@ IL_005b:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_81, __this, (intptr_t)((void*)WitnessGame_U3CStartU3Eb__35_7_m8426A565808C668C998411124768B980370930B7_RuntimeMethod_var), NULL);
 		NullCheck(L_80);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_80, L_81, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:152>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:152>
 		return;
 	}
 }
-// Method Definition Index: 74660
+// Method Definition Index: 74671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_OnStartClicked_mFA896642BE9639568954E99F845D2C5C7C2058E7 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:159>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:159>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___guidePopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:160>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:160>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_1 = __this->___witnessBtn1;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:161>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:161>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___witnessBtn2;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:162>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:162>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = __this->___witnessBtn3;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:163>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:163>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = __this->___reportButton;
 		NullCheck(L_7);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
 		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_7, NULL);
 		NullCheck(L_8);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:164>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:164>
 		return;
 	}
 }
-// Method Definition Index: 74661
+// Method Definition Index: 74672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_OnWitnessClicked_m6C1E3CBACE7839B0C34CD607422ABDAB12CF8B1A (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18381,7 +18660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_OnWitnessClicked_m6C1E3CBACE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:171>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:171>
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_0 = __this->___witnessCleared;
 		int32_t L_1 = ___0_index;
 		NullCheck(L_0);
@@ -18393,27 +18672,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_OnWitnessClicked_m6C1E3CBACE
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:171>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:171>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:173>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:173>
 		int32_t L_3 = ___0_index;
 		__this->___currentWitness = L_3;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:174>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:174>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4 = __this->___resultText;
 		NullCheck(L_4);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_4, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:177>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:177>
 		int32_t L_5 = ___0_index;
 		WitnessGame_StartWitnessDialogue_mEF50C5F5E7CBB3D392885CA28A261577573B6F08(__this, L_5, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:178>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:178>
 		return;
 	}
 }
-// Method Definition Index: 74662
+// Method Definition Index: 74673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_StartWitnessDialogue_mEF50C5F5E7CBB3D392885CA28A261577573B6F08 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18438,21 +18717,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_StartWitnessDialogue_mEF50C5
 		int32_t L_3 = ___0_index;
 		NullCheck(L_2);
 		L_2->___index = L_3;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:185>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:185>
 		U3CU3Ec__DisplayClass38_0_tFB5B31F2DDE1ED0F26C258CF94849560D6658856* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___index;
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_6;
 		L_6 = WitnessGame_GetDialogueLines_m213932E9647D4D37A095C0EDE793A6AE10C889C9(__this, L_5, NULL);
 		V_1 = L_6;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:186>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:187>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:188>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:189>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:190>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:191>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:192>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:193>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:186>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:187>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:188>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:189>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:190>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:191>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:192>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:193>
 		DialogueManager_t9C5A5026BF70075C3D71B589FB5D5EA74A3B9B1E* L_7 = __this->___dialogueManager;
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_8 = V_1;
 		U3CU3Ec__DisplayClass38_0_tFB5B31F2DDE1ED0F26C258CF94849560D6658856* L_9 = V_0;
@@ -18460,11 +18739,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_StartWitnessDialogue_mEF50C5
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_10, L_9, (intptr_t)((void*)U3CU3Ec__DisplayClass38_0_U3CStartWitnessDialogueU3Eb__0_m91BAF7D68AC1896043D0D9D6B77008AFFE376447_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
 		DialogueManager_StartDialogue_m4E1763C6B60E07A24F7C58B7F7EB839A4019139D(L_7, L_8, L_10, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:194>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:194>
 		return;
 	}
 }
-// Method Definition Index: 74663
+// Method Definition Index: 74674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* WitnessGame_GetDialogueLines_m213932E9647D4D37A095C0EDE793A6AE10C889C9 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18497,23 +18776,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D2
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* V_2 = NULL;
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* V_3 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:201>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:201>
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_0 = (List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A*)il2cpp_codegen_object_new(List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A_il2cpp_TypeInfo_var);
 		List_1__ctor_m6A920FF138C542D066034F9C378412938D895EC7(L_0, List_1__ctor_m6A920FF138C542D066034F9C378412938D895EC7_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:203>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:203>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_1;
 		L_1 = Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A(_stringLiteralD0594E5DDEA9EBF688061DB1D79C371B795A1846, Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A_RuntimeMethod_var);
 		V_1 = L_1;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:204>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:204>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_2;
 		L_2 = Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A(_stringLiteral257B418E0BBA875B19EFAE5134EBBCEC6D193BC5, Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A_RuntimeMethod_var);
 		V_2 = L_2;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:205>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:205>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_3;
 		L_3 = Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A(_stringLiteral47385004EC411C449BF920C7ABC4C5924DF25DB1, Resources_Load_TisSprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99_mD30BD3A93DAF8B841F2BE37B3780DE390A04085A_RuntimeMethod_var);
 		V_3 = L_3;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:207>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:207>
 		int32_t L_4 = ___0_index;
 		if (L_4)
 		{
@@ -18521,12 +18800,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D2
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:209>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:210>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:211>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:212>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:213>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:214>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:209>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:210>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:211>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:212>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:213>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:214>
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_5 = V_0;
 		DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* L_6 = (DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B*)il2cpp_codegen_object_new(DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B_il2cpp_TypeInfo_var);
 		DialogueLine__ctor_m9DF1A035F15A2A8DEDE6AA165A536CC9309C4317(L_6, NULL);
@@ -18545,12 +18824,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D2
 		Il2CppCodeGenWriteBarrier((void**)(&L_9->___characterSprite), (void*)L_10);
 		NullCheck(L_5);
 		List_1_Add_mCDD87707D8A52C065922AEF0A0B0B5973DFD9B77_inline(L_5, L_9, List_1_Add_mCDD87707D8A52C065922AEF0A0B0B5973DFD9B77_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:215>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:216>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:217>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:218>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:219>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:220>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:215>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:216>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:217>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:218>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:219>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:220>
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_11 = V_0;
 		DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* L_12 = (DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B*)il2cpp_codegen_object_new(DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B_il2cpp_TypeInfo_var);
 		DialogueLine__ctor_m9DF1A035F15A2A8DEDE6AA165A536CC9309C4317(L_12, NULL);
@@ -18569,12 +18848,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D2
 		Il2CppCodeGenWriteBarrier((void**)(&L_15->___characterSprite), (void*)L_16);
 		NullCheck(L_11);
 		List_1_Add_mCDD87707D8A52C065922AEF0A0B0B5973DFD9B77_inline(L_11, L_15, List_1_Add_mCDD87707D8A52C065922AEF0A0B0B5973DFD9B77_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:221>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:222>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:223>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:224>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:225>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:226>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:221>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:222>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:223>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:224>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:225>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:226>
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_17 = V_0;
 		DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* L_18 = (DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B*)il2cpp_codegen_object_new(DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B_il2cpp_TypeInfo_var);
 		DialogueLine__ctor_m9DF1A035F15A2A8DEDE6AA165A536CC9309C4317(L_18, NULL);
@@ -18598,7 +18877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D2
 
 IL_00a7:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:228>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:228>
 		int32_t L_23 = ___0_index;
 		if ((!(((uint32_t)L_23) == ((uint32_t)1))))
 		{
@@ -18606,12 +18885,12 @@ IL_00a7:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:230>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:231>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:232>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:233>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:234>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:235>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:230>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:231>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:232>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:233>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:234>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:235>
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_24 = V_0;
 		DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* L_25 = (DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B*)il2cpp_codegen_object_new(DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B_il2cpp_TypeInfo_var);
 		DialogueLine__ctor_m9DF1A035F15A2A8DEDE6AA165A536CC9309C4317(L_25, NULL);
@@ -18630,12 +18909,12 @@ IL_00a7:
 		Il2CppCodeGenWriteBarrier((void**)(&L_28->___characterSprite), (void*)L_29);
 		NullCheck(L_24);
 		List_1_Add_mCDD87707D8A52C065922AEF0A0B0B5973DFD9B77_inline(L_24, L_28, List_1_Add_mCDD87707D8A52C065922AEF0A0B0B5973DFD9B77_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:236>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:237>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:238>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:239>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:240>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:241>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:236>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:237>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:238>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:239>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:240>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:241>
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_30 = V_0;
 		DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* L_31 = (DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B*)il2cpp_codegen_object_new(DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B_il2cpp_TypeInfo_var);
 		DialogueLine__ctor_m9DF1A035F15A2A8DEDE6AA165A536CC9309C4317(L_31, NULL);
@@ -18654,12 +18933,12 @@ IL_00a7:
 		Il2CppCodeGenWriteBarrier((void**)(&L_34->___characterSprite), (void*)L_35);
 		NullCheck(L_30);
 		List_1_Add_mCDD87707D8A52C065922AEF0A0B0B5973DFD9B77_inline(L_30, L_34, List_1_Add_mCDD87707D8A52C065922AEF0A0B0B5973DFD9B77_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:242>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:243>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:244>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:245>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:246>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:247>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:242>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:243>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:244>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:245>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:246>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:247>
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_36 = V_0;
 		DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* L_37 = (DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B*)il2cpp_codegen_object_new(DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B_il2cpp_TypeInfo_var);
 		DialogueLine__ctor_m9DF1A035F15A2A8DEDE6AA165A536CC9309C4317(L_37, NULL);
@@ -18683,12 +18962,12 @@ IL_00a7:
 
 IL_0125:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:251>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:252>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:253>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:254>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:255>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:256>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:251>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:252>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:253>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:254>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:255>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:256>
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_42 = V_0;
 		DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* L_43 = (DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B*)il2cpp_codegen_object_new(DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B_il2cpp_TypeInfo_var);
 		DialogueLine__ctor_m9DF1A035F15A2A8DEDE6AA165A536CC9309C4317(L_43, NULL);
@@ -18707,12 +18986,12 @@ IL_0125:
 		Il2CppCodeGenWriteBarrier((void**)(&L_46->___characterSprite), (void*)L_47);
 		NullCheck(L_42);
 		List_1_Add_mCDD87707D8A52C065922AEF0A0B0B5973DFD9B77_inline(L_42, L_46, List_1_Add_mCDD87707D8A52C065922AEF0A0B0B5973DFD9B77_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:257>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:258>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:259>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:260>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:261>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:262>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:257>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:258>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:259>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:260>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:261>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:262>
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_48 = V_0;
 		DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* L_49 = (DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B*)il2cpp_codegen_object_new(DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B_il2cpp_TypeInfo_var);
 		DialogueLine__ctor_m9DF1A035F15A2A8DEDE6AA165A536CC9309C4317(L_49, NULL);
@@ -18731,12 +19010,12 @@ IL_0125:
 		Il2CppCodeGenWriteBarrier((void**)(&L_52->___characterSprite), (void*)L_53);
 		NullCheck(L_48);
 		List_1_Add_mCDD87707D8A52C065922AEF0A0B0B5973DFD9B77_inline(L_48, L_52, List_1_Add_mCDD87707D8A52C065922AEF0A0B0B5973DFD9B77_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:263>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:264>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:265>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:266>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:267>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:268>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:263>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:264>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:265>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:266>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:267>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:268>
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_54 = V_0;
 		DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B* L_55 = (DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B*)il2cpp_codegen_object_new(DialogueLine_tBCB7E87C5B8C17D2B9457DB9D680B24234BB592B_il2cpp_TypeInfo_var);
 		DialogueLine__ctor_m9DF1A035F15A2A8DEDE6AA165A536CC9309C4317(L_55, NULL);
@@ -18759,26 +19038,26 @@ IL_0125:
 
 IL_019d:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:271>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:271>
 		List_1_t0E34BF88BBE729A9494CCFB853CDE2E67D9D293A* L_60 = V_0;
 		return L_60;
 	}
 }
-// Method Definition Index: 74664
+// Method Definition Index: 74675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_OnClosePopup_m292D0C0A5771EF89A267EE87CF888C04766281C7 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:279>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:279>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___statementPopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:280>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:280>
 		__this->___currentWitness = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:281>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:281>
 		return;
 	}
 }
-// Method Definition Index: 74665
+// Method Definition Index: 74676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_OnSuspectSelected_m9C0EB385E909A8DF18D2B39E6F463C36C929EE29 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, String_t* ___0_suspectName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18791,7 +19070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_OnSuspectSelected_m9C0EB385E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:288>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:288>
 		int32_t L_0 = __this->___currentWitness;
 		if ((((int32_t)L_0) >= ((int32_t)0)))
 		{
@@ -18799,13 +19078,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_OnSuspectSelected_m9C0EB385E
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:288>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:288>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:290>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:290>
 		String_t* L_1 = ___0_suspectName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = __this->___correctSuspects;
 		int32_t L_3 = __this->___currentWitness;
@@ -18820,23 +19099,23 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:293>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:293>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_7 = __this->___resultText;
 		String_t* L_8 = ___0_suspectName;
 		String_t* L_9;
 		L_9 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral4F926D9410BB59E7199FD811C8753FB79D0D29E9, L_8, _stringLiteral4DDAAB2C1CE2FE80235554E52FC7A6934C98FC4E, NULL);
 		NullCheck(L_7);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_7, L_9);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:294>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:294>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_10 = __this->___resultText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11;
 		L_11 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
 		NullCheck(L_10);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_10, L_11);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:297>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:297>
 		String_t* L_12 = ___0_suspectName;
 		WitnessGame_HighlightCorrectCard_mB1D72D0E0EC1E4ECC7E38D24D17E9E45A52D645B(__this, L_12, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:299>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:299>
 		RuntimeObject* L_13;
 		L_13 = WitnessGame_EvidenceObtained_m6C39E6EEAC91ADE4C5E0E922D15F5B909F662586(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -18846,24 +19125,24 @@ IL_000a:
 
 IL_005f:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:304>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:304>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_15 = __this->___resultText;
 		String_t* L_16 = ___0_suspectName;
 		String_t* L_17;
 		L_17 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral0A0F291748C6A884358CC521D14DB38C2C985382, L_16, _stringLiteral9DFBD0FD4AC852E3AF5DC383BAFA1F8D462EB77A, NULL);
 		NullCheck(L_15);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, L_17);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:305>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:305>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_18 = __this->___resultText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19;
 		L_19 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
 		NullCheck(L_18);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_18, L_19);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:307>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:307>
 		return;
 	}
 }
-// Method Definition Index: 74666
+// Method Definition Index: 74677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WitnessGame_EvidenceObtained_m6C39E6EEAC91ADE4C5E0E922D15F5B909F662586 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18882,7 +19161,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WitnessGame_EvidenceObtained_m
 		return L_1;
 	}
 }
-// Method Definition Index: 74667
+// Method Definition Index: 74678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_OnReportClicked_m324B63986AB2BE932463682C3EC212199BFD22DA (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18903,7 +19182,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_OnReportClicked_m324B63986AB
 	memset((&V_1), 0, sizeof(V_1));
 	String_t* V_2 = NULL;
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:356>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:356>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___collectedStatements;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -18914,7 +19193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_OnReportClicked_m324B63986AB
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:358>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:358>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___reportText;
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, _stringLiteral27728D70FA63D16437D2CA911BA5FDD00A0AD35D);
@@ -18923,9 +19202,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_OnReportClicked_m324B63986AB
 
 IL_001f:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:362>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:362>
 		V_0 = _stringLiteral3D675901658239D8A8DB5307F6C7670C4149FE1B;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:363>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:363>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = __this->___collectedStatements;
 		NullCheck(L_3);
 		Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 L_4;
@@ -18950,11 +19229,11 @@ FINALLY_0053:
 
 IL_0033_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:363>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:363>
 				String_t* L_5;
 				L_5 = Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_inline((&V_1), Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_RuntimeMethod_var);
 				V_2 = L_5;
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:364>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:364>
 				String_t* L_6 = V_0;
 				String_t* L_7 = V_2;
 				String_t* L_8;
@@ -18964,7 +19243,7 @@ IL_0033_1:
 
 IL_0048_1:
 			{
-				//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:363>
+				//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:363>
 				bool L_9;
 				L_9 = Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED((&V_1), Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED_RuntimeMethod_var);
 				if (L_9)
@@ -18984,7 +19263,7 @@ IL_0048_1:
 
 IL_0061:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:365>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:365>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_10 = __this->___reportText;
 		String_t* L_11 = V_0;
 		NullCheck(L_10);
@@ -18993,15 +19272,15 @@ IL_0061:
 
 IL_006d:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:367>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:367>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___reportPopup;
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:368>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:368>
 		return;
 	}
 }
-// Method Definition Index: 74668
+// Method Definition Index: 74679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_ResetCardColors_m6D1E5774AD153151E437C259961D4C378F29B1B3 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19013,9 +19292,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_ResetCardColors_m6D1E5774AD1
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:375>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:375>
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&V_0), (0.100000001f), (0.180000007f), (0.370000005f), NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:376>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:376>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___suspectCard1;
 		NullCheck(L_0);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_1;
@@ -19023,7 +19302,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_ResetCardColors_m6D1E5774AD1
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = V_0;
 		NullCheck(L_1);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_1, L_2);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:377>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:377>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___suspectCard2;
 		NullCheck(L_3);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4;
@@ -19031,7 +19310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_ResetCardColors_m6D1E5774AD1
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = V_0;
 		NullCheck(L_4);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_4, L_5);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:378>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:378>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___suspectCard3;
 		NullCheck(L_6);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_7;
@@ -19039,7 +19318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_ResetCardColors_m6D1E5774AD1
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = V_0;
 		NullCheck(L_7);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_7, L_8);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:379>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:379>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->___suspectCard4;
 		NullCheck(L_9);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_10;
@@ -19047,11 +19326,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_ResetCardColors_m6D1E5774AD1
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11 = V_0;
 		NullCheck(L_10);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_10, L_11);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:380>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:380>
 		return;
 	}
 }
-// Method Definition Index: 74669
+// Method Definition Index: 74680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_HighlightCorrectCard_mB1D72D0E0EC1E4ECC7E38D24D17E9E45A52D645B (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, String_t* ___0_suspectName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19063,9 +19342,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_HighlightCorrectCard_mB1D72D
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:387>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:387>
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&V_0), (0.100000001f), (0.5f), (0.100000001f), NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:388>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:388>
 		String_t* L_0 = ___0_suspectName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = __this->___suspectNames;
 		NullCheck(L_1);
@@ -19079,7 +19358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_HighlightCorrectCard_mB1D72D
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:388>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:388>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = __this->___suspectCard1;
 		NullCheck(L_5);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6;
@@ -19092,7 +19371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_HighlightCorrectCard_mB1D72D
 
 IL_0038:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:389>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:389>
 		String_t* L_8 = ___0_suspectName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = __this->___suspectNames;
 		NullCheck(L_9);
@@ -19106,7 +19385,7 @@ IL_0038:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:389>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:389>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_13 = __this->___suspectCard2;
 		NullCheck(L_13);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_14;
@@ -19119,7 +19398,7 @@ IL_0038:
 
 IL_005a:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:390>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:390>
 		String_t* L_16 = ___0_suspectName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = __this->___suspectNames;
 		NullCheck(L_17);
@@ -19133,7 +19412,7 @@ IL_005a:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:390>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:390>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_21 = __this->___suspectCard3;
 		NullCheck(L_21);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_22;
@@ -19146,7 +19425,7 @@ IL_005a:
 
 IL_007c:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:391>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:391>
 		String_t* L_24 = ___0_suspectName;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_25 = __this->___suspectNames;
 		NullCheck(L_25);
@@ -19160,7 +19439,7 @@ IL_007c:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:391>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:391>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_29 = __this->___suspectCard4;
 		NullCheck(L_29);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_30;
@@ -19172,11 +19451,11 @@ IL_007c:
 
 IL_009d:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:392>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:392>
 		return;
 	}
 }
-// Method Definition Index: 74670
+// Method Definition Index: 74681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WitnessGame_ShowClearPopup_m0015C6A2C8E3AB60C5ECB210DB30DB0EE7B7859D (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19195,7 +19474,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WitnessGame_ShowClearPopup_m00
 		return L_1;
 	}
 }
-// Method Definition Index: 74671
+// Method Definition Index: 74682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame__ctor_mB60750495F253DF4D3022CB5DB5F0D3AAC7DFA88 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19227,7 +19506,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame__ctor_mB60750495F253DF4D3022
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:15>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:15>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -19240,12 +19519,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame__ctor_mB60750495F253DF4D3022
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralC46127AF6F20DDCC9284A10F4753A1201BC50AA3);
 		__this->___witnessNames = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___witnessNames), (void*)L_3);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:16>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:17>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:18>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:19>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:20>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:21>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:16>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:17>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:18>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:19>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:20>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:21>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
 		NullCheck(L_5);
@@ -19258,7 +19537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame__ctor_mB60750495F253DF4D3022
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral38D5404F06CDA04CCA803F90F340731C1CFDE41A);
 		__this->___witnessStatements = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___witnessStatements), (void*)L_7);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:24>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:24>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = L_8;
 		NullCheck(L_9);
@@ -19271,12 +19550,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame__ctor_mB60750495F253DF4D3022
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral8A5B33788B26D5DE54A0C0F1D56316FF4D6E40AF);
 		__this->___correctSuspects = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___correctSuspects), (void*)L_11);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:27>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:28>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:29>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:30>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:31>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:32>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:27>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:28>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:29>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:30>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:31>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:32>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = L_12;
 		NullCheck(L_13);
@@ -19289,7 +19568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame__ctor_mB60750495F253DF4D3022
 		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral9D3469EED4A477B0EC9FDD7847AB09FC7CBEE4EC);
 		__this->___evidenceNames = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___evidenceNames), (void*)L_15);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:35>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:35>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = L_16;
 		NullCheck(L_17);
@@ -19305,13 +19584,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame__ctor_mB60750495F253DF4D3022
 		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral8A5B33788B26D5DE54A0C0F1D56316FF4D6E40AF);
 		__this->___suspectNames = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___suspectNames), (void*)L_20);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:36>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:37>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:38>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:39>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:40>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:41>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:42>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:36>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:37>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:38>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:39>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:40>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:41>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:42>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_21 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_22 = L_21;
 		NullCheck(L_22);
@@ -19327,9 +19606,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame__ctor_mB60750495F253DF4D3022
 		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral45F1121991C01927D069DCCE9E15C3C6FF4C564D);
 		__this->___suspectStatements = L_25;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___suspectStatements), (void*)L_25);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:106>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:106>
 		__this->___currentWitness = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:107>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:107>
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_26 = (List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A*)il2cpp_codegen_object_new(List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A_il2cpp_TypeInfo_var);
 		List_1__ctor_m87539832B82A3453971F3BCC702C7346E8D3F953(L_26, List_1__ctor_m87539832B82A3453971F3BCC702C7346E8D3F953_RuntimeMethod_var);
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_27 = L_26;
@@ -19343,7 +19622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame__ctor_mB60750495F253DF4D3022
 		List_1_Add_m5AAB6DCB6C30EB5769B4E8DB8170E50319F0A9ED_inline(L_29, (bool)0, List_1_Add_m5AAB6DCB6C30EB5769B4E8DB8170E50319F0A9ED_RuntimeMethod_var);
 		__this->___witnessCleared = L_29;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___witnessCleared), (void*)L_29);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:108>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:108>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_30 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_30, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		__this->___collectedStatements = L_30;
@@ -19352,49 +19631,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame__ctor_mB60750495F253DF4D3022
 		return;
 	}
 }
-// Method Definition Index: 74672
+// Method Definition Index: 74683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_U3CStartU3Eb__35_0_mDE14EACBB8DD0292CC17B19CF650735CD3F9F7E2 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:141>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:141>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___reportPopup;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 74673
+// Method Definition Index: 74684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_U3CStartU3Eb__35_1_mE4A8BC1ADB5D512AA2C2AFC996C1591D1C9A6454 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:144>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:144>
 		WitnessGame_OnWitnessClicked_m6C1E3CBACE7839B0C34CD607422ABDAB12CF8B1A(__this, 0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 74674
+// Method Definition Index: 74685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_U3CStartU3Eb__35_2_m31B1FAB91281F97CCEB70581DEEABEDDE0E5FDB9 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:145>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:145>
 		WitnessGame_OnWitnessClicked_m6C1E3CBACE7839B0C34CD607422ABDAB12CF8B1A(__this, 1, NULL);
 		return;
 	}
 }
-// Method Definition Index: 74675
+// Method Definition Index: 74686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_U3CStartU3Eb__35_3_mBE766E0283BAB6CAD06B02EAAF219B43F9B96073 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:146>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:146>
 		WitnessGame_OnWitnessClicked_m6C1E3CBACE7839B0C34CD607422ABDAB12CF8B1A(__this, 2, NULL);
 		return;
 	}
 }
-// Method Definition Index: 74676
+// Method Definition Index: 74687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_U3CStartU3Eb__35_4_m6CF2F31263D52E7C7C64594BEFC6470D9C7E3CF1 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:148>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:148>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___suspectNames;
 		NullCheck(L_0);
 		int32_t L_1 = 0;
@@ -19403,11 +19682,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_U3CStartU3Eb__35_4_m6CF2F312
 		return;
 	}
 }
-// Method Definition Index: 74677
+// Method Definition Index: 74688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_U3CStartU3Eb__35_5_mC40B7FFE0848D6A274148E03A3A4364649394EB4 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:149>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:149>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___suspectNames;
 		NullCheck(L_0);
 		int32_t L_1 = 1;
@@ -19416,11 +19695,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_U3CStartU3Eb__35_5_mC40B7FFE
 		return;
 	}
 }
-// Method Definition Index: 74678
+// Method Definition Index: 74689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_U3CStartU3Eb__35_6_m33A2F757365B91EBBCFBE386E915956B54E30217 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:150>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:150>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___suspectNames;
 		NullCheck(L_0);
 		int32_t L_1 = 2;
@@ -19429,11 +19708,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_U3CStartU3Eb__35_6_m33A2F757
 		return;
 	}
 }
-// Method Definition Index: 74679
+// Method Definition Index: 74690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_U3CStartU3Eb__35_7_m8426A565808C668C998411124768B980370930B7 (WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:151>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:151>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___suspectNames;
 		NullCheck(L_0);
 		int32_t L_1 = 3;
@@ -19450,7 +19729,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitnessGame_U3CStartU3Eb__35_7_m8426A565
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74680
+// Method Definition Index: 74691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0__ctor_m24C04C349FD9D00D39C12F567F8FD845F8CB39BA (U3CU3Ec__DisplayClass38_0_tFB5B31F2DDE1ED0F26C258CF94849560D6658856* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19458,7 +19737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0__ctor_m24C04C3
 		return;
 	}
 }
-// Method Definition Index: 74681
+// Method Definition Index: 74692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0_U3CStartWitnessDialogueU3Eb__0_m91BAF7D68AC1896043D0D9D6B77008AFFE376447 (U3CU3Ec__DisplayClass38_0_tFB5B31F2DDE1ED0F26C258CF94849560D6658856* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19469,7 +19748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0_U3CStartWitnes
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:189>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:189>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1 = L_0->___witnessNameText;
@@ -19484,7 +19763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0_U3CStartWitnes
 		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral99D305E97E07BFD4DDA54050F00507F8C59BFFED, L_6, NULL);
 		NullCheck(L_1);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, L_7);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:190>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:190>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_8 = __this->___U3CU3E4__this;
 		NullCheck(L_8);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = L_8->___witnessStatementText;
@@ -19499,17 +19778,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0_U3CStartWitnes
 		L_15 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677, L_14, _stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677, NULL);
 		NullCheck(L_9);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_9, L_15);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:191>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:191>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_16 = __this->___U3CU3E4__this;
 		NullCheck(L_16);
 		WitnessGame_ResetCardColors_m6D1E5774AD153151E437C259961D4C378F29B1B3(L_16, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:192>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:192>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_17 = __this->___U3CU3E4__this;
 		NullCheck(L_17);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = L_17->___statementPopup;
 		NullCheck(L_18);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:193>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:193>
 		return;
 	}
 }
@@ -19521,7 +19800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0_U3CStartWitnes
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74682
+// Method Definition Index: 74693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEvidenceObtainedU3Ed__42__ctor_m8BD9F969675A662F852D9A80393C9B872C1FD4D6 (U3CEvidenceObtainedU3Ed__42_t498B5EAA2AB7CB102B999726FF6CF54BB72DDF3D* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -19531,14 +19810,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEvidenceObtainedU3Ed__42__ctor_m8BD9F
 		return;
 	}
 }
-// Method Definition Index: 74683
+// Method Definition Index: 74694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEvidenceObtainedU3Ed__42_System_IDisposable_Dispose_m43C1F5E082EE95C2B675288373F03C446A2A71F5 (U3CEvidenceObtainedU3Ed__42_t498B5EAA2AB7CB102B999726FF6CF54BB72DDF3D* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74684
+// Method Definition Index: 74695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CEvidenceObtainedU3Ed__42_MoveNext_m70479C8A309281D9016156B76531E69504667E34 (U3CEvidenceObtainedU3Ed__42_t498B5EAA2AB7CB102B999726FF6CF54BB72DDF3D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19589,7 +19868,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CEvidenceObtainedU3Ed__42_MoveNext_m70
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:314>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:314>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (1.5f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -19601,7 +19880,7 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:317>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:317>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_5 = V_1;
 		NullCheck(L_5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = L_5->___evidenceNames;
@@ -19612,7 +19891,7 @@ IL_0037:
 		int32_t L_9 = L_8;
 		String_t* L_10 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
 		V_2 = L_10;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:318>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:318>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_11 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -19623,7 +19902,7 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:320>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:320>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_13 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_13);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_14;
@@ -19638,7 +19917,7 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:321>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:321>
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_17 = ((DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_StaticFields*)il2cpp_codegen_static_fields_for(DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_17);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_18;
@@ -19650,10 +19929,10 @@ IL_0037:
 
 IL_007b:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:325>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:326>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:327>
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:328>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:325>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:326>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:327>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:328>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_21 = L_20;
 		NullCheck(L_21);
@@ -19713,14 +19992,14 @@ IL_007b:
 		String_t* L_49;
 		L_49 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_48, NULL);
 		V_3 = L_49;
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:329>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:329>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_50 = V_1;
 		NullCheck(L_50);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_51 = L_50->___collectedStatements;
 		String_t* L_52 = V_3;
 		NullCheck(L_51);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_51, L_52, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:331>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:331>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_53 = V_1;
 		NullCheck(L_53);
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_54 = L_53->___witnessCleared;
@@ -19729,7 +20008,7 @@ IL_007b:
 		int32_t L_56 = L_55->___currentWitness;
 		NullCheck(L_54);
 		List_1_set_Item_mFEA98FA49B98EC8B769FB82DED7622F672AD1ADB(L_54, L_56, (bool)1, List_1_set_Item_mFEA98FA49B98EC8B769FB82DED7622F672AD1ADB_RuntimeMethod_var);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:334>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:334>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_57 = V_1;
 		NullCheck(L_57);
 		int32_t L_58 = L_57->___currentWitness;
@@ -19757,7 +20036,7 @@ IL_007b:
 
 IL_011f:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:336>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:336>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_60 = V_1;
 		NullCheck(L_60);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_61 = L_60->___witnessBtn1;
@@ -19766,13 +20045,13 @@ IL_011f:
 		L_62 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_61, NULL);
 		NullCheck(L_62);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_62, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:336>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:336>
 		goto IL_0156;
 	}
 
 IL_0132:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:337>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:337>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_63 = V_1;
 		NullCheck(L_63);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_64 = L_63->___witnessBtn2;
@@ -19781,13 +20060,13 @@ IL_0132:
 		L_65 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_64, NULL);
 		NullCheck(L_65);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_65, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:337>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:337>
 		goto IL_0156;
 	}
 
 IL_0145:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:338>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:338>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_66 = V_1;
 		NullCheck(L_66);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_67 = L_66->___witnessBtn3;
@@ -19800,17 +20079,17 @@ IL_0145:
 
 IL_0156:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:341>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:341>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_69 = V_1;
 		NullCheck(L_69);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_70 = L_69->___statementPopup;
 		NullCheck(L_70);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_70, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:342>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:342>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_71 = V_1;
 		NullCheck(L_71);
 		L_71->___currentWitness = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:345>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:345>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_72 = V_1;
 		NullCheck(L_72);
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_73 = L_72->___witnessCleared;
@@ -19847,7 +20126,7 @@ IL_0156:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:347>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:347>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_81 = V_1;
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_82 = V_1;
 		NullCheck(L_82);
@@ -19860,11 +20139,11 @@ IL_0156:
 
 IL_01a0:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:349>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:349>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74685
+// Method Definition Index: 74696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEvidenceObtainedU3Ed__42_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m04B3CF476EFA645D0939D5651F3BEE49B4D03641 (U3CEvidenceObtainedU3Ed__42_t498B5EAA2AB7CB102B999726FF6CF54BB72DDF3D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19872,7 +20151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEvidenceObtainedU3Ed__42_Sy
 		return L_0;
 	}
 }
-// Method Definition Index: 74686
+// Method Definition Index: 74697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEvidenceObtainedU3Ed__42_System_Collections_IEnumerator_Reset_m6BFC627F5B3D00636EF590819E5781F5D3157DC0 (U3CEvidenceObtainedU3Ed__42_t498B5EAA2AB7CB102B999726FF6CF54BB72DDF3D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19881,7 +20160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEvidenceObtainedU3Ed__42_System_Colle
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CEvidenceObtainedU3Ed__42_System_Collections_IEnumerator_Reset_m6BFC627F5B3D00636EF590819E5781F5D3157DC0_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 74687
+// Method Definition Index: 74698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEvidenceObtainedU3Ed__42_System_Collections_IEnumerator_get_Current_m0610D40E93E607678081BD4ACC0CAE1C390AA8C0 (U3CEvidenceObtainedU3Ed__42_t498B5EAA2AB7CB102B999726FF6CF54BB72DDF3D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19897,7 +20176,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEvidenceObtainedU3Ed__42_Sy
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74688
+// Method Definition Index: 74699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__46__ctor_m1505B63C07B520973D90BEEE61C002328B3578BF (U3CShowClearPopupU3Ed__46_t32B25B2DC306DF40BEE8A1A4365AB040DC8E1529* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -19907,14 +20186,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__46__ctor_m1505B63
 		return;
 	}
 }
-// Method Definition Index: 74689
+// Method Definition Index: 74700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__46_System_IDisposable_Dispose_m9B424CA4BB19BF3B5ADD00E771F2E2CC0D4DEC12 (U3CShowClearPopupU3Ed__46_t32B25B2DC306DF40BEE8A1A4365AB040DC8E1529* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74690
+// Method Definition Index: 74701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowClearPopupU3Ed__46_MoveNext_m67DA7277B324629B72AEB79CF0F58D7FF7108E95 (U3CShowClearPopupU3Ed__46_t32B25B2DC306DF40BEE8A1A4365AB040DC8E1529* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19953,7 +20232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowClearPopupU3Ed__46_MoveNext_m67DA
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:399>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:399>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_4 = V_1;
 		NullCheck(L_4);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = L_4->___reportButton;
@@ -19962,19 +20241,19 @@ IL_0017:
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:400>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:400>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_7 = V_1;
 		NullCheck(L_7);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = L_7->___clearTitleText;
 		NullCheck(L_8);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:401>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:401>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_9 = V_1;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = L_9->___clearDescText;
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:402>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:402>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_11 = V_1;
 		NullCheck(L_11);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = L_11->___countdownText;
@@ -19983,14 +20262,14 @@ IL_0017:
 		L_13 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_12, NULL);
 		NullCheck(L_13);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)1, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:404>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:404>
 		__this->___U3CiU3E5__2 = 3;
 		goto IL_00a7;
 	}
 
 IL_0061:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:406>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:406>
 		WitnessGame_tD479D8042124DFE1C5391CCA12377F00A669DECA* L_14 = V_1;
 		NullCheck(L_14);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_15 = L_14->___countdownText;
@@ -19999,7 +20278,7 @@ IL_0061:
 		L_17 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_16, NULL);
 		NullCheck(L_15);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, L_17);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:407>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:407>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_18 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_18, (1.0f), NULL);
 		__this->___U3CU3E2__current = L_18;
@@ -20011,7 +20290,7 @@ IL_0061:
 IL_0090:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:404>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:404>
 		int32_t L_19 = __this->___U3CiU3E5__2;
 		V_2 = L_19;
 		int32_t L_20 = V_2;
@@ -20020,7 +20299,7 @@ IL_0090:
 
 IL_00a7:
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:404>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:404>
 		int32_t L_21 = __this->___U3CiU3E5__2;
 		if ((((int32_t)L_21) > ((int32_t)0)))
 		{
@@ -20028,14 +20307,14 @@ IL_00a7:
 		}
 	}
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:410>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:410>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB683C057E8DA801FA01FD23F5A07DAEFB5C796EA, NULL);
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:411>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/WitnessGame.cs:411>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74691
+// Method Definition Index: 74702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__46_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mECED01F99E6185D908F39B84FFAC986837E34A3C (U3CShowClearPopupU3Ed__46_t32B25B2DC306DF40BEE8A1A4365AB040DC8E1529* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20043,7 +20322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__46_Syst
 		return L_0;
 	}
 }
-// Method Definition Index: 74692
+// Method Definition Index: 74703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__46_System_Collections_IEnumerator_Reset_mAA56AF01D49B838E259508901EEA2C55760CF369 (U3CShowClearPopupU3Ed__46_t32B25B2DC306DF40BEE8A1A4365AB040DC8E1529* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20052,7 +20331,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowClearPopupU3Ed__46_System_Collect
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CShowClearPopupU3Ed__46_System_Collections_IEnumerator_Reset_mAA56AF01D49B838E259508901EEA2C55760CF369_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 74693
+// Method Definition Index: 74704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__46_System_Collections_IEnumerator_get_Current_m1AD9A4145BCD2B1DB78D6C487FA1DD2869E6367A (U3CShowClearPopupU3Ed__46_t32B25B2DC306DF40BEE8A1A4365AB040DC8E1529* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20068,7 +20347,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowClearPopupU3Ed__46_Syst
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74694
+// Method Definition Index: 74705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20084,7 +20363,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74695
+// Method Definition Index: 74706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20100,41 +20379,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74696
+// Method Definition Index: 74707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____1C678D286BBE74329CF6C1DD5BCBBAA62D1AF62469DE89BF6BB974D1A28E1677_FieldInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A076142FD9ED89336CEF664BE5FF1DDB9482C962A2F8F6FFC860442D3FCCC03F_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____0FDA1DBE4045C470487C3E9EFE16B2A78B860DF5CA0E35B2006B325B87F78AC0_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____91EEEB111B85261A2FFC2186677AC53953122B2C7841B542B24DFB0192F5027F_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)652));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)690));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A076142FD9ED89336CEF664BE5FF1DDB9482C962A2F8F6FFC860442D3FCCC03F_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____91EEEB111B85261A2FFC2186677AC53953122B2C7841B542B24DFB0192F5027F_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)355));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)372));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____1C678D286BBE74329CF6C1DD5BCBBAA62D1AF62469DE89BF6BB974D1A28E1677_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____0FDA1DBE4045C470487C3E9EFE16B2A78B860DF5CA0E35B2006B325B87F78AC0_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
-		(&V_0)->___TotalFiles = ((int32_t)16);
-		(&V_0)->___TotalTypes = ((int32_t)18);
+		(&V_0)->___TotalFiles = ((int32_t)17);
+		(&V_0)->___TotalTypes = ((int32_t)19);
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
 		return L_6;
 	}
 }
-// Method Definition Index: 74697
+// Method Definition Index: 74708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20252,7 +20531,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74698
+// Method Definition Index: 74709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedComparers___Internal_InitializeOnce_mD291A8EE928E34C4ACE789442E6F330CCD1E088F (const RuntimeMethod* method) 
 {
 	{
@@ -20267,7 +20546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedComparers___Internal_Initialize
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74699
+// Method Definition Index: 74710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_InitializeOnce_mAA3E280D41052AA56EEA27461CCAE69FEF3C5046 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20285,7 +20564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_InitializeOn
 		return;
 	}
 }
-// Method Definition Index: 74700
+// Method Definition Index: 74711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___System_StringU5BU5DFishNet_Serializing_Generated_mF8F60AFA6653CDDEB3AD4671F4B619444C3CE939 (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20310,7 +20589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Sys
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74701
+// Method Definition Index: 74712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedReaders___Internal_InitializeOnce_m165BE950CF88ED63DAEF9E3A1BA13DD04D81D220 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20328,7 +20607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedReaders___Internal_InitializeOn
 		return;
 	}
 }
-// Method Definition Index: 74702
+// Method Definition Index: 74713
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* GeneratedReaders___Internal_GRead___System_StringU5BU5DFishNet_Serializing_Generateds_mE4BAE65ADDC7E7B1C71C9F9ED5E72D188726F465 (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20348,7 +20627,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 68836
+// Method Definition Index: 68844
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline (Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20357,7 +20636,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SliderEvent_t92A82EF6C62E15AF92B6
 		return L_0;
 	}
 }
-// Method Definition Index: 67702
+// Method Definition Index: 67710
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20366,16 +20645,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1
 		return L_0;
 	}
 }
-// Method Definition Index: 74458
+// Method Definition Index: 74466
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* DataManager_get_CollectedEvidences_mA86F29F97E532447C6B3B249DB5243E2CD638F16_inline (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:15>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:15>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___U3CCollectedEvidencesU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 40903
+// Method Definition Index: 40906
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20389,7 +20668,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 40887
+// Method Definition Index: 40890
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20429,7 +20708,7 @@ IL_002e:
 		return L_13;
 	}
 }
-// Method Definition Index: 40852
+// Method Definition Index: 40855
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -20450,7 +20729,7 @@ IL_0010:
 		return L_5;
 	}
 }
-// Method Definition Index: 40606
+// Method Definition Index: 40609
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline (const RuntimeMethod* method) 
 {
 	{
@@ -20460,7 +20739,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
-// Method Definition Index: 40608
+// Method Definition Index: 40611
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline (const RuntimeMethod* method) 
 {
 	{
@@ -20470,7 +20749,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
-// Method Definition Index: 40581
+// Method Definition Index: 40584
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, const RuntimeMethod* method) 
 {
 	{
@@ -20490,7 +20769,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 69303
+// Method Definition Index: 69311
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PointerEventData_get_delta_m7DC87C01EAE1D10282C37842ED215FDBFE2C1C5B_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20499,7 +20778,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 40898
+// Method Definition Index: 40901
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -20518,7 +20797,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_6;
 	}
 }
-// Method Definition Index: 40891
+// Method Definition Index: 40894
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -20539,7 +20818,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_8;
 	}
 }
-// Method Definition Index: 69287
+// Method Definition Index: 69295
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* PointerEventData_get_pointerDrag_m36BF08A32216845A8095C5F74DFE6C9959A11E96_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20548,7 +20827,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 39354
+// Method Definition Index: 39357
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Rect_Contains_mAB270D6B7E3B0009A50D142C569D63E8FE59F48B_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_point, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20607,7 +20886,7 @@ IL_003b:
 		return (bool)G_B5_0;
 	}
 }
-// Method Definition Index: 40851
+// Method Definition Index: 40854
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -20655,17 +20934,17 @@ IL_002d:
 		return L_5;
 	}
 }
-// Method Definition Index: 74455
+// Method Definition Index: 74463
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DataManager_set_MaxPlayers_m2C7C9E2E0E71351A6C36966A3F645DBA65E635B4_inline (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:9>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:9>
 		int32_t L_0 = ___0_value;
 		__this->___U3CMaxPlayersU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 60408
+// Method Definition Index: 60416
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* TMP_InputField_get_text_mA4ACBF52435893D9DFD822A492454301740B3C6A_inline (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20674,41 +20953,68 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* TMP_InputField_get_text
 		return L_0;
 	}
 }
-// Method Definition Index: 74454
+// Method Definition Index: 74462
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DataManager_get_MaxPlayers_mFEA5CEB3E39414E083717C0D331FAAA040A6D9A0_inline (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:9>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:9>
 		int32_t L_0 = __this->___U3CMaxPlayersU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 74457
+// Method Definition Index: 74465
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DataManager_set_SelectedJob_mE604590438B074710D7152E8FFA7AF315C1AB99B_inline (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:12>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:12>
 		String_t* L_0 = ___0_value;
 		__this->___U3CSelectedJobU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSelectedJobU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 74456
+// Method Definition Index: 74464
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* DataManager_get_SelectedJob_m59F41D4462E9743FCB4B37795170FBE6936187FF_inline (DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/Scripts/DataManager.cs:12>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/Scripts/DataManager.cs:12>
 		String_t* L_0 = __this->___U3CSelectedJobU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 74775
+// Method Definition Index: 74786
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* NFCTag_get_ID_mE1F17ABE3AB40B5F405596ACD67AE769F7EE2146_inline (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Jo/Desktop/4-1-main/4-3/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:41>
+		//<source_info:C:/2060033/4-3/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:41>
 		String_t* L_0 = __this->___id;
+		return L_0;
+	}
+}
+// Method Definition Index: 40724
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 40788
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
 		return L_0;
 	}
 }
@@ -20850,7 +21156,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get
 		return L_0;
 	}
 }
-// Method Definition Index: 40580
+// Method Definition Index: 40583
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
 {
 	{
@@ -20865,7 +21171,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 		return;
 	}
 }
-// Method Definition Index: 39350
+// Method Definition Index: 39353
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20874,7 +21180,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMax_m2339C7D2FCDA
 		return ((float)il2cpp_codegen_add(L_0, L_1));
 	}
 }
-// Method Definition Index: 39352
+// Method Definition Index: 39355
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	{

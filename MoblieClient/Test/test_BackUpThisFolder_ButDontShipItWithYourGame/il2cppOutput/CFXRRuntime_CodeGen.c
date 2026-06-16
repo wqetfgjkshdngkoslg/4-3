@@ -37,6 +37,7 @@ extern void AnimatedLight_animateFadeOut_mDC5D169D4A8B5DE4928D27CEBE6DE07EB55406
 extern void AnimatedLight_reset_m43CAFEA18F765285CC5BD53D9D836FDD46BCAB71 (void);
 extern void AnimatedLight__ctor_mD72E4057AC1B447DE5EF7069CAA2C0443E75115A (void);
 extern void AnimatedLight__cctor_mD7264F3E5BA090B43096D89FCC42DBF52CC533F7 (void);
+extern void CFXR_EmissionBySurface__ctor_m11DD798A78F524B8CCB32522BFBC803CEAD5CA32 (void);
 extern void CFXR_ParticleText_Awake_m352451D17C999E2DF55171F975F09B34FA865D8D (void);
 extern void CFXR_ParticleText_InitializeFirstParticle_m5D1660A01B1C1CAC24DF269570DFEB7974B9204D (void);
 extern void CFXR_ParticleText_UpdateText_mD2C7936B4CC8542E63286C45474607CA6DC581D3 (void);
@@ -45,7 +46,7 @@ extern void CFXR_ParticleTextFontAsset_OnValidate_m703B8054F6D76E393BAFA0A8A0309
 extern void CFXR_ParticleTextFontAsset_IsValid_m1B2A4563CCB6AAB0F0FAC4E93F6B1738AF726DCF (void);
 extern void CFXR_ParticleTextFontAsset__ctor_m6921F09A711893F0A6A8E2BB1AB7798F8B361B48 (void);
 extern void Kerning__ctor_mE4EF1B5BAFA9083398C45EF5535154487362644E (void);
-static Il2CppMethodPointer s_methodPointers[38] = 
+static Il2CppMethodPointer s_methodPointers[39] = 
 {
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mB406F47B02EFEDD0B33695C96E42106DCDEC78ED,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m117472C31C1E6F72847C92723BAAD1600DBB38CC,
@@ -77,6 +78,7 @@ static Il2CppMethodPointer s_methodPointers[38] =
 	AnimatedLight_reset_m43CAFEA18F765285CC5BD53D9D836FDD46BCAB71,
 	AnimatedLight__ctor_mD72E4057AC1B447DE5EF7069CAA2C0443E75115A,
 	AnimatedLight__cctor_mD7264F3E5BA090B43096D89FCC42DBF52CC533F7,
+	CFXR_EmissionBySurface__ctor_m11DD798A78F524B8CCB32522BFBC803CEAD5CA32,
 	CFXR_ParticleText_Awake_m352451D17C999E2DF55171F975F09B34FA865D8D,
 	CFXR_ParticleText_InitializeFirstParticle_m5D1660A01B1C1CAC24DF269570DFEB7974B9204D,
 	CFXR_ParticleText_UpdateText_mD2C7936B4CC8542E63286C45474607CA6DC581D3,
@@ -86,7 +88,7 @@ static Il2CppMethodPointer s_methodPointers[38] =
 	CFXR_ParticleTextFontAsset__ctor_m6921F09A711893F0A6A8E2BB1AB7798F8B361B48,
 	Kerning__ctor_mE4EF1B5BAFA9083398C45EF5535154487362644E,
 };
-static const int32_t s_InvokerIndices[38] = 
+static const int32_t s_InvokerIndices[39] = 
 {
 	26696,
 	15751,
@@ -120,6 +122,7 @@ static const int32_t s_InvokerIndices[38] =
 	26666,
 	15751,
 	15751,
+	15751,
 	417,
 	15751,
 	15751,
@@ -131,7 +134,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_CFXRRuntime_CodeGenModule;
 const Il2CppCodeGenModule g_CFXRRuntime_CodeGenModule = 
 {
 	"CFXRRuntime.dll",
-	38,
+	39,
 	s_methodPointers,
 	0,
 	NULL,

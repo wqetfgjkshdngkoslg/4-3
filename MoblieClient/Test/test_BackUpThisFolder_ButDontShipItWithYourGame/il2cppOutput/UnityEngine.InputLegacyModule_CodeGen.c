@@ -55,6 +55,7 @@ extern void Input_GetTouchSupportedInternal_mDCA680EA815E39D9B50A029CC707A7A4EEF
 extern void Input_get_mousePresent_mAD77FFD987CD5B998AFAD4DAECADBC76034026BF (void);
 extern void Input_get_touchSupported_m2A4FA398A793861AE1BC5971A1363552AB33BEEF (void);
 extern void Input_get_touchCount_m057388BFC67A0F4CA53764B1022867ED81D01E39 (void);
+extern void Input_get_touches_m7CFDF6848F3EC3A8FE458436B2B8BD14B5C65CEF (void);
 extern void Input_CheckDisabled_m359B281F7F5DDAB74780E1898311AECD9B0ECCE1 (void);
 extern void Input_GetTouch_Injected_m04E25DD035583531339AB310FBDD4F5A30817F87 (void);
 extern void Input_GetLastPenContactEvent_Injected_mA7F2DE408F86C38FC15357E468645CD82D38A84A (void);
@@ -85,7 +86,7 @@ extern void InputUnsafeUtility_GetButtonUp__Unmanaged_mCCE34158CE05432541102B1C2
 extern void InputUnsafeUtility_GetAxis_Injected_m7617B11C7695077D77C9C2F3F068734E5F35E12E (void);
 extern void InputUnsafeUtility_GetAxisRaw_Injected_mB5CF61FFB2DE889CB33B56AB77AE94BB8F16D31D (void);
 extern void InputUnsafeUtility_GetButtonDown_Injected_m14E4D5FEFEE423F495E54FE1CACC08567ABDAA29 (void);
-static Il2CppMethodPointer s_methodPointers[78] = 
+static Il2CppMethodPointer s_methodPointers[79] = 
 {
 	Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD,
 	Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A,
@@ -135,6 +136,7 @@ static Il2CppMethodPointer s_methodPointers[78] =
 	Input_get_mousePresent_mAD77FFD987CD5B998AFAD4DAECADBC76034026BF,
 	Input_get_touchSupported_m2A4FA398A793861AE1BC5971A1363552AB33BEEF,
 	Input_get_touchCount_m057388BFC67A0F4CA53764B1022867ED81D01E39,
+	Input_get_touches_m7CFDF6848F3EC3A8FE458436B2B8BD14B5C65CEF,
 	Input_CheckDisabled_m359B281F7F5DDAB74780E1898311AECD9B0ECCE1,
 	Input_GetTouch_Injected_m04E25DD035583531339AB310FBDD4F5A30817F87,
 	Input_GetLastPenContactEvent_Injected_mA7F2DE408F86C38FC15357E468645CD82D38A84A,
@@ -203,9 +205,9 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[18] =
 	{ 0x0600000F, Touch_get_azimuthAngle_m2F11532183492E608922A2F9D9EC9AC31D34F490_AdjustorThunk },
 	{ 0x06000010, Touch_get_radius_m5BC9C50DABBB17B07742BAFC6CC36A6736AE7960_AdjustorThunk },
 	{ 0x06000011, Touch_get_radiusVariance_m6F54BE964B91C3B2F8FA2A483E1FDB644B282B21_AdjustorThunk },
-	{ 0x0600003E, HitInfo_SendMessage_m7834418ACE250BBCBA38ADCF0892E475BD1AD541_AdjustorThunk },
+	{ 0x0600003F, HitInfo_SendMessage_m7834418ACE250BBCBA38ADCF0892E475BD1AD541_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[78] = 
+static const int32_t s_InvokerIndices[79] = 
 {
 	15463,
 	15738,
@@ -255,6 +257,7 @@ static const int32_t s_InvokerIndices[78] =
 	26508,
 	26508,
 	26544,
+	26564,
 	26508,
 	22358,
 	25376,
@@ -290,7 +293,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_InputLegacyModule_CodeGe
 const Il2CppCodeGenModule g_UnityEngine_InputLegacyModule_CodeGenModule = 
 {
 	"UnityEngine.InputLegacyModule.dll",
-	78,
+	79,
 	s_methodPointers,
 	18,
 	s_adjustorThunks,

@@ -292,6 +292,9 @@ extern void NFCManager_GetTargetScene_m842EF0B63A3873E0091619BDFE0AD2B4007DD942 
 extern void NFCManager_LoadScene_mD1CB0B977AD7E96D88F53413283612CAA010F07A (void);
 extern void NFCManager_OnDestroy_mE5445E5858C0F0EDE56607DBC472221C96395F4A (void);
 extern void NFCManager__ctor_m61FF5C9975BAA3808EC599098995435C459EFFA5 (void);
+extern void TouchEffect_Update_mAD737E3565B425789331DBB8A7E932B3E458DE3D (void);
+extern void TouchEffect_SpawnEffect_m6902EEA028F59A2FE6588564E9D8668684686F42 (void);
+extern void TouchEffect__ctor_m5676BA034B6DF8B35B913249B8D482435734E056 (void);
 extern void WitnessGame_Start_m0BB4146D5CEF96877596E92F4CD84557E8AE1ACB (void);
 extern void WitnessGame_OnStartClicked_mFA896642BE9639568954E99F845D2C5C7C2058E7 (void);
 extern void WitnessGame_OnWitnessClicked_m6C1E3CBACE7839B0C34CD607422ABDAB12CF8B1A (void);
@@ -336,7 +339,7 @@ extern void GeneratedWriters___Internal_InitializeOnce_mAA3E280D41052AA56EEA2746
 extern void GeneratedWriters___Internal_GWrite___System_StringU5BU5DFishNet_Serializing_Generated_mF8F60AFA6653CDDEB3AD4671F4B619444C3CE939 (void);
 extern void GeneratedReaders___Internal_InitializeOnce_m165BE950CF88ED63DAEF9E3A1BA13DD04D81D220 (void);
 extern void GeneratedReaders___Internal_GRead___System_StringU5BU5DFishNet_Serializing_Generateds_mE4BAE65ADDC7E7B1C71C9F9ED5E72D188726F465 (void);
-static Il2CppMethodPointer s_methodPointers[329] = 
+static Il2CppMethodPointer s_methodPointers[332] = 
 {
 	CCTVGame_Start_m9ECBA8E0F6F8020D3A125F0E160CBF6C3EFF2F54,
 	CCTVGame_SetInteractable_mFE458E8A06FB05931F8C84932658B1DC4541243A,
@@ -623,6 +626,9 @@ static Il2CppMethodPointer s_methodPointers[329] =
 	NFCManager_LoadScene_mD1CB0B977AD7E96D88F53413283612CAA010F07A,
 	NFCManager_OnDestroy_mE5445E5858C0F0EDE56607DBC472221C96395F4A,
 	NFCManager__ctor_m61FF5C9975BAA3808EC599098995435C459EFFA5,
+	TouchEffect_Update_mAD737E3565B425789331DBB8A7E932B3E458DE3D,
+	TouchEffect_SpawnEffect_m6902EEA028F59A2FE6588564E9D8668684686F42,
+	TouchEffect__ctor_m5676BA034B6DF8B35B913249B8D482435734E056,
 	WitnessGame_Start_m0BB4146D5CEF96877596E92F4CD84557E8AE1ACB,
 	WitnessGame_OnStartClicked_mFA896642BE9639568954E99F845D2C5C7C2058E7,
 	WitnessGame_OnWitnessClicked_m6C1E3CBACE7839B0C34CD607422ABDAB12CF8B1A,
@@ -668,7 +674,7 @@ static Il2CppMethodPointer s_methodPointers[329] =
 	GeneratedReaders___Internal_InitializeOnce_m165BE950CF88ED63DAEF9E3A1BA13DD04D81D220,
 	GeneratedReaders___Internal_GRead___System_StringU5BU5DFishNet_Serializing_Generateds_mE4BAE65ADDC7E7B1C71C9F9ED5E72D188726F465,
 };
-static const int32_t s_InvokerIndices[329] = 
+static const int32_t s_InvokerIndices[332] = 
 {
 	15751,
 	11783,
@@ -956,6 +962,9 @@ static const int32_t s_InvokerIndices[329] =
 	15751,
 	15751,
 	15751,
+	12196,
+	15751,
+	15751,
 	15751,
 	11928,
 	11928,
@@ -1004,7 +1013,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	329,
+	332,
 	s_methodPointers,
 	0,
 	NULL,

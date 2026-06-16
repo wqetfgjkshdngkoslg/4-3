@@ -3,6 +3,7 @@ using FishNet.Transporting.Tugboat;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using DG.Tweening;
 
 public class MobileClientUI : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class MobileClientUI : MonoBehaviour
         if (InstanceFinder.NetworkManager != null)
             DontDestroyOnLoad(InstanceFinder.NetworkManager.gameObject);
 
-            connectButton.onClick.AddListener(OnConnectClicked);
+        connectButton.onClick.AddListener(OnConnectClicked);
         InstanceFinder.ClientManager.OnClientConnectionState += OnConnectionState;
     }
 
@@ -27,8 +28,12 @@ public class MobileClientUI : MonoBehaviour
         if (string.IsNullOrEmpty(ip))
         {
             statusText.text = "IP를 입력해주세요";
+            DOTween.Restart("ShakeFX");
             return;
         }
+
+        // 정상 입력 → 펀치 애니메이션
+        DOTween.Restart("PunchFX");
 
         var tugboat = InstanceFinder.NetworkManager.GetComponent<Tugboat>();
         tugboat.SetClientAddress(ip);

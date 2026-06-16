@@ -26389,7 +26389,7 @@ IL_0019:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 41944
+// Method Definition Index: 41952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1_Initialize_mDADD72EAC54942A34EED7A04285200B518096055_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26433,7 +26433,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 41945
+// Method Definition Index: 41953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1_Execute_m2C4E058B9EC1B10C2BB3860F8FFDEAF691C7AE3B_gshared (Il2CppFullySharedGenericStruct* ___0_jobData, intptr_t ___1_jobData2, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	void* L_30 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)));
@@ -26616,7 +26616,7 @@ IL_010d:
 		return;
 	}
 }
-// Method Definition Index: 41946
+// Method Definition Index: 41954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1__cctor_m46A376B5F4C2AE7512F9DC5C283D41DE2B552D92_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -26634,7 +26634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1__cctor_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 41944
+// Method Definition Index: 41952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1_Initialize_m67D9A98C9E81DF92CD6BC6B363F35B5006EAEE76_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26678,7 +26678,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 41945
+// Method Definition Index: 41953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1_Execute_m5EF361D0BD353203AA224B1D7383DE3C31283243_gshared (UpdateTransformsJob_t7CF957169E8C6560084F48A51BC15A447F3002C7* ___0_jobData, intptr_t ___1_jobData2, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26867,7 +26867,7 @@ IL_010d:
 		return;
 	}
 }
-// Method Definition Index: 41946
+// Method Definition Index: 41954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1__cctor_m5E4C3DB72AE390CA7C34D2F62A1588198C553AFC_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -26885,7 +26885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1__cctor_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 41944
+// Method Definition Index: 41952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1_Initialize_m5C52754A03933356156CC14A140434DEB4724FA2_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26929,7 +26929,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 41945
+// Method Definition Index: 41953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1_Execute_m5C14D50A304C76BB4519F4318B098D6386E9A545_gshared (FastWriteTransformsJob_t0C6265A3E284D5CB97AEFF0CBDE615956100CA42* ___0_jobData, intptr_t ___1_jobData2, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	TransformJobData_t93C16F6162F0A98CA8BF7DD2A01CC9EB1E0E6477 V_0;
@@ -27110,7 +27110,7 @@ IL_010d:
 		return;
 	}
 }
-// Method Definition Index: 41946
+// Method Definition Index: 41954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1__cctor_m8A3D197619E4BBC4C1DD9BE2FEB7DB79D25FC14B_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -27128,7 +27128,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1__cctor_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 41944
+// Method Definition Index: 41952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1_Initialize_mF90231CF81050FE29D40B705394B9B549105651D_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27172,7 +27172,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 41945
+// Method Definition Index: 41953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1_Execute_mDCE9AB511E4DAEB29A7E07A04DBB1C5D94AF4A33_gshared (Slow3DWriteTransformsJob_t01D62375DE34631AE04D67F49B90140DF12FC369* ___0_jobData, intptr_t ___1_jobData2, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	TransformJobData_t40D92BF001869836E042C6ECBF855F03E9797929 V_0;
@@ -27353,7 +27353,7 @@ IL_010d:
 		return;
 	}
 }
-// Method Definition Index: 41946
+// Method Definition Index: 41954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1__cctor_m2902FA07D655E2BC971129210C1635B27897124C_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -27371,7 +27371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1__cctor_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 41944
+// Method Definition Index: 41952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1_Initialize_mA99322D420D2320DE116A62C584B140AFEFE3960_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27415,7 +27415,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 41945
+// Method Definition Index: 41953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1_Execute_m294486B2EFBCD9D891C4BBE7D0338D4EEEC482C0_gshared (WriteTransformTweensJob_t7CF658581EF0F1630C26CCB405A537B666C01187* ___0_jobData, intptr_t ___1_jobData2, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	TransformJobData_tE58EC3AD1A2B8DA89B4C00E8BB325624CA1DCB54 V_0;
@@ -27596,7 +27596,7 @@ IL_010d:
 		return;
 	}
 }
-// Method Definition Index: 41946
+// Method Definition Index: 41954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformParallelForLoopStruct_1__cctor_m7737EE9B3EE7A2A2110DF204C0F3B66DA5C57C27_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -32324,7 +32324,7 @@ bool TreeWalkPredicate_1_Invoke_m06EBA7A09C8CC049B5DEA933B443F1624C1441DD_OpenSt
 	typedef bool (*FunctionPointerType) (Node_t916C44190DE88FA234D1BC35FF7A419CB0892881*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_node, method);
 }
-// Method Definition Index: 67245
+// Method Definition Index: 67253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_mF0838E1AAA019E37D9D3FECD0E3C4E07FA00F5E8_gshared (TreeWalkPredicate_1_t5C868748F6E5E702919302A26C890403CD0C3ECC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -32361,7 +32361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_mF0838E1AAA019
 	}
 	__this->___extra_arg = (intptr_t)&TreeWalkPredicate_1_Invoke_m06EBA7A09C8CC049B5DEA933B443F1624C1441DD_Multicast;
 }
-// Method Definition Index: 67246
+// Method Definition Index: 67254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TreeWalkPredicate_1_Invoke_m06EBA7A09C8CC049B5DEA933B443F1624C1441DD_gshared (TreeWalkPredicate_1_t5C868748F6E5E702919302A26C890403CD0C3ECC* __this, Node_t916C44190DE88FA234D1BC35FF7A419CB0892881* ___0_node, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Node_t916C44190DE88FA234D1BC35FF7A419CB0892881*, const RuntimeMethod*);
@@ -32399,7 +32399,7 @@ bool TreeWalkPredicate_1_Invoke_m1D011697BC95F6FD70DD792DC0240AD49A45036A_OpenSt
 	typedef bool (*FunctionPointerType) (Node_tF984D9D557B58BBDBC9959070D103F2A8C8DB672*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_node, method);
 }
-// Method Definition Index: 67245
+// Method Definition Index: 67253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_m2B8AD509F7AF1432B2DB9606A683A335C105DF4F_gshared (TreeWalkPredicate_1_t74EF010F7A552B64AE044B7A41B4FAECC0D4BBE2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -32436,7 +32436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_m2B8AD509F7AF1
 	}
 	__this->___extra_arg = (intptr_t)&TreeWalkPredicate_1_Invoke_m1D011697BC95F6FD70DD792DC0240AD49A45036A_Multicast;
 }
-// Method Definition Index: 67246
+// Method Definition Index: 67254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TreeWalkPredicate_1_Invoke_m1D011697BC95F6FD70DD792DC0240AD49A45036A_gshared (TreeWalkPredicate_1_t74EF010F7A552B64AE044B7A41B4FAECC0D4BBE2* __this, Node_tF984D9D557B58BBDBC9959070D103F2A8C8DB672* ___0_node, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Node_tF984D9D557B58BBDBC9959070D103F2A8C8DB672*, const RuntimeMethod*);
@@ -32474,7 +32474,7 @@ bool TreeWalkPredicate_1_Invoke_mDFD9E1474B28BE587016C2264BACCEBF10350A6D_OpenSt
 	typedef bool (*FunctionPointerType) (Node_t31CE816B00EA6E7E6E7F4DBAB9CA815592E4B28E*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_node, method);
 }
-// Method Definition Index: 67245
+// Method Definition Index: 67253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_m92258368BAB5A65F2CEF7E8ED981F8C4265CE260_gshared (TreeWalkPredicate_1_tF0CDE72E15DE61F87CACE6B625FC7D197FF0AD5D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -32511,7 +32511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_m92258368BAB5A
 	}
 	__this->___extra_arg = (intptr_t)&TreeWalkPredicate_1_Invoke_mDFD9E1474B28BE587016C2264BACCEBF10350A6D_Multicast;
 }
-// Method Definition Index: 67246
+// Method Definition Index: 67254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TreeWalkPredicate_1_Invoke_mDFD9E1474B28BE587016C2264BACCEBF10350A6D_gshared (TreeWalkPredicate_1_tF0CDE72E15DE61F87CACE6B625FC7D197FF0AD5D* __this, Node_t31CE816B00EA6E7E6E7F4DBAB9CA815592E4B28E* ___0_node, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Node_t31CE816B00EA6E7E6E7F4DBAB9CA815592E4B28E*, const RuntimeMethod*);
@@ -32549,7 +32549,7 @@ bool TreeWalkPredicate_1_Invoke_m40B2B8B4FD608C23716BFFEFAFADD75EEDAAD8A6_OpenSt
 	typedef bool (*FunctionPointerType) (Node_t718AB0E12D85B40D2F64306F18300A1E46E5693C*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_node, method);
 }
-// Method Definition Index: 67245
+// Method Definition Index: 67253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_m80630649CB3634C63C66F652C53E87753766F464_gshared (TreeWalkPredicate_1_t927AC8F503E6F6A6EE928ED339818F48F89B7DB5* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -32586,7 +32586,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_m80630649CB363
 	}
 	__this->___extra_arg = (intptr_t)&TreeWalkPredicate_1_Invoke_m40B2B8B4FD608C23716BFFEFAFADD75EEDAAD8A6_Multicast;
 }
-// Method Definition Index: 67246
+// Method Definition Index: 67254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TreeWalkPredicate_1_Invoke_m40B2B8B4FD608C23716BFFEFAFADD75EEDAAD8A6_gshared (TreeWalkPredicate_1_t927AC8F503E6F6A6EE928ED339818F48F89B7DB5* __this, Node_t718AB0E12D85B40D2F64306F18300A1E46E5693C* ___0_node, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Node_t718AB0E12D85B40D2F64306F18300A1E46E5693C*, const RuntimeMethod*);
@@ -32624,7 +32624,7 @@ bool TreeWalkPredicate_1_Invoke_m040786CBBE481E3381D47D246D226BB0F45628B9_OpenSt
 	typedef bool (*FunctionPointerType) (Node_tE0BABBCFF00BFC195C5C53276A3B8E7FE0392704*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_node, method);
 }
-// Method Definition Index: 67245
+// Method Definition Index: 67253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_m377104A9A3C33538698C862944E87720DA2FD5D5_gshared (TreeWalkPredicate_1_t213A0B30C0CC0804253B84DB08F6B6FD90DFE456* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -32661,7 +32661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_m377104A9A3C33
 	}
 	__this->___extra_arg = (intptr_t)&TreeWalkPredicate_1_Invoke_m040786CBBE481E3381D47D246D226BB0F45628B9_Multicast;
 }
-// Method Definition Index: 67246
+// Method Definition Index: 67254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TreeWalkPredicate_1_Invoke_m040786CBBE481E3381D47D246D226BB0F45628B9_gshared (TreeWalkPredicate_1_t213A0B30C0CC0804253B84DB08F6B6FD90DFE456* __this, Node_tE0BABBCFF00BFC195C5C53276A3B8E7FE0392704* ___0_node, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Node_tE0BABBCFF00BFC195C5C53276A3B8E7FE0392704*, const RuntimeMethod*);
@@ -32699,7 +32699,7 @@ bool TreeWalkPredicate_1_Invoke_mFC42F52BA03D4861DED7E295677014F991C0306B_OpenSt
 	typedef bool (*FunctionPointerType) (Node_tE4549EEB4CAC14C4E1BAC8B4500944C175387CE8*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_node, method);
 }
-// Method Definition Index: 67245
+// Method Definition Index: 67253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_mF5A90EF50D34F6AC8AC74C4C165E58E7A76DD491_gshared (TreeWalkPredicate_1_tC03ACFBE07F50B7079CB6CCECD68B664EA92F8BF* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -32736,7 +32736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_mF5A90EF50D34F
 	}
 	__this->___extra_arg = (intptr_t)&TreeWalkPredicate_1_Invoke_mFC42F52BA03D4861DED7E295677014F991C0306B_Multicast;
 }
-// Method Definition Index: 67246
+// Method Definition Index: 67254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TreeWalkPredicate_1_Invoke_mFC42F52BA03D4861DED7E295677014F991C0306B_gshared (TreeWalkPredicate_1_tC03ACFBE07F50B7079CB6CCECD68B664EA92F8BF* __this, Node_tE4549EEB4CAC14C4E1BAC8B4500944C175387CE8* ___0_node, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Node_tE4549EEB4CAC14C4E1BAC8B4500944C175387CE8*, const RuntimeMethod*);
@@ -32774,7 +32774,7 @@ bool TreeWalkPredicate_1_Invoke_mF05B0B239CF2F52D600F5E3BBC0BA15EE047676E_OpenSt
 	typedef bool (*FunctionPointerType) (Node_t2A8A2E5FDB8FFFF9A0226914D754049360D7CFBB*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_node, method);
 }
-// Method Definition Index: 67245
+// Method Definition Index: 67253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_m984A5C401EEC6FA4AD15922857EC2E4ABDF12347_gshared (TreeWalkPredicate_1_tC4073A167ECF26DA9D9D0D4B14F67313B7B8A016* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -32811,7 +32811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_m984A5C401EEC6
 	}
 	__this->___extra_arg = (intptr_t)&TreeWalkPredicate_1_Invoke_mF05B0B239CF2F52D600F5E3BBC0BA15EE047676E_Multicast;
 }
-// Method Definition Index: 67246
+// Method Definition Index: 67254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TreeWalkPredicate_1_Invoke_mF05B0B239CF2F52D600F5E3BBC0BA15EE047676E_gshared (TreeWalkPredicate_1_tC4073A167ECF26DA9D9D0D4B14F67313B7B8A016* __this, Node_t2A8A2E5FDB8FFFF9A0226914D754049360D7CFBB* ___0_node, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Node_t2A8A2E5FDB8FFFF9A0226914D754049360D7CFBB*, const RuntimeMethod*);
@@ -32849,7 +32849,7 @@ bool TreeWalkPredicate_1_Invoke_m9A8AE268D74971DFA43A840DAFE92E7F6073F568_OpenSt
 	typedef bool (*FunctionPointerType) (Node_t532E5D456ECFAC5A29ABE0406D51A213525771E4*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_node, method);
 }
-// Method Definition Index: 67245
+// Method Definition Index: 67253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_m7DF7F7B635AC8552C4B653C6821271EE3CD983EF_gshared (TreeWalkPredicate_1_tD233740EB238BEEB0A80F535C46FD65F48F35FA8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -32886,7 +32886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_m7DF7F7B635AC8
 	}
 	__this->___extra_arg = (intptr_t)&TreeWalkPredicate_1_Invoke_m9A8AE268D74971DFA43A840DAFE92E7F6073F568_Multicast;
 }
-// Method Definition Index: 67246
+// Method Definition Index: 67254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TreeWalkPredicate_1_Invoke_m9A8AE268D74971DFA43A840DAFE92E7F6073F568_gshared (TreeWalkPredicate_1_tD233740EB238BEEB0A80F535C46FD65F48F35FA8* __this, Node_t532E5D456ECFAC5A29ABE0406D51A213525771E4* ___0_node, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Node_t532E5D456ECFAC5A29ABE0406D51A213525771E4*, const RuntimeMethod*);
@@ -32924,7 +32924,7 @@ bool TreeWalkPredicate_1_Invoke_m84C19CEDE725E1B9A8B86F226155C58887AC6555_OpenSt
 	typedef bool (*FunctionPointerType) (Node_t9F47A78BDCBE93CC4A064FD8A39CDAEF0D0FDEFA*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_node, method);
 }
-// Method Definition Index: 67245
+// Method Definition Index: 67253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_mC212E7F99E93B0A68971B300C04D2656A22E437D_gshared (TreeWalkPredicate_1_t6272EA4B4C74418A90A9FD13519C05B77C791ABB* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -32961,7 +32961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_mC212E7F99E93B
 	}
 	__this->___extra_arg = (intptr_t)&TreeWalkPredicate_1_Invoke_m84C19CEDE725E1B9A8B86F226155C58887AC6555_Multicast;
 }
-// Method Definition Index: 67246
+// Method Definition Index: 67254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TreeWalkPredicate_1_Invoke_m84C19CEDE725E1B9A8B86F226155C58887AC6555_gshared (TreeWalkPredicate_1_t6272EA4B4C74418A90A9FD13519C05B77C791ABB* __this, Node_t9F47A78BDCBE93CC4A064FD8A39CDAEF0D0FDEFA* ___0_node, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Node_t9F47A78BDCBE93CC4A064FD8A39CDAEF0D0FDEFA*, const RuntimeMethod*);
@@ -32999,7 +32999,7 @@ bool TreeWalkPredicate_1_Invoke_m0C3D00B75CA0D2B165285DA9A00601EFE738D3C0_OpenSt
 	typedef bool (*FunctionPointerType) (Node_t815A93F387E1DF172B0F950EE9F51BD614A44E58*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_node, method);
 }
-// Method Definition Index: 67245
+// Method Definition Index: 67253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_m1F7ABE24CD8025905AD93BD9537F8F6200C5E814_gshared (TreeWalkPredicate_1_t63A3965CAEC9111ED38CB5C75D9D676A3AAAE1FF* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -33036,7 +33036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_m1F7ABE24CD802
 	}
 	__this->___extra_arg = (intptr_t)&TreeWalkPredicate_1_Invoke_m0C3D00B75CA0D2B165285DA9A00601EFE738D3C0_Multicast;
 }
-// Method Definition Index: 67246
+// Method Definition Index: 67254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TreeWalkPredicate_1_Invoke_m0C3D00B75CA0D2B165285DA9A00601EFE738D3C0_gshared (TreeWalkPredicate_1_t63A3965CAEC9111ED38CB5C75D9D676A3AAAE1FF* __this, Node_t815A93F387E1DF172B0F950EE9F51BD614A44E58* ___0_node, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Node_t815A93F387E1DF172B0F950EE9F51BD614A44E58*, const RuntimeMethod*);
@@ -33074,7 +33074,7 @@ bool TreeWalkPredicate_1_Invoke_mADAC974F17550F18BA024008BBB0C18534ADEC6B_OpenSt
 	typedef bool (*FunctionPointerType) (Node_t4C7317158252B726B52B750C87438B8F08C34830*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_node, method);
 }
-// Method Definition Index: 67245
+// Method Definition Index: 67253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_mA6A43152FE31AF9C49A4CC1C7989FBE300B7EEE5_gshared (TreeWalkPredicate_1_t27A1DD9A58EA978330A73ED41853088F9727ADFE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -33111,7 +33111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TreeWalkPredicate_1__ctor_mA6A43152FE31A
 	}
 	__this->___extra_arg = (intptr_t)&TreeWalkPredicate_1_Invoke_mADAC974F17550F18BA024008BBB0C18534ADEC6B_Multicast;
 }
-// Method Definition Index: 67246
+// Method Definition Index: 67254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TreeWalkPredicate_1_Invoke_mADAC974F17550F18BA024008BBB0C18534ADEC6B_gshared (TreeWalkPredicate_1_t27A1DD9A58EA978330A73ED41853088F9727ADFE* __this, Node_t4C7317158252B726B52B750C87438B8F08C34830* ___0_node, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Node_t4C7317158252B726B52B750C87438B8F08C34830*, const RuntimeMethod*);
@@ -35854,7 +35854,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 42219
+// Method Definition Index: 42227
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ObjectPool_1_Get_m239BB169D8FEF3A2694E9A961C473D3807D67D89_gshared_inline (ObjectPool_1_t13378E8CD14858BB05EA28BAB9CC49EDB91BA259* __this, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -35979,7 +35979,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get
 		return L_0;
 	}
 }
-// Method Definition Index: 42221
+// Method Definition Index: 42229
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ObjectPool_1_Release_m71F1CADB7AD9CC20BD824583A3675A4260965DB5_gshared_inline (ObjectPool_1_t13378E8CD14858BB05EA28BAB9CC49EDB91BA259* __this, RuntimeObject* ___0_element, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -37493,7 +37493,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
-// Method Definition Index: 42215
+// Method Definition Index: 42223
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ObjectPool_1_get_CountAll_mF3CDC0B64D5037106573C6CEE921EAF0A8B3C8EB_gshared_inline (ObjectPool_1_t13378E8CD14858BB05EA28BAB9CC49EDB91BA259* __this, const RuntimeMethod* method) 
 {
 	{
@@ -37501,7 +37501,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ObjectPool_1_get_CountAll
 		return L_0;
 	}
 }
-// Method Definition Index: 42216
+// Method Definition Index: 42224
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ObjectPool_1_set_CountAll_mED1939CDEBB184383799328A0C1AEC9E1D2960D9_gshared_inline (ObjectPool_1_t13378E8CD14858BB05EA28BAB9CC49EDB91BA259* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{

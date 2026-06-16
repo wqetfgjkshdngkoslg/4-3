@@ -386,6 +386,7 @@ UnityEngine.Camera::get_nearClipPlane_Injected
 UnityEngine.Camera::get_orthographicSize_Injected
 UnityEngine.Camera::ScreenPointToRay_Injected
 UnityEngine.Camera::ScreenToViewportPoint_Injected
+UnityEngine.Camera::ScreenToWorldPoint_Injected
 UnityEngine.Camera::SetStereoProjectionMatrix_Injected
 UnityEngine.Camera::SetStereoViewMatrix_Injected
 UnityEngine.Camera::SetupCurrent_Injected
@@ -1868,6 +1869,7 @@ UnityEngine.Transform::FindRelativeTransformWithPath_Injected
 UnityEngine.Transform::GetChild_Injected
 UnityEngine.Transform::GetParent_Injected
 UnityEngine.Transform::GetRoot_Injected
+UnityEngine.Transform::Internal_LookAt_Injected
 UnityEngine.Transform::InverseTransformPoint_Injected
 UnityEngine.Transform::RotateAroundInternal_Injected
 UnityEngine.Transform::SetAsFirstSibling_Injected
