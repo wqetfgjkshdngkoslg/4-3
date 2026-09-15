@@ -1,7 +1,8 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+﻿using DG.Tweening;
 using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class MobileJobSelect : MonoBehaviour
@@ -162,6 +163,7 @@ public class MobileJobSelect : MonoBehaviour
     {
         isLocked = false;
         statusText.text = "직업을 선택하세요!";
+        DOTween.Restart("cardDrop");
     }
 
     public void OnJobConfirmed(string jobName)

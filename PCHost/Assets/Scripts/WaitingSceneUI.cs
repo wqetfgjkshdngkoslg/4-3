@@ -1,10 +1,11 @@
+using DG.Tweening;
 using FishNet;
 using FishNet.Connection;
 using FishNet.Transporting.Tugboat;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class WaitingSceneUI : MonoBehaviour
 {
@@ -42,6 +43,7 @@ public class WaitingSceneUI : MonoBehaviour
         {
             connectedCount++;
             UpdateUI();
+            DOTween.Restart("countPunch");
 
             StartCoroutine(LoadJobSelectScene(conn));
 
@@ -67,10 +69,11 @@ public class WaitingSceneUI : MonoBehaviour
 
     IEnumerator LoadOpening()
     {
+        DOTween.Pause("statusFade");        // ← Fade Loop 멈추기
+        statusText.DOFade(1f, 0.2f);        // ← 알파 원복
         statusText.text = "모든 인원 연결 완료! 오프닝 시작...";
         yield return new WaitForSeconds(1.0f);
 
-        // 모바일 → JobSelectScene 이동 (잠금 상태)
         var gm2 = FindFirstObjectByType<GameManager>();
         gm2?.LoadJobSelectSceneServerRpc();
 
@@ -102,6 +105,9 @@ public class WaitingSceneUI : MonoBehaviour
 
     void OnDestroy()
     {
+        DOTween.Kill("statusFade");  // ← 추가
+        DOTween.Kill("countPunch");  // ← 추가
+
         if (InstanceFinder.ServerManager != null)
             InstanceFinder.ServerManager.OnRemoteConnectionState -= OnClientConnected;
     }
