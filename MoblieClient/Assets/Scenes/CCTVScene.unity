@@ -1542,6 +1542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 724445219}
   - component: {fileID: 724445218}
+  - component: {fileID: 724445220}
   m_Layer: 0
   m_Name: CCTVGameManage
   m_TagString: Untagged
@@ -1595,6 +1596,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &724445220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724445217}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd072110f1cc50c4a95782cc99758784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SliderArrowSpawner
+  timeSlider: {fileID: 634590595}
+  triangleSprite: {fileID: 21300000, guid: 993c20293b3f66e4884f102669ccaaa1, type: 3}
+  offsetAboveSlider: 40
+  bounceDistance: 10
+  bounceDuration: 0.65
+  bounceEase: 4
 --- !u!1 &770148778
 GameObject:
   m_ObjectHideFlags: 0

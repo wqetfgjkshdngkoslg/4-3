@@ -12,6 +12,9 @@ public class StoryStepManager : MonoBehaviour
     [TextArea(2, 5)]
     public string[] storyLines;
 
+    [Header("스텝별 나레이션 오디오 - 순서대로")]
+    public AudioClip[] narrationClips;
+
     [Header("표시할 TMP 텍스트 (하단 중앙 하나)")]
     public TMP_Text storyText;
 
@@ -24,10 +27,15 @@ public class StoryStepManager : MonoBehaviour
     [Header("타이핑 완료 후 다음 스텝까지 대기 시간 (초)")]
     public float waitAfterTyping = 2f;
 
+    private AudioSource _audioSource;
     private bool _finishedAll = false;
 
     void Start()
     {
+        // AudioSource 자동 추가
+        _audioSource = gameObject.AddComponent<AudioSource>();
+        _audioSource.playOnAwake = false;
+
         // 이미지 전부 숨기기
         if (imageGroups != null)
         {
@@ -54,7 +62,7 @@ public class StoryStepManager : MonoBehaviour
 
         for (int i = 0; i < maxSteps; i++)
         {
-            // 1) 이미지 페이드인 (이전 이미지는 그대로 유지)
+            // 1) 이미지 페이드인
             if (imageGroups != null &&
                 i < imageGroups.Length &&
                 imageGroups[i] != null)
@@ -62,7 +70,16 @@ public class StoryStepManager : MonoBehaviour
                 yield return StartCoroutine(FadeIn(imageGroups[i]));
             }
 
-            // 2) 하단 텍스트 타이핑
+            // 2) 나레이션 오디오 재생 (자막 타이핑과 동시)
+            if (narrationClips != null &&
+                i < narrationClips.Length &&
+                narrationClips[i] != null)
+            {
+                _audioSource.clip = narrationClips[i];
+                _audioSource.Play();
+            }
+
+            // 3) 하단 텍스트 타이핑
             if (storyText != null &&
                 storyLines != null &&
                 i < storyLines.Length)
@@ -70,11 +87,14 @@ public class StoryStepManager : MonoBehaviour
                 yield return StartCoroutine(TypeLine(storyLines[i]));
             }
 
-            // 3) 타이핑 완료 후 대기
-            yield return new WaitForSeconds(waitAfterTyping);
+            // 4) 타이핑 완료 후 대기
+            // 오디오가 아직 재생 중이면 끝날 때까지 기다림
+            if (_audioSource.isPlaying)
+                yield return new WaitWhile(() => _audioSource.isPlaying);
+            else
+                yield return new WaitForSeconds(waitAfterTyping);
         }
 
-        // 모든 스텝 완료 → 로비로 이동
         OnAllStepsFinished();
     }
 
@@ -119,11 +139,9 @@ public class StoryStepManager : MonoBehaviour
 
         var gm = FindFirstObjectByType<GameManager>();
 
-        // 직업 선택 잠금 해제 (오프닝 완료 시)
         if (unlockJobSelect)
             gm?.UnlockJobSelectServerRpc();
 
-        // 서버 종료 (성공/실패씬 완료 시)
         if (closeServer)
         {
             var nm = FishNet.InstanceFinder.NetworkManager;
