@@ -157,6 +157,7 @@ MonoBehaviour:
   - "\uC2DC\uBBFC\uB4E4\uC758 \uC548\uC804\uC744 \uC9C0\uCF1C\uB0C8\uACE0 \uD6CC\uB96D\uD55C
     \uACBD\uCC30\uB85C\uC368\uC758 \uC784\uBB34\uB97C \uC644\uB8CC\uD588\uC2B5\uB2C8\uB2E4!"
   - "\uD0DC\uBE14\uB9BF\uC744 \uBC18\uB0A9\uD574\uC8FC\uC138\uC694."
+  narrationClips: []
   storyText: {fileID: 782372953}
   fadeDuration: 1
   charInterval: 0.03
@@ -5618,7 +5619,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c8a0c1e6bf4e631458f88697bb7d3649, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 98d5ab67e6520754da09e4aaf6fda82c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5745,7 +5746,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 98d5ab67e6520754da09e4aaf6fda82c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 87279d593641a9f4e9c1745ebbe0aa08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5963,14 +5964,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 90e41357d3bdb544ba800dbe772d3307, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
